@@ -1,0 +1,304 @@
+# Arma Battles Chat - Production Docker Compose
+# Complete production setup with all services
+
+version: '3.8'
+
+services:
+  # ==================== DATABASE & CACHE ====================
+
+  mongodb:
+    image: mongo:7-jammy
+    container_name: armabattles-mongodb
+    environment:
+      MONGO_INITDB_DATABASE: revolt
+    volumes:
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  redis:
+    image: eqalpha/keydb:latest
+    container_name: armabattles-redis
+    command: keydb-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "keydb-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ==================== FILE STORAGE ====================
+
+  minio:
+    image: minio/minio:latest
+    container_name: armabattles-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioautumn}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioautumn}
+      MINIO_BROWSER_REDIRECT_URL: https://minio.armabattles.com
+    volumes:
+      - minio_data:/data
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  minio-setup:
+    image: minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_healthy
+    networks:
+      - armabattles-internal
+    entrypoint: >
+      /bin/sh -c "
+      echo 'Waiting for MinIO...';
+      sleep 10;
+      /usr/bin/mc alias set minio http://minio:9000 ${MINIO_ROOT_USER:-minioautumn} ${MINIO_ROOT_PASSWORD:-minioautumn};
+      /usr/bin/mc mb minio/revolt-uploads --ignore-existing;
+      /usr/bin/mc anonymous set download minio/revolt-uploads;
+      /usr/bin/mc mb minio/revolt-avatars --ignore-existing;
+      /usr/bin/mc anonymous set download minio/revolt-avatars;
+      /usr/bin/mc mb minio/revolt-backgrounds --ignore-existing;
+      /usr/bin/mc anonymous set download minio/revolt-backgrounds;
+      /usr/bin/mc mb minio/revolt-icons --ignore-existing;
+      /usr/bin/mc anonymous set download minio/revolt-icons;
+      /usr/bin/mc mb minio/revolt-banners --ignore-existing;
+      /usr/bin/mc anonymous set download minio/revolt-banners;
+      /usr/bin/mc mb minio/revolt-emojis --ignore-existing;
+      /usr/bin/mc anonymous set download minio/revolt-emojis;
+      echo 'MinIO buckets created successfully';
+      exit 0;
+      "
+
+  # ==================== MESSAGE QUEUE ====================
+
+  rabbitmq:
+    image: rabbitmq:4-management-alpine
+    container_name: armabattles-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-rabbituser}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASS:-rabbitpass}
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ==================== BACKEND SERVICES ====================
+
+  # Delta - REST API Server
+  delta:
+    build:
+      context: ./arma-backend
+      dockerfile: crates/delta/Dockerfile
+    container_name: armabattles-delta
+    environment:
+      REVOLT_DATABASE_MONGODB: mongodb://mongodb:27017/revolt
+      REVOLT_REDIS_URI: redis://redis
+      REVOLT_S3_ENDPOINT: http://minio:9000
+      REVOLT_S3_ACCESS_KEY_ID: ${MINIO_ROOT_USER:-minioautumn}
+      REVOLT_S3_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD:-minioautumn}
+      REVOLT_S3_BUCKET_PREFIX: revolt
+      REVOLT_S3_REGION: minio
+      REVOLT_APP_URL: https://chat.armabattles.com
+      REVOLT_VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY}
+      REVOLT_VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY}
+      REVOLT_INVITE_ONLY: ${INVITE_ONLY:-false}
+      REVOLT_MAX_UPLOAD_SIZE: 20971520
+      REVOLT_AUTUMN_URL: http://autumn:14704
+      ROCKET_ADDRESS: 0.0.0.0
+      ROCKET_PORT: 14702
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:14702/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Bonfire - WebSocket Server
+  bonfire:
+    build:
+      context: ./arma-backend
+      dockerfile: crates/bonfire/Dockerfile
+    container_name: armabattles-bonfire
+    environment:
+      REVOLT_DATABASE_MONGODB: mongodb://mongodb:27017/revolt
+      REVOLT_REDIS_URI: redis://redis
+      REVOLT_AMQP_URI: amqp://${RABBITMQ_USER:-rabbituser}:${RABBITMQ_PASS:-rabbitpass}@rabbitmq:5672
+      ROCKET_ADDRESS: 0.0.0.0
+      ROCKET_PORT: 14703
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+
+  # Autumn - File Server
+  autumn:
+    build:
+      context: ./arma-backend
+      dockerfile: crates/services/autumn/Dockerfile
+    container_name: armabattles-autumn
+    environment:
+      AUTUMN_HOST: 0.0.0.0:14704
+      AUTUMN_S3_ENDPOINT: http://minio:9000
+      AUTUMN_S3_ACCESS_KEY_ID: ${MINIO_ROOT_USER:-minioautumn}
+      AUTUMN_S3_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD:-minioautumn}
+      AUTUMN_S3_BUCKET_PREFIX: revolt
+      AUTUMN_S3_REGION: minio
+      AUTUMN_MAX_FILE_SIZE: 20971520
+    depends_on:
+      minio:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:14704/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # January - Image Proxy & Processing
+  january:
+    build:
+      context: ./arma-backend
+      dockerfile: crates/services/january/Dockerfile
+    container_name: armabattles-january
+    environment:
+      JANUARY_HOST: 0.0.0.0:14705
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:14705/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Gifbox - Tenor Proxy
+  gifbox:
+    build:
+      context: ./arma-backend
+      dockerfile: crates/services/gifbox/Dockerfile
+    container_name: armabattles-gifbox
+    environment:
+      GIFBOX_HOST: 0.0.0.0:14706
+      TENOR_API_KEY: ${TENOR_API_KEY}
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:14706/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ==================== FRONTEND ====================
+
+  frontend:
+    build:
+      context: ./arma-frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=https://chat.armabattles.com/api
+        - VITE_WS_URL=wss://chat.armabattles.com/ws
+        - VITE_APP_TITLE=Arma Battles Chat
+        - VITE_APP_NAME=Arma Battles
+        - VITE_OAUTH_ENABLED=true
+        - VITE_OAUTH_CLIENT_ID=${OAUTH_CLIENT_ID}
+    container_name: armabattles-frontend
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ==================== REVERSE PROXY ====================
+
+  nginx:
+    image: nginx:alpine
+    container_name: armabattles-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - nginx_cache:/var/cache/nginx
+    depends_on:
+      - frontend
+      - delta
+      - bonfire
+      - autumn
+      - january
+      - gifbox
+    restart: unless-stopped
+    networks:
+      - armabattles-internal
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+# ==================== VOLUMES ====================
+
+volumes:
+  mongodb_data:
+    driver: local
+  mongodb_config:
+    driver: local
+  redis_data:
+    driver: local
+  minio_data:
+    driver: local
+  rabbitmq_data:
+    driver: local
+  nginx_cache:
+    driver: local
+
+# ==================== NETWORKS ====================
+
+networks:
+  armabattles-internal:
+    driver: bridge

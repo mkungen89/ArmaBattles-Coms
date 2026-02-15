@@ -340,8 +340,337 @@ PIDs for backend services are saved to `.dev-pids` when using `start-dev.sh`. Us
 - Accent Color: `#E24A4A` (Red)
 - Background: `#1A1A1A` (Dark)
 
+## Production Deployment
+
+### Quick Production Deployment
+
+```bash
+# 1. Create environment file
+cp .env.prod.example .env.prod
+nano .env.prod  # Fill in required values
+
+# 2. Generate VAPID keys for push notifications
+npx web-push generate-vapid-keys
+
+# 3. Setup SSL certificates (Let's Encrypt)
+sudo certbot certonly --standalone -d chat.armabattles.com
+sudo mkdir -p nginx/ssl
+sudo cp /etc/letsencrypt/live/chat.armabattles.com/fullchain.pem nginx/ssl/cert.pem
+sudo cp /etc/letsencrypt/live/chat.armabattles.com/privkey.pem nginx/ssl/key.pem
+
+# 4. Deploy all services
+./deploy.sh
+```
+
+### Docker Production Stack
+
+The `docker-compose.prod.yml` file contains the complete production setup:
+
+**Infrastructure Services:**
+- MongoDB: Primary database
+- Redis/KeyDB: Cache and presence
+- MinIO: S3-compatible file storage
+- RabbitMQ: Message queue for events
+
+**Application Services:**
+- Delta: REST API server
+- Bonfire: WebSocket server
+- Autumn: File upload/download
+- January: Image proxy
+- Gifbox: GIF proxy
+- Frontend: Static files served by nginx
+- Nginx: Reverse proxy with SSL termination
+
+**Commands:**
+```bash
+# Build all services
+docker compose -f docker-compose.prod.yml build
+
+# Start all services
+docker compose -f docker-compose.prod.yml up -d
+
+# View logs
+docker compose -f docker-compose.prod.yml logs -f
+docker compose -f docker-compose.prod.yml logs -f delta
+
+# Restart services
+docker compose -f docker-compose.prod.yml restart
+
+# Stop all services
+docker compose -f docker-compose.prod.yml down
+
+# Check service status
+docker compose -f docker-compose.prod.yml ps
+```
+
+### Environment Variables
+
+Key environment variables in `.env.prod`:
+
+```env
+# MinIO (S3 storage)
+MINIO_ROOT_USER=your-username
+MINIO_ROOT_PASSWORD=your-strong-password
+
+# RabbitMQ (message queue)
+RABBITMQ_USER=your-username
+RABBITMQ_PASS=your-password
+
+# VAPID (push notifications)
+VAPID_PUBLIC_KEY=generated-public-key
+VAPID_PRIVATE_KEY=generated-private-key
+
+# OAuth (armabattles.com integration)
+OAUTH_CLIENT_ID=019c5d06-b3f3-709a-a212-b4441d609080
+OAUTH_CLIENT_SECRET=your-oauth-secret
+
+# Tenor (optional, for GIFs)
+TENOR_API_KEY=your-tenor-key
+
+# Features
+INVITE_ONLY=false
+CHAT_DOMAIN=chat.armabattles.com
+```
+
+### SSL Certificates
+
+Certificates must be placed in `nginx/ssl/`:
+- `cert.pem`: Full certificate chain
+- `key.pem`: Private key
+
+**Let's Encrypt setup:**
+```bash
+certbot certonly --standalone -d chat.armabattles.com
+cp /etc/letsencrypt/live/chat.armabattles.com/fullchain.pem nginx/ssl/cert.pem
+cp /etc/letsencrypt/live/chat.armabattles.com/privkey.pem nginx/ssl/key.pem
+```
+
+**Auto-renewal:** Setup a renewal hook to copy certificates and reload Nginx (see `DEPLOYMENT.md`).
+
+### Nginx Configuration
+
+The `nginx/nginx.conf` handles:
+- HTTP to HTTPS redirect
+- WebSocket proxying for Bonfire
+- API proxying to Delta
+- File uploads/downloads to Autumn
+- Rate limiting on API endpoints
+- Security headers (HSTS, X-Frame-Options, etc.)
+- Gzip compression
+
+**Test configuration:**
+```bash
+docker exec armabattles-nginx nginx -t
+```
+
+**Reload after changes:**
+```bash
+docker exec armabattles-nginx nginx -s reload
+```
+
+### Monitoring & Logs
+
+```bash
+# Check all container statuses
+docker compose -f docker-compose.prod.yml ps
+
+# Follow all logs
+docker compose -f docker-compose.prod.yml logs -f
+
+# Follow specific service
+docker compose -f docker-compose.prod.yml logs -f delta
+
+# Check last 100 lines
+docker compose -f docker-compose.prod.yml logs --tail=100
+```
+
+### Backups
+
+```bash
+# Backup MongoDB
+docker exec armabattles-mongodb mongodump --out=/tmp/backup
+docker cp armabattles-mongodb:/tmp/backup ./backups/mongodb-$(date +%Y%m%d)
+
+# Backup MinIO data
+docker run --rm \
+  -v armabattles_minio_data:/data \
+  -v $(pwd)/backups:/backup \
+  alpine tar czf /backup/minio-$(date +%Y%m%d).tar.gz /data
+```
+
+## Common Patterns & Best Practices
+
+### Frontend (Preact/MobX)
+
+**Use observer for reactive components:**
+```typescript
+import { observer } from "mobx-react-lite";
+
+export default observer(() => {
+    const client = useClient();
+    // Component auto-updates when observable state changes
+});
+```
+
+**Always await async operations:**
+```typescript
+// ❌ BAD - race condition
+await client.bots.delete(id);
+callback();  // Called after operation completes
+
+// ✅ GOOD
+client.bots.delete(id);
+callback();  // May be called before deletion finishes
+```
+
+**Fix z-index stacking issues:**
+```typescript
+// Context menus use z-index: 100000
+// Autocomplete menus should use z-index: 10
+z-index: 10;  // Stays below context menus
+```
+
+**Handle errors comprehensively:**
+```typescript
+try {
+    setSaving(true);
+    await someAsyncOperation();
+} catch (err) {
+    setError("User-friendly error message");
+    console.error("Detailed error:", err);
+} finally {
+    setSaving(false);
+}
+```
+
+### Backend (Rust)
+
+**Use workspace dependencies:**
+```rust
+// In service Cargo.toml, reference workspace dependencies
+[dependencies]
+revolt-database = { path = "../../core/database" }
+revolt-models = { path = "../../core/models" }
+```
+
+**Configuration management:**
+```rust
+// Load config from Revolt.toml
+use revolt_config::config;
+
+let app_url = config().hosts.app;
+```
+
+**Database queries:**
+```rust
+// Use the database abstraction
+use revolt_database::Database;
+
+let db = Database::new().await?;
+let user = db.fetch_user(&user_id).await?;
+```
+
+## Troubleshooting
+
+### Frontend Build Fails
+
+**Memory errors:**
+```bash
+# Increase Node memory
+yarn build:highmem
+
+# Or manually
+NODE_OPTIONS='--max-old-space-size=4096' yarn build
+```
+
+**Submodule issues:**
+```bash
+git submodule deinit -f .
+git submodule init
+git submodule update
+cd arma-frontend
+yarn build:deps
+```
+
+**Port already in use:**
+```bash
+# Change dev server port
+PORT=3001 yarn dev
+```
+
+### Backend Issues
+
+**MongoDB connection refused:**
+```bash
+# Ensure MongoDB is running
+docker compose up -d mongodb
+
+# Check status
+docker compose ps mongodb
+```
+
+**Cargo build fails:**
+```bash
+# Clean build cache
+cargo clean
+
+# Update dependencies
+cargo update
+
+# Check specific error
+cargo build --verbose
+```
+
+### Production Deployment Issues
+
+**502 Bad Gateway:**
+```bash
+# Check backend services are running
+docker compose -f docker-compose.prod.yml ps
+
+# Check specific service logs
+docker compose -f docker-compose.prod.yml logs delta
+docker compose -f docker-compose.prod.yml logs bonfire
+
+# Restart failing service
+docker compose -f docker-compose.prod.yml restart delta
+```
+
+**SSL certificate errors:**
+```bash
+# Verify certificate
+openssl x509 -in nginx/ssl/cert.pem -text -noout
+
+# Check certificate matches domain
+openssl x509 -in nginx/ssl/cert.pem -noout -subject
+
+# Test Nginx config
+docker exec armabattles-nginx nginx -t
+```
+
+**WebSocket connection fails:**
+```bash
+# Check Bonfire is running
+docker compose -f docker-compose.prod.yml logs bonfire
+
+# Test WebSocket upgrade
+curl -i -N -H "Connection: Upgrade" -H "Upgrade: websocket" \
+  https://chat.armabattles.com/ws
+```
+
+**Out of memory:**
+```bash
+# Check container memory usage
+docker stats
+
+# Restart services to free memory
+docker compose -f docker-compose.prod.yml restart
+```
+
 ## Further Documentation
 
+- **Production deployment guide**: `DEPLOYMENT.md`
+- **Nginx configuration**: `nginx/README.md`
 - Detailed development guide: `DEVELOPMENT.md`
 - Backend details: `arma-backend/README.md`
 - Frontend details: `arma-frontend/README.md`
