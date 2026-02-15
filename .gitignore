@@ -1,0 +1,54 @@
+# Arma Battles Chat - Monorepo Git Ignore
+
+# Development
+.dev-pids
+*.log
+.DS_Store
+.claude/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+.data/
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+rustup-init.exe
+nul
+
+# Backend (Rust/Cargo)
+arma-backend/target/
+arma-backend/**/*.rs.bk
+arma-backend/**/Cargo.lock
+arma-backend/.cargo/
+
+# Frontend (Node/Vite)
+arma-frontend/node_modules/
+arma-frontend/dist/
+arma-frontend/build/
+arma-frontend/.yarn/cache/
+arma-frontend/.yarn/install-state.gz
+arma-frontend/.pnp.*
+arma-frontend/yarn-error.log
+arma-frontend/npm-debug.log*
+arma-frontend/pnpm-debug.log*
+arma-frontend/lerna-debug.log*
+arma-frontend/.vite/

@@ -1,0 +1,11 @@
+.github
+.vscode
+dist
+dist_injected
+node_modules
+.env
+.env.local
+.env.production
+
+Dockerfile
+.dockerignore

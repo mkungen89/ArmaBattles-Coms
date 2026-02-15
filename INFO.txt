@@ -1,0 +1,53 @@
+admin@local.test
+ArmaBattles2024
+
+
+
+1. Service Management UIs (från Docker)
+RabbitMQ Management: http://localhost:15672
+
+Användarnamn: rabbituser
+Lösenord: rabbitpass
+Hantera message queues och övervakning
+MinIO Console: http://localhost:14010
+
+Användarnamn: minioautumn
+Lösenord: minioautumn
+Hantera fillagring (S3-kompatibel)
+MailDev: http://localhost:14080
+
+Testmiljö för email
+2. API Endpoints (inte web-baserad UI)
+Backend är en ren REST API som kör på port 14702 med endpoints för:
+
+User management
+Server/channel management
+Ban/moderation
+Content reporting
+Authentication
+3. Databas Admin
+MongoDB: Anslut via localhost:27017 med MongoDB Compass eller liknande verktyg
+
+
+Provider: Arma Battles
+Authorize: https://armabattles.com/oauth/authorize
+Token: https://armabattles.com/oauth/token
+Userinfo: https://armabattles.com/oauth/user
+Client ID: 019c5d06-b3f3-709a-a212-b4441d609080
+Redirect: https://chat.armabattles.com/auth/callback
+
+Vad behöver göras på Laravel-sidan:
+
+Implementera OAuth endpoints i Laravel:
+
+GET /oauth/authorize - Authorization page
+POST /oauth/token - Token exchange
+GET /oauth/user - User info endpoint
+Returnera user data i detta format:
+
+{
+  "id": "user-id",
+  "email": "user@example.com", 
+  "name": "Username",
+  "avatar": "https://..."
+}
