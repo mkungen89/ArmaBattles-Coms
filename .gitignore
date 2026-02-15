@@ -62,3 +62,4 @@ desktop-app/dist/
 desktop-app/pnpm-debug.log*
 desktop-app/npm-debug.log*
 desktop-app/*.user
+.env.prod

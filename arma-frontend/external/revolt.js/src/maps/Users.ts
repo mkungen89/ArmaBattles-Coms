@@ -311,9 +311,14 @@ export default class Users extends Collection<string, User> {
      */
     async edit(data: DataEditUser) {
         // Optimistic update: update local user immediately for instant UI feedback
+        // Note: Skip avatar and profile.background as they require File object conversion
         const currentUser = this.client.user;
         if (currentUser) {
-            currentUser.update(data, data.remove);
+            const { avatar, profile, ...updateData } = data;
+            // Include profile but without background field
+            const safeProfile = profile ? { content: profile.content } : undefined;
+            const safeRemove = data.remove ?? undefined;
+            currentUser.update({ ...updateData, profile: safeProfile as any }, safeRemove);
         }
 
         await this.client.api.patch("/users/@me", data);

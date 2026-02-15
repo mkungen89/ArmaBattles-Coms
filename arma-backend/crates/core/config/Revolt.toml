@@ -3,7 +3,7 @@ production = false
 [database]
 # MongoDB connection URL
 # Defaults to the container name specified in self-hosted
-mongodb = "mongodb://database"
+mongodb = "mongodb://mongodb"
 # Redis connection URL
 # Defaults to the container name specified in self-hosted
 redis = "redis://redis/"
@@ -25,7 +25,7 @@ voso_legacy_ws = ""
 [hosts.livekit]
 
 [rabbit]
-host = "rabbit"
+host = "rabbitmq"
 port = 5672
 username = "rabbituser"
 password = "rabbitpass"

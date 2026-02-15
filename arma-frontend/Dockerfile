@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY . .
 COPY .env.build .env
 
-RUN yarn install --frozen-lockfile
+RUN yarn install
 RUN yarn build:deps
 # RUN yarn typecheck # lol no
 RUN yarn build:highmem

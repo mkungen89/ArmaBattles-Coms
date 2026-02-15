@@ -2,6 +2,15 @@ admin@local.test
 ArmaBattles2024
 
 
+  OAuth Credentials:
+  - Client ID: 019c5d06-43bd-711b-bda8-b46d4575db0d
+  - Client Secret: $2y$12$5fys.tNrkOWsgWam7ccFleyBO9y7qxlzDON9l/iGwB30Wt/l24SVe
+  - Redirect URIs:
+    - https://chat.armabattles.com/auth/callback
+    - http://64.112.124.238/auth/callback
+    - http://localhost:3000/auth/callback
+
+
 
 1. Service Management UIs (från Docker)
 RabbitMQ Management: http://localhost:15672

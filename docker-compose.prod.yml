@@ -9,6 +9,7 @@ services:
   mongodb:
     image: mongo:7-jammy
     container_name: armabattles-mongodb
+    hostname: database
     environment:
       MONGO_INITDB_DATABASE: revolt
     volumes:
@@ -16,7 +17,9 @@ services:
       - mongodb_config:/data/configdb
     restart: unless-stopped
     networks:
-      - armabattles-internal
+      armabattles-internal:
+        aliases:
+          - database
     healthcheck:
       test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
       interval: 30s
@@ -92,14 +95,17 @@ services:
   rabbitmq:
     image: rabbitmq:4-management-alpine
     container_name: armabattles-rabbitmq
+    hostname: rabbit
     environment:
-      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-rabbituser}
-      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASS:-rabbitpass}
+      RABBITMQ_DEFAULT_USER: rabbituser
+      RABBITMQ_DEFAULT_PASS: rabbitpass
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
     restart: unless-stopped
     networks:
-      - armabattles-internal
+      armabattles-internal:
+        aliases:
+          - rabbit
     healthcheck:
       test: ["CMD", "rabbitmq-diagnostics", "ping"]
       interval: 30s
@@ -244,6 +250,8 @@ services:
         - VITE_OAUTH_ENABLED=true
         - VITE_OAUTH_CLIENT_ID=${OAUTH_CLIENT_ID}
     container_name: armabattles-frontend
+    environment:
+      REVOLT_PUBLIC_URL: https://chat.armabattles.com
     restart: unless-stopped
     networks:
       - armabattles-internal
@@ -262,8 +270,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - ./nginx/nginx.local.conf:/etc/nginx/nginx.conf:ro
       - nginx_cache:/var/cache/nginx
     depends_on:
       - frontend

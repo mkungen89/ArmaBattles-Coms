@@ -6,8 +6,6 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
-import preact from "@preact/preset-vite";
-
 function getGitRevision() {
     try {
         const rev = readFileSync(".git/HEAD").toString().trim();
@@ -44,13 +42,17 @@ function getVersion() {
 
 export default defineConfig({
     publicDir: "public",
+    esbuild: {
+        jsxFactory: "h",
+        jsxFragment: "Fragment",
+        jsxInject: `import { h, Fragment } from 'preact'`,
+    },
     server: {
         fs: {
             allow: [".", "external"],
         },
     },
     plugins: [
-        preact(),
         macrosPlugin(),
         legacy({
             targets: ["defaults", "not IE 11"],
@@ -137,6 +139,9 @@ export default defineConfig({
         alias: {
             "@revoltchat/ui": resolve(__dirname, "external/components/esm"),
             "revolt.js": resolve(__dirname, "external/revolt.js"),
+            "react": "preact/compat",
+            "react-dom": "preact/compat",
+            "react/jsx-runtime": "preact/jsx-runtime",
         },
     },
 });
