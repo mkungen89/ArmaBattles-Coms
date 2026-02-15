@@ -376,12 +376,17 @@ export default function ContextMenus() {
 
                 case "set_presence":
                     {
+                        const newStatus = {
+                            ...client.user?.status,
+                            presence: data.presence,
+                        };
                         await client.users.edit({
-                            status: {
-                                ...client.user?.status,
-                                presence: data.presence,
-                            },
+                            status: newStatus,
                         });
+                        // Force UI update by manually setting the status on client.user
+                        if (client.user) {
+                            client.user.update({ status: newStatus });
+                        }
                     }
                     break;
 
@@ -393,6 +398,12 @@ export default function ContextMenus() {
 
                 case "clear_status":
                     await client.users.edit({ remove: ["StatusText"] });
+                    // Force UI update by clearing the status text
+                    if (client.user?.status) {
+                        client.user.update({
+                            status: { ...client.user.status, text: undefined },
+                        });
+                    }
                     break;
 
                 case "delete_message":

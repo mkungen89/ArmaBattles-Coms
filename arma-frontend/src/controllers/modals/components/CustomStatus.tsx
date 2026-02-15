@@ -30,14 +30,19 @@ export default function CustomStatus({
                     ) as React.ReactChild,
                 },
             }}
-            callback={({ text }) =>
-                client.users.edit({
-                    status: {
-                        ...client.user?.status,
-                        text: text.trim().length > 0 ? text : undefined,
-                    },
-                })
-            }
+            callback={async ({ text }) => {
+                const newStatus = {
+                    ...client.user?.status,
+                    text: text.trim().length > 0 ? text : undefined,
+                };
+                await client.users.edit({
+                    status: newStatus,
+                });
+                // Force UI update by manually setting the status
+                if (client.user) {
+                    client.user.update({ status: newStatus });
+                }
+            }}
             submit={{
                 children: <Text id="app.special.modals.actions.save" />,
             }}
