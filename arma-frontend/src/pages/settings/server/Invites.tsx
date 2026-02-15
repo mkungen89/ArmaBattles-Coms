@@ -90,17 +90,20 @@ export const Invites = ({ server }: Props) => {
                             // Guard against invalid index after deletion
                             if (!invites[index]) return null;
 
+                            const currentInvite = invites[index];
+
                             return (
                                 <Inner
-                                    key={invites[index]._id}
-                                    invite={invites[index]}
+                                    key={currentInvite._id}
+                                    invite={currentInvite}
                                     server={server}
                                     removeSelf={() => {
                                         // Use callback form to ensure we have latest state
                                         setInvites((currentInvites) => {
                                             if (!currentInvites) return currentInvites;
+                                            // Use the captured invite ID, not the index
                                             return currentInvites.filter(
-                                                (x) => x._id !== invites[index]._id,
+                                                (x) => x._id !== currentInvite._id,
                                             );
                                         });
                                     }}
