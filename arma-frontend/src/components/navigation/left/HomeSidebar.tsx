@@ -10,7 +10,7 @@ import { Link, useLocation, useParams } from "react-router-dom";
 import styled, { css } from "styled-components/macro";
 
 import { Text } from "preact-i18n";
-import { useContext, useEffect } from "preact/hooks";
+import { useContext, useEffect, useMemo } from "preact/hooks";
 
 import { Category, IconButton } from "@revoltchat/ui";
 
@@ -66,9 +66,12 @@ export default observer(() => {
     );
 
     // ! FIXME: must be a better way
-    const incoming = [...client.users.values()].filter(
-        (user) => user?.relationship === "Incoming",
-    );
+    // Force MobX to track changes by accessing client.users.size
+    const incoming = useMemo(() => {
+        return [...client.users.values()].filter(
+            (user) => user?.relationship === "Incoming",
+        );
+    }, [client.users.size, [...client.users.keys()].join()]);
 
     return (
         <GenericSidebarBase mobilePadding>

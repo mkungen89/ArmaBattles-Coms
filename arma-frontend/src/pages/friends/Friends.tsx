@@ -6,6 +6,7 @@ import { User } from "revolt.js";
 import styles from "./Friend.module.scss";
 import classNames from "classnames";
 import { Text } from "preact-i18n";
+import { useMemo } from "preact/hooks";
 
 import { IconButton } from "@revoltchat/ui";
 
@@ -22,8 +23,13 @@ import { Friend } from "./Friend";
 
 export default observer(() => {
     const client = useClient();
-    const users = [...client.users.values()];
-    users.sort((a, b) => a.username.localeCompare(b.username));
+
+    // Use useMemo to ensure MobX properly tracks changes to the users map
+    const users = useMemo(() => {
+        const userArray = [...client.users.values()];
+        userArray.sort((a, b) => a.username.localeCompare(b.username));
+        return userArray;
+    }, [client.users.size, [...client.users.keys()].join()]);
 
     const friends = users.filter((x) => x.relationship === "Friend");
 
