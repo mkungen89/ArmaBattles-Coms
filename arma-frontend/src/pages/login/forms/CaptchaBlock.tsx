@@ -29,14 +29,20 @@ export const CaptchaBlock = observer((props: CaptchaProps) => {
     return (
         <div className={styles.captcha}>
             <div className={styles.title}>Are you human?</div>
-            <div className={styles.checkbox}>
+            <div className={styles.accessibilityNote}>
+                <Text id="login.captcha_accessibility_note" />
+            </div>
+            <div
+                className={styles.checkbox}
+                role="region"
+                aria-label="Human verification challenge">
                 <HCaptcha
                     theme="dark"
                     sitekey={configuration.features.captcha.key}
                     onVerify={(token) => props.onSuccess(token)}
                 />
             </div>
-            <a onClick={props.onCancel}>
+            <a onClick={props.onCancel} role="button" tabIndex={0}>
                 <Text id="login.cancel" />
             </a>
         </div>

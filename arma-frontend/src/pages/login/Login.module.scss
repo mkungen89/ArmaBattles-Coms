@@ -116,6 +116,16 @@
                 margin-bottom: 10px;
             }
 
+            .accessibilityNote {
+                font-size: 12px;
+                color: var(--secondary-foreground);
+                background: rgba(128, 128, 128, 0.1);
+                padding: 8px 12px;
+                border-radius: 4px;
+                border-left: 3px solid var(--accent);
+                line-height: 1.4;
+            }
+
             .checkbox {
                 display: flex;
                 align-items: center;

@@ -48,6 +48,7 @@
         "missing_verification": "Didn't receive an email?",
         "resend": "Resend verification",
         "cancel": "Cancel request",
+        "captcha_accessibility_note": "Using a screen reader? hCaptcha provides an audio challenge. Click the accessibility icon in the challenge box to access it.",
         "check_mail": "Check your mail!",
         "email_delay": "We've sent you a verification email. Please allow up to 10 minutes for it to arrive.",
         "check_spam": "Please check your spam folder if you can't find it",
