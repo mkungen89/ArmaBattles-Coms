@@ -166,6 +166,10 @@ export function useAutoComplete(
                                         .filter(
                                             (x) => typeof x !== "undefined",
                                         ) as User[];
+                                    // Add current user to allow self-mentions
+                                    if (client.user && !users.find(u => u._id === client.user!._id)) {
+                                        users.push(client.user);
+                                    }
                                 }
                                 break;
                             default:
