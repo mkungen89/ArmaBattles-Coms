@@ -52,3 +52,12 @@ arma-frontend/npm-debug.log*
 arma-frontend/pnpm-debug.log*
 arma-frontend/lerna-debug.log*
 arma-frontend/.vite/
+
+# Desktop App (Electron)
+desktop-app/node_modules/
+desktop-app/out/
+desktop-app/.vite/
+desktop-app/dist/
+desktop-app/pnpm-debug.log*
+desktop-app/npm-debug.log*
+desktop-app/*.user

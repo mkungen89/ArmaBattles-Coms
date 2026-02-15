@@ -1,0 +1,46 @@
+ 🎨 ASSETS DU BEHÖVER FÖRBEREDA:
+
+  1. Logo Files:
+  arma-battles-logo.png (512x512px, transparent)
+  arma-battles-icon.ico (Windows icon)
+  arma-battles-icon.icns (Mac icon, om du vill)
+
+  2. Färger:
+  Primary: #22c55e (green)
+  Background: #1a1a1a (dark)
+  Secondary: #2a2a2a
+  Text: #ffffff
+
+  ---
+  💡 EXTRA TIPS FÖR CLAUDE:
+
+  Efter initial setup, be Claude om:
+
+  Now help me:
+  1. Change the app name in all package.json files
+  2. Update electron-builder config for Windows build
+  3. Replace logo in src/assets/
+  4. Update CSS variables for color scheme
+  5. Test build: npm run build:win
+
+  ---
+  🔧 FÖRVÄNTAD WORKFLOW:
+
+  1. Clone repo → Claude analyserar struktur
+  2. Hitta config files → Claude visar vad som ska ändras
+  3. Modify branding → Logo, namn, färger
+  4. Update backend URL → Peka till chat.armabattles.com
+  5. Test locally → npm run dev
+  6. Build installer → npm run build:win
+  7. Test .exe → Installera och kör
+
+  ---
+  ✅ CHECKLIST:
+
+  När Desktop-appen är klar ska du kunna:
+  - Öppna "Arma Battles Chat.exe"
+  - Se Arma Battles-logo i window
+  - Connecta till chat.armabattles.com
+  - Logga in med konto
+  - Grön färgschema syns
+  - Tray icon visar Arma Battles-ikon
