@@ -328,7 +328,9 @@
                         "show_send": "Always show Send Message button",
                         "show_send_desc": "If this is disabled, the Send Message button will only appear on mobile.",
                         "show_account_age": "Always show account age next to join messages",
-                        "show_account_age_desc": "If this is disabled, the account age will only be shown for new users."
+                        "show_account_age_desc": "If this is disabled, the account age will only be shown for new users.",
+                        "disable_autoplay": "Disable GIF and animated emoji autoplay",
+                        "disable_autoplay_desc": "If enabled, GIFs and animations will not autoplay. Respects system prefers-reduced-motion setting."
                     },
                     "theme_options": {
                         "title": "Theme Options",

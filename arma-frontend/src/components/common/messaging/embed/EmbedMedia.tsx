@@ -2,6 +2,9 @@
 import { API } from "revolt.js";
 
 import styles from "./Embed.module.scss";
+import { useMemo } from "preact/hooks";
+
+import { useApplicationState } from "../../../../mobx/State";
 
 import { useClient } from "../../../../controllers/client/ClientController";
 import { modalController } from "../../../../controllers/modals/ModalController";
@@ -15,6 +18,21 @@ interface Props {
 export default function EmbedMedia({ embed, width, height }: Props) {
     if (embed.type !== "Website") return null;
     const client = useClient();
+    const state = useApplicationState();
+
+    // Check if autoplay should be disabled
+    const disableAutoplay = useMemo(() => {
+        // Check user setting
+        const userSetting = state.settings.get("appearance:disable_autoplay");
+        if (userSetting) return true;
+
+        // Check prefers-reduced-motion media query
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            return true;
+        }
+
+        return false;
+    }, [state.settings.get("appearance:disable_autoplay")]);
 
     switch (embed.special?.type) {
         case "YouTube": {
@@ -105,16 +123,19 @@ export default function EmbedMedia({ embed, width, height }: Props) {
         default: {
             if (embed.video) {
                 const url = embed.video.url;
+                const isGIF = embed.special?.type === "GIF";
+                const shouldAutoplay = isGIF && !disableAutoplay;
+
                 return (
                     <video
                         loading="lazy"
                         className={styles.image}
                         style={{ width, height }}
                         src={client.proxyFile(url)}
-                        loop={embed.special?.type === "GIF"}
-                        controls={embed.special?.type !== "GIF"}
-                        autoPlay={embed.special?.type === "GIF"}
-                        muted={embed.special?.type === "GIF" ? true : undefined}
+                        loop={isGIF}
+                        controls={!isGIF || disableAutoplay}
+                        autoPlay={shouldAutoplay}
+                        muted={isGIF ? true : undefined}
                     />
                 );
             } else if (embed.image) {

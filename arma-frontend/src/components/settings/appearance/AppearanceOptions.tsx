@@ -40,6 +40,20 @@ export default function AppearanceOptions() {
                     <Text id="app.settings.pages.appearance.appearance_options.show_account_age_desc" />
                 }
             />
+            {/* Option to disable GIF/emoji autoplay for accessibility. */}
+            <ObservedInputElement
+                type="checkbox"
+                value={() =>
+                    settings.get("appearance:disable_autoplay") ?? false
+                }
+                onChange={(v) => settings.set("appearance:disable_autoplay", v)}
+                title={
+                    <Text id="app.settings.pages.appearance.appearance_options.disable_autoplay" />
+                }
+                description={
+                    <Text id="app.settings.pages.appearance.appearance_options.disable_autoplay_desc" />
+                }
+            />
             <hr />
             <h3>
                 <Text id="app.settings.pages.appearance.theme_options.title" />
