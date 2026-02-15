@@ -11,8 +11,6 @@ import { PageHeader } from "../../components/ui/Header";
 import { useClient } from "../../controllers/client/ClientController";
 
 export default function Developer() {
-    // const voice = useContext(VoiceContext);
-
     const client = useClient();
     const userPermission = client.user!.permission;
     const [ping, setPing] = useState<undefined | number>(client.websocket.ping);

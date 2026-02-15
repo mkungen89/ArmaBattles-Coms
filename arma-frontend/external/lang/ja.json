@@ -76,7 +76,7 @@
                     "bug": "バグトラッカー",
                     "issue_desc": "問題をより簡単に選別するために、GitHubでIssueを作成することができます。",
                     "issue": "新規Issueの作成",
-                    "suggest_desc": "Revoltの新しい機能をGitHubのディスカッションで提案してみましょう。",
+                    "suggest_desc": "Arma Battlesの新しい機能をGitHubのディスカッションで提案してみましょう。",
                     "suggest": "機能を提案する",
                     "title": "フィードバック",
                     "description": "フィードバックを送信する"
@@ -207,7 +207,7 @@
                     "input_device": "マイク",
                     "title": "音声設定",
                     "device_label_NA": "該当無し",
-                    "tip_retry": "マイクの権限をRevoltにあげません。もう一度{{retryBtn}}。",
+                    "tip_retry": "マイクの権限をArma Battlesにあげません。もう一度{{retryBtn}}。",
                     "button_retry": "再試行",
                     "tip_grant_permission": "オーディオ設定にアクセスするには、権限を付与する必要があります。",
                     "button_grant": "許可を与える"
@@ -498,7 +498,7 @@
                 "user_timed_out": "ユーザーは{{time}}間タイムアウトされています。",
                 "bridged": "別のプラットフォームでメッセージが送信された",
                 "team": "公式コミュニティー",
-                "new_to_revolt": "Revoltの初心者",
+                "new_to_revolt": "Arma Battlesの初心者",
                 "new_to_server": "このサーバーの新機能",
                 "reactions": {
                     "others_reacted": "{{userlist}}と{{count}} 人が反応しました",
@@ -644,7 +644,7 @@
                 },
                 "changelogs": {
                     "title": "変更履歴",
-                    "description": "Revolt への更新について読む。",
+                    "description": "Arma Battles への更新について読む。",
                     "older": "過去のアップデートを見る"
                 },
                 "report": {
@@ -723,7 +723,7 @@
             },
             "invite": {
                 "invited_by": "{{user}}による招待",
-                "login": "Revoltへのログイン",
+                "login": "Arma Battlesへのログイン",
                 "accept": "招待を受け取る",
                 "user_count": "ユーザー {{member_count}} 名",
                 "invalid_desc": "招待がないか、参加権限がありません。",
@@ -802,10 +802,10 @@
             "settings": "設定を開く",
             "social": "サーバーとボットを検索する",
             "goto-testers": "テスターサーバーに移動する",
-            "donate": "Revoltに寄付をする",
+            "donate": "Arma Battlesに寄付をする",
             "join-testers": "テスターサーバーに参加する",
             "settings-tooltip": "左上のユーザーアイコンを右クリックするか、すでにホームにいる場合は左クリックしてください。",
-            "feedback": "Revoltに関するフィードバック",
+            "feedback": "Arma Battlesに関するフィードバック",
             "directs": "ダイレクトメッセージ",
             "donate_desc": "寄付でプロジェクトを支援する - ありがとうございます!",
             "group": "グループを作成",
@@ -813,7 +813,7 @@
             "join-testers_desc": "こちらで直接、問題の報告や改善点の相談ができます。",
             "goto-testers_desc": "こちらで直接、問題の報告や改善点の相談ができます。",
             "feedback_desc": "私たちのアプリをどのように改善するか、フィードバックをお寄せください。",
-            "discover": "Revoltを発見する",
+            "discover": "Arma Battlesを発見する",
             "discover_desc": "自分の趣味や関心に基づいたコミュニティを見つける。"
         }
     },
@@ -835,7 +835,7 @@
         "missing_verification": "メールが届きませんでしたか？",
         "create": "新しいアカウントを作成する",
         "existing": "既にアカウントをお持ちですか？",
-        "new": "Revoltを利用するのは初めてですか？",
+        "new": "Arma Battlesを利用するのは初めてですか？",
         "remembered": "ログイン画面に戻る",
         "set_password": "新しいパスワードを設定する",
         "reset": "パスワードをリセットする",
@@ -855,7 +855,7 @@
         "username": "ユーザー名",
         "register": "登録",
         "title": "ログイン",
-        "subtitle": "Revoltにログイン",
+        "subtitle": "Arma Battlesにログイン",
         "welcome": "ようこそ！",
         "subtitle2": "アカウントを作成",
         "welcome2": "こんにちは！",

@@ -16,7 +16,7 @@
     },
     "login": {
         "title": "Aniciar sesión",
-        "subtitle": "Aniciar sesión en Revolt",
+        "subtitle": "Aniciar sesión en Arma Battles",
         "welcome2": "¡Hola!",
         "subtitle2": "Crear una cuenta",
         "register": "Rexistráse",
@@ -36,7 +36,7 @@
         "forgot": "¿Escaecisti la to contraseña?",
         "reset": "Restablecer la to contraseña",
         "remembered": "Tornar pal aniciu de sesión",
-        "new": "¿Yes nuevu en Revolt?",
+        "new": "¿Yes nuevu en Arma Battles?",
         "existing": "¿Yá tienes una cuenta?",
         "create": "Crear una nueva cuenta",
         "resend": "Reunviar verificación",
@@ -89,16 +89,16 @@
             "join-testers": "Xuníse al servidor de pruebes",
             "goto-testers": "Dir pal servidor de pruebes",
             "goto-testers_desc": "Pues informar de problemes y comentános les tos suxerencies direutamente equí.",
-            "donate": "Donar a Revolt",
+            "donate": "Donar a Arma Battles",
             "feedback_desc": "Diznos como podemos ameyorar la nuesa aplicación dándonos la to opinión.",
             "settings": "Abrir axustes",
             "discover_desc": "Atopa una comunidá basada nos tos hobbies o intereses.",
             "group": "Crear grupu",
             "join-testers_desc": "Pues informar de problemes y comentános les sos suxerencies direutamente equí.",
             "donate_desc": "Sofita el proyeutu donando - ¡gracies!",
-            "feedback": "Danos la to opinión sobro Revolt",
+            "feedback": "Danos la to opinión sobro Arma Battles",
             "settings-tooltip": "Tamién pues facer clic drechu nel iconu d'usuariu na parte superior esquierda, o facer click esquierdu si yá tas na páxina d'aniciu.",
-            "discover": "Afaya Revolt",
+            "discover": "Afaya Arma Battles",
             "group_desc": "Convidia a tolos tos amigos, dellos bots xeniales, y da una gran fiesta."
         },
         "main": {
@@ -203,7 +203,7 @@
                 },
                 "message_saved": "Guardar nes tos notes",
                 "failed_upload": "¡Error al xubir!",
-                "new_to_revolt": "Nuevu en Revolt",
+                "new_to_revolt": "Nuevu en Arma Battles",
                 "user_timed_out": "Usuariu castigáu per {{time}}."
             },
             "groups": {
@@ -289,7 +289,7 @@
                     "device_label_NA": "N/A",
                     "button_retry": "procurar de nuevo",
                     "output_device": "Altavoz / Auriculares",
-                    "tip_retry": "Nun disti permisu a Revolt p'aportar al to micrófonu. Porfavor {{retryBtn}}.",
+                    "tip_retry": "Nun disti permisu a Arma Battles p'aportar al to micrófonu. Porfavor {{retryBtn}}.",
                     "button_grant": "Dar permisu"
                 },
                 "appearance": {
@@ -449,7 +449,7 @@
                     "issue": "Informar d'un problema",
                     "issue_desc": "Por mor d'ayudános a clasificar los problemes más fácilmente, pues abrir una incidencia en GitHub.",
                     "bug": "Rastrexador d'erros",
-                    "suggest_desc": "Suxerir nueves carauterístiques de Revolt nes discutinios de GitHub.",
+                    "suggest_desc": "Suxerir nueves carauterístiques de Arma Battles nes discutinios de GitHub.",
                     "bug_desc": "Ver informes d'erros activos equí."
                 },
                 "logOut": "Zarrar sesión",
@@ -691,7 +691,7 @@
                     "select_method": "Porfavor escueyi un métodu p'autenticar la to solicitú."
                 },
                 "changelogs": {
-                    "description": "Llei sobro les actualizaciones de Revolt.",
+                    "description": "Llei sobro les actualizaciones de Arma Battles.",
                     "older": "Ver actualizaciones anteriores",
                     "title": "Rexistru de cambeos"
                 },
@@ -732,7 +732,7 @@
                         "Impersonation": "Esti usuariu ta suplantando l'identidá de dalguien",
                         "Underage": "Esti usuariu nun ye suficiente vieyu pa tener una cuenta"
                     },
-                    "thank_you": "Gracies por ayudar a caltener seguru Revolt. Vamos revisar el to reporte lo más ceu posible.",
+                    "thank_you": "Gracies por ayudar a caltener seguru Arma Battles. Vamos revisar el to reporte lo más ceu posible.",
                     "additional_context": "Información adicional",
                     "no_reason": "Nengún motivu especificáu / otru motivu"
                 },
@@ -809,7 +809,7 @@
             "requires_online": "Necesites tar conectáu pa ver esto.",
             "invite": {
                 "invited_by": "Convidáu por {{user}}",
-                "login": "Aniciar sesión en Revolt",
+                "login": "Aniciar sesión en Arma Battles",
                 "accept": "Aceutar invitación",
                 "user_count": "{{member_count}} usuarios",
                 "invalid": "¡Invitación inválida!",

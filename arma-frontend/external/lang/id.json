@@ -127,7 +127,7 @@
                     "title": "Pengaturan Suara",
                     "input_device": "Mikrofon",
                     "output_device": "Pengeras Suara / Headset",
-                    "tip_retry": "Kamu tidak memberikan Revolt izin untuk mengakses mikrofon kamu. Harap {{retryBtn}}.",
+                    "tip_retry": "Kamu tidak memberikan Arma Battles izin untuk mengakses mikrofon kamu. Harap {{retryBtn}}.",
                     "device_label_NA": "Tidak Diketahui",
                     "button_retry": "coba lagi",
                     "tip_grant_permission": "Kamu perlu memberikan izin untuk mengakses pengaturan audio.",
@@ -182,7 +182,7 @@
                     "suggest": "Kirim saran fitur",
                     "bug_desc": "Lihat laporan bug yang sedang aktif di sini.",
                     "bug": "Pelacak Bug",
-                    "suggest_desc": "Beri saran fitur baru Revolt di GitHub discussions.",
+                    "suggest_desc": "Beri saran fitur baru Arma Battles di GitHub discussions.",
                     "issue": "Laporkan masalah",
                     "issue_desc": "Untuk membantu kami mengatasi masalah dengan lebih mudah, kamu bisa melaporkan masalah di GitHub.",
                     "description": "Kirim masukan"
@@ -485,7 +485,7 @@
                 "user_timed_out": "Pengguna diberi timeout selama {{time}}.",
                 "bridged": "Pesan dikirim dari platform lain",
                 "team": "Komunikasi Resmi",
-                "new_to_revolt": "Baru di Revolt",
+                "new_to_revolt": "Baru di Arma Battles",
                 "new_to_server": "Baru di server ini",
                 "reactions": {
                     "others_reacted": "{{userlist}} dan {{count}} orang lainnya memberi reaksi",
@@ -551,7 +551,7 @@
             "invite": {
                 "user_count": "{{member_count}} pengguna",
                 "accept": "Terima Undangan",
-                "login": "Masuk ke Revolt",
+                "login": "Masuk ke Arma Battles",
                 "invited_by": "Diundang oleh {{user}}",
                 "invalid": "Undangan tidak sah!",
                 "invalid_desc": "Undangan ini mungkin tidak ada, atau kamu tidak memiliki izin untuk bergabung."
@@ -646,7 +646,7 @@
                     "select_method": "Pilih metode untuk mengautentikasi permintaanmu."
                 },
                 "changelogs": {
-                    "description": "Baca tentang pembaruan Revolt.",
+                    "description": "Baca tentang pembaruan Arma Battles.",
                     "title": "Catatan Perubahan",
                     "older": "Lihat pembaruan sebelumnya"
                 },
@@ -659,7 +659,7 @@
                     "attempting": "Mencoba untuk memperbarui…"
                 },
                 "report": {
-                    "thank_you": "Terima kasih telah membantu menjaga Revolt aman. Kami akan segera meninjau laporanmu.",
+                    "thank_you": "Terima kasih telah membantu menjaga Arma Battles aman. Kami akan segera meninjau laporanmu.",
                     "by_name": "Laporkan {{name}}",
                     "reason": "Alasan",
                     "reported": "Berhasil dilaporkan",
@@ -803,8 +803,8 @@
             "settings-tooltip": "Kamu juga bisa klik kanan ikon pengguna di kiri atas, atau klik kiri jika kamu sedang berada di beranda.",
             "join-testers": "Bergabung ke server penguji",
             "goto-testers": "Pergi ke server penguji",
-            "donate": "Berdonasi ke Revolt",
-            "feedback": "Beri masukan untuk Revolt",
+            "donate": "Berdonasi ke Arma Battles",
+            "feedback": "Beri masukan untuk Arma Battles",
             "settings": "Buka pengaturan",
             "social": "Cari server & bot",
             "directs": "Pesan Langsung",
@@ -815,7 +815,7 @@
             "group": "Buat grup",
             "feedback_desc": "Beritahu kami bagaimana kami bisa tingkatkan aplikasi kami dengan memberi masukan.",
             "discover_desc": "Cari komunitas berdasarkan hobi atau minat kamu.",
-            "discover": "Jelajahi Revolt"
+            "discover": "Jelajahi Arma Battles"
         }
     },
     "login": {
@@ -835,7 +835,7 @@
         "missing_verification": "Tidak mendapatkan email?",
         "create": "Buat akun baru",
         "existing": "Sudah punya akun?",
-        "new": "Baru di Revolt?",
+        "new": "Baru di Arma Battles?",
         "remembered": "Kembali ke halaman masuk",
         "set_password": "Buat sandi baru",
         "reset": "Atur ulang sandi",
@@ -857,7 +857,7 @@
         "title": "Masuk",
         "email_delay": "Kami telah mengirimkan email verifikasi. Harap tunggu hingga 10 menit untuk email tiba.",
         "welcome": "Selamat datang!",
-        "subtitle": "Masuk ke Revolt",
+        "subtitle": "Masuk ke Arma Battles",
         "welcome2": "Halo!",
         "subtitle2": "Buat akun",
         "unofficial_instance": "Instansi pihak ketiga.",

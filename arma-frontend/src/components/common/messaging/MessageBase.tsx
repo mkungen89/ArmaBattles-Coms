@@ -138,6 +138,7 @@ export const MessageInfo = styled.div<{ click: boolean }>`
     width: 62px;
     display: flex;
     flex-shrink: 0;
+    flex-wrap: nowrap;
     padding-top: 2px;
     flex-direction: row;
     justify-content: center;
@@ -168,7 +169,8 @@ export const MessageInfo = styled.div<{ click: boolean }>`
     .edited {
         margin-top: 1px;
         cursor: default;
-        display: inline;
+        display: inline-flex;
+        align-items: center;
         font-size: 10px;
         color: var(--tertiary-foreground);
         white-space: nowrap; /* Prevent timestamp wrapping */
@@ -237,6 +239,7 @@ export const MessageContent = styled.div`
 
 export const DetailBase = styled.div`
     flex-shrink: 0;
+    flex-wrap: nowrap;
     gap: 4px;
     font-size: 10px;
     display: inline-flex;

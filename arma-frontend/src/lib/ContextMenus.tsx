@@ -135,13 +135,13 @@ export default function ContextMenus() {
                     break;
                 case "admin":
                     window.open(
-                        `https://admin.revolt.chat/panel/inspect/${data.type}/${data.id}`,
+                        `https://admin.armabattles.com/panel/inspect/${data.type}/${data.id}`,
                         "_blank",
                     );
                     break;
                 case "admin_system":
                     window.open(
-                        `https://admin.revolt.chat/panel/inspect/user/${data.id}`,
+                        `https://admin.armabattles.com/panel/inspect/user/${data.id}`,
                         "_blank",
                     );
                     break;

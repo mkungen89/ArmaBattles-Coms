@@ -462,7 +462,7 @@
                 "reactions": {
                     "others_reacted": "{{userlist}} en jan  ante {{count}} li pana e pilin"
                 },
-                "new_to_revolt": "ilo Revolt la sin",
+                "new_to_revolt": "ilo Arma Battles la sin",
                 "new_to_server": "ma ni la sin",
                 "bridge": "o kama wan"
             },
@@ -566,11 +566,11 @@
             "settings": "o open e nasin",
             "donate_desc": "sina olin e ilo ni? o pana e mani - pona a!",
             "group": "o pali e poki pi jan mute",
-            "discover": "o lukin e Revolt",
+            "discover": "o lukin e Arma Battles",
             "directs": "toki pi jan pona ale",
             "join-testers": "o tawa Testers Server",
             "goto-testers": "o tawa Testers Server",
-            "donate": "o pana pona tawa jan pali pi ilo Revolt",
+            "donate": "o pana pona tawa jan pali pi ilo Arma Battles",
             "feedback_desc": "sina wile pona e ilo mi la o toki e pilin sina tawa mi mute.",
             "group_desc": "o pana e jan pona e ilo tawa ma, o musi.",
             "join-testers_desc": "sina wile toki e ijo pakala la, sina ken lon.",
@@ -587,7 +587,7 @@
         "RenderFail": "sitelen li pakala.",
         "UnknownError": "o lukin e insa ilo.",
         "MissingPermission": "sina ken ala.",
-        "InternalError": "ilo Revolt li pakala.",
+        "InternalError": "ilo Arma Battles li pakala.",
         "FailedValidation": "sitelen li ike.",
         "Unlabelled": "ijo li pakala.",
         "Unauthorized": "sina ken ala.",
@@ -616,7 +616,7 @@
         "cancel": "mi wile ala",
         "resend": "o pana sin e lipu pi alasa lon",
         "missing_verification": "lipu pi ilo Email li kama ala la",
-        "new": "sina sin tawa ilo Revolt la",
+        "new": "sina sin tawa ilo Arma Battles la",
         "enter": {
             "email": "o sitelen e nimi sina pi ilo Email.",
             "username": "o sitelen e nimi ilo sina.",
@@ -653,9 +653,9 @@
         "welcome": "o kama pona!",
         "totp": "lipu open",
         "recovery": "nimi open mute",
-        "subtitle": "o tawa sijelo pi ilo Revolt",
+        "subtitle": "o tawa sijelo pi ilo Arma Battles",
         "subtitle2": "o pali e sijelo",
-        "unofficial_instance": "sama pi ilo Revolt tan jan ante",
+        "unofficial_instance": "sama pi ilo Arma Battles tan jan ante",
         "new_password": "nimi open sin"
     },
     "general": {

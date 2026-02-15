@@ -38,7 +38,7 @@
         "reset": "I-reset ang password",
         "set_password": "Pagbutang og bag-ong password",
         "remembered": "Pagbalik sa login",
-        "new": "Bag-o sa Revolt?",
+        "new": "Bag-o sa Arma Battles?",
         "existing": "Naa na kay account?",
         "create": "Paghimo og bag-ong account",
         "missing_verification": "Walay nadawat nga email?",
@@ -60,7 +60,7 @@
             "verify": "Napakyas sa pagberipika!"
         },
         "unofficial_instance": "Instansyang third-party.",
-        "subtitle": "Pag-sign in sa Revolt"
+        "subtitle": "Pag-sign in sa Arma Battles"
     },
     "app": {
         "status": {
@@ -84,16 +84,16 @@
         "home": {
             "directs": "Mga Direktang Mensahe",
             "join-testers": "Pag-apil sa server sa mga mosulay",
-            "donate": "Pag-donate sa Revolt",
+            "donate": "Pag-donate sa Arma Battles",
             "donate_desc": "Suportaha ning proyekto paagi sa pag-donate - daghang salamat!",
-            "feedback": "Ipahibalo ang imong feedback mahitungod sa Revolt",
+            "feedback": "Ipahibalo ang imong feedback mahitungod sa Arma Battles",
             "settings": "Abriha ang mga setting",
             "group": "Paghimo og grupo",
             "join-testers_desc": "Diri ka direktang maka-report og mga isyu ug makahisgot bahin sa mga kalamboan kauban namo.",
             "goto-testers": "Pangadto sa server sa mga mosulay",
             "goto-testers_desc": "Diri ka direktang maka-report og mga isyu ug makahisgot bahin sa mga kalamboan kauban namo.",
             "feedback_desc": "Ipahibalo sa amo kung unsaon namo aron mapanindot ning app pinaagi sa paghatag sa amo og feedback.",
-            "discover": "Pangadiskubre sa Revolt",
+            "discover": "Pangadiskubre sa Arma Battles",
             "discover_desc": "Pagpangita og komunidad sa imong kalingawan o interes.",
             "settings-tooltip": "Pwede pud nimo i-right-click ang icon sa user sa ibabaw sa tuo, o i-left click kung naa na ka sa panid sa pagsugod.",
             "group_desc": "Pag-imbitar og mga higala ug mga bot, ug paghimo og nindot nga party."
@@ -194,7 +194,7 @@
                 "message_saved": "I-save sa imong mga note",
                 "bridge": "tulay",
                 "user_timed_out": "Gi-time out ang user nang {{time}}.",
-                "new_to_revolt": "Bag-o sa Revolt"
+                "new_to_revolt": "Bag-o sa Arma Battles"
             },
             "groups": {
                 "create": "Paghimo og grupo",

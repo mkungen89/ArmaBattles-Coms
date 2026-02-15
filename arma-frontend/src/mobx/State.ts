@@ -226,7 +226,8 @@ export default class State {
                                 }
 
                                 if (Object.keys(obj).length > 0) {
-                                    if (client.websocket.connected && client.user) {
+                                    const session = clientController.getActiveSession();
+                                    if (client.websocket.connected && client.user && session?.state === "Online") {
                                         client.syncSetSettings(
                                             obj as any,
                                             revision,
@@ -242,7 +243,8 @@ export default class State {
                                     }
 
                                     this.sync.setRevision(id, revision);
-                                    if (client.websocket.connected && client.user) {
+                                    const session = clientController.getActiveSession();
+                                    if (client.websocket.connected && client.user && session?.state === "Online") {
                                         client.syncSetSettings(
                                             (
                                                 store as unknown as Syncable

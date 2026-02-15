@@ -18,10 +18,10 @@ body:
     id: branch
     attributes:
       label: Branch
-      description: What branch of Revolt are you using?
+      description: What branch of Arma Battles are you using?
       options:
-        - Production (app.revolt.chat)
-        - Nightly (nightly.revolt.chat)
+        - Production (chat.armabattles.com)
+        - Nightly (nightly.armabattles.com)
     validations:
       required: true
   - type: textarea
@@ -52,9 +52,9 @@ body:
     id: desktop
     attributes:
       label: Desktop
-      description: Is this bug specific to [the desktop client](https://github.com/revoltchat/desktop)? (If not, leave this unchecked.)
+      description: Is this bug specific to [the desktop client](https://github.com/armabattles/desktop)? (If not, leave this unchecked.)
       options:
-        - label: Yes, this bug is specific to Revolt Desktop and is *not* an issue with Revolt Desktop itself.
+        - label: Yes, this bug is specific to Arma Battles Desktop and is *not* an issue with Arma Battles Desktop itself.
           required: false
   - type: checkboxes
     id: pwa

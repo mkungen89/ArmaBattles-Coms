@@ -17,7 +17,7 @@
     "login": {
         "title": "Antrar",
         "welcome": "Bienbenido/a!",
-        "subtitle": "Antre ne l Revolt",
+        "subtitle": "Antre ne l Arma Battles",
         "welcome2": "Oulá!",
         "subtitle2": "Cria ũa conta",
         "register": "Registrar",
@@ -40,7 +40,7 @@
         "reset": "Reiniciar Palabra passe",
         "set_password": "Faç ũa nuoba Palabra passe",
         "remembered": "Bolbe al Login",
-        "new": "Nuobo cul Revolt?",
+        "new": "Nuobo cul Arma Battles?",
         "existing": "Yá tenes ũa conta?",
         "create": "Cria ũa nuoba conta",
         "resend": "Reambiar berificaçon",
@@ -89,12 +89,12 @@
             "join-testers": "Ajunta-te al serbidor de ls testers",
             "goto-testers": "Bai al serbidor de testers",
             "goto-testers_desc": "Puodes reportar berbicachos i çcutir melhoramientos diretamente eiqui.",
-            "donate": "Donar pa l Revolt",
+            "donate": "Donar pa l Arma Battles",
             "donate_desc": "Arrima l porjeto por donar - oubrigado!",
-            "feedback": "Dá feedback ne l Revolt",
+            "feedback": "Dá feedback ne l Arma Battles",
             "settings": "Çfechar definiçones",
             "settings-tooltip": "Puodes fazer right-click ne l'ícone d'outelizador ne l canto izquierdo, ó left-click se yá stás na páigina d'ampeço.",
-            "discover": "Çcobre l Revolt",
+            "discover": "Çcobre l Arma Battles",
             "group": "Cria un grupo",
             "group_desc": "Ambita to ls tous amios, dalguns buns bots, i fai ũa fiesta.",
             "join-testers_desc": "Puodes reportar berbicachos i çcutir melhoramientos diretamente eiqui.",
@@ -180,7 +180,7 @@
                 "edited": "(eiditado)",
                 "bridge": "puonte",
                 "bot": "Robó",
-                "new_to_revolt": "Nuobo al Revolt",
+                "new_to_revolt": "Nuobo al Arma Battles",
                 "new_to_server": "Nuobo a este serbidor",
                 "team": "Comunicaçon Oufecial",
                 "notifications": {
@@ -291,7 +291,7 @@
                     "button_retry": "antenta outra beç",
                     "button_grant": "Dar permisson",
                     "title": "Definiçones de Boç",
-                    "tip_retry": "Nun deste permisson al Revolt pa acessar l tou microfone. {{retryBtn}} fai fabor."
+                    "tip_retry": "Nun deste permisson al Arma Battles pa acessar l tou microfone. {{retryBtn}} fai fabor."
                 },
                 "appearance": {
                     "title": "Aparéncia",
@@ -447,7 +447,7 @@
                 "feedback": {
                     "title": "Oupeniones",
                     "suggest": "Ambiar sugeston de recurso",
-                    "suggest_desc": "Lhucitar un nuobo recurso de l Revolt nas çcuçones de l GitHub.",
+                    "suggest_desc": "Lhucitar un nuobo recurso de l Arma Battles nas çcuçones de l GitHub.",
                     "issue": "Criar um nuobo salimiento",
                     "bug": "Tracker de Bugs",
                     "bug_desc": "Ber relatórios de bugs atualmente atibos eiqui.",
@@ -702,7 +702,7 @@
                 },
                 "report": {
                     "reported": "Reportado",
-                    "thank_you": "Oubrigado por mos dares ũa upa an mantener l Revolt seguro. Nós bamos a reber l tou reporte l más temprano possible.",
+                    "thank_you": "Oubrigado por mos dares ũa upa an mantener l Arma Battles seguro. Nós bamos a reber l tou reporte l más temprano possible.",
                     "no_reason": "Ningũa rezon specíficada / outra rezon",
                     "content_reason": {
                         "SpamAbuse": "Esto ye spam ó abuso de la plataforma",
@@ -757,7 +757,7 @@
                 "token_reveal": "Token de {{name}}",
                 "changelogs": {
                     "title": "Registros d'Altaraçones",
-                    "description": "Lhei subre las atualizaçones al Revolt.",
+                    "description": "Lhei subre las atualizaçones al Arma Battles.",
                     "older": "Ber updates más bielhos"
                 },
                 "external_links": {
@@ -810,7 +810,7 @@
             "invite": {
                 "invalid_desc": "L cumbite puode nun eisistir, ó tu nun tenes permisson pa t'ajuntares.",
                 "invited_by": "Ambitado por {{user}}",
-                "login": "Fazer login al Revolt",
+                "login": "Fazer login al Arma Battles",
                 "accept": "Aceitar Cumbite",
                 "user_count": "{{member_count}} outelizadores",
                 "invalid": "Cumbite ambálido!"

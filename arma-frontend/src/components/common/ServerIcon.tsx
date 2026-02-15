@@ -24,7 +24,6 @@ const ServerText = styled.div`
     border-radius: var(--border-radius-half);
 `;
 
-// const fallback = "/assets/group.png";
 export default observer(
     (
         props: Props &

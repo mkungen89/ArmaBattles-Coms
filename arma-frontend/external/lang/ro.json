@@ -99,7 +99,7 @@
                 },
                 "changelogs": {
                     "title": "Schimbări",
-                    "description": "Citește despre schimbările Revolt.",
+                    "description": "Citește despre schimbările Arma Battles.",
                     "older": "Vezi actualizări mai vechi"
                 },
                 "report": {
@@ -116,7 +116,7 @@
                         "Harassment": "Hărțuire sau abuzul care vizează un alt utilizator"
                     },
                     "reported": "Raportat",
-                    "thank_you": "Îți mulțumim că ne ajuți să păstrăm Revolt în siguranță. Vom analiza reclamația ta cât mai curând posibil.",
+                    "thank_you": "Îți mulțumim că ne ajuți să păstrăm Arma Battles în siguranță. Vom analiza reclamația ta cât mai curând posibil.",
                     "block_user": "Dorești să blochezi acest utilizator?",
                     "user_reason": {
                         "SpamAbuse": "Utilizatorul trimite mesaje nedorite (spam) sau abuzează în alt mod de platformă",
@@ -193,7 +193,7 @@
             "invite": {
                 "invited_by": "Invitat(ă) de {{user}}",
                 "accept": "Acceptă invitația",
-                "login": "Autentificare la Revolt",
+                "login": "Autentificare la Arma Battles",
                 "user_count": "{{member_count}} (de) utilizatori",
                 "invalid_desc": "Este posibil ca invitația să nu existe sau să nu ai permisiunea de a te alătura.",
                 "invalid": "Invitație invalidă!"
@@ -278,7 +278,7 @@
                     "bug": "Bug tracker",
                     "report": "Ce vrei sa raportezi?",
                     "title": "Părere",
-                    "suggest_desc": "Propune caracteristici noi pentru Revolt în discuțiile de pe GitHub.",
+                    "suggest_desc": "Propune caracteristici noi pentru Arma Battles în discuțiile de pe GitHub.",
                     "issue": "Creează un subiect nou",
                     "suggest": "Propune o nouă funcție",
                     "issue_desc": "Pentru a ne ajuta în trierea subiectelor, poți crea un subiect pe GitHub.",
@@ -404,7 +404,7 @@
                     "output_device": "Difuzor / Căști",
                     "device_label_NA": "N/A",
                     "button_retry": "încearcă din nou",
-                    "tip_retry": "Nu ai acordat permisiunea ca Revolt să acceseze microfonul. Te rugăm să {{retryBtn}}.",
+                    "tip_retry": "Nu ai acordat permisiunea ca Arma Battles să acceseze microfonul. Te rugăm să {{retryBtn}}.",
                     "tip_grant_permission": "Trebuie să acorzi permisiunea de a accesa setările audio.",
                     "button_grant": "Acordă permisiunea"
                 },
@@ -706,7 +706,7 @@
                 "user_timed_out": "Utilizatorul este pus pe pauză timp de {{time}}.",
                 "team": "Comunicare oficială",
                 "bridged": "Mesajul a fost trimis de pe o altă platformă",
-                "new_to_revolt": "Nou venit la Revolt",
+                "new_to_revolt": "Nou venit la Arma Battles",
                 "reactions": {
                     "others_reacted": "{{userlist}} și alți {{count}} au reacționat",
                     "unknown_reacted": "{{count}} persoane au reacționat",
@@ -817,10 +817,10 @@
             "required": "Sunt necesare permisiuni"
         },
         "home": {
-            "donate": "Donează pentru Revolt",
+            "donate": "Donează pentru Arma Battles",
             "join-testers": "Alătură-te serverului de testeri",
             "goto-testers": "Mergi la serverul testerilor",
-            "feedback": "Spune-ne ce părere ai despre Revolt",
+            "feedback": "Spune-ne ce părere ai despre Arma Battles",
             "settings": "Deschide setările",
             "settings-tooltip": "De asemenea, poți face clic dreapta pe pictograma utilizatorului din stânga sus sau clic stânga pe ea dacă ești deja acasă.",
             "social": "Găsește servere și boți",
@@ -829,7 +829,7 @@
             "goto-testers_desc": "Poți să ne raportezi probleme și să discuți cu noi despre îmbunătățiri direct aici.",
             "donate_desc": "Sprijină proiectul prin donații - vă mulțumim!",
             "feedback_desc": "Spune-ne cum putem îmbunătăți aplicația noastră, oferindu-ne feedback.",
-            "discover": "Descoperă Revolt",
+            "discover": "Descoperă Arma Battles",
             "discover_desc": "Găsește o comunitate bazată pe hobby-urile sau interesele tale.",
             "group": "Creează un grup",
             "group_desc": "Invită-ți toți prietenii, câțiva boți simpatici și dă o petrecere mare."
@@ -852,7 +852,7 @@
         "missing_verification": "Nu ai primit un e-mail?",
         "create": "Creează un cont nou",
         "existing": "Ai deja un cont?",
-        "new": "Prima oară pe Revolt?",
+        "new": "Prima oară pe Arma Battles?",
         "remembered": "Întoarce-te la conectare",
         "set_password": "Setează o parolă nouă",
         "reset": "Resetează parola",
@@ -876,7 +876,7 @@
         "welcome2": "Salut!",
         "subtitle2": "Creează un cont",
         "welcome": "Bun venit!",
-        "subtitle": "Autentificare în Revolt",
+        "subtitle": "Autentificare în Arma Battles",
         "unofficial_instance": "Instanță terță parte.",
         "totp": "Aplicație de autentificare",
         "recovery": "Cod de recuperare",

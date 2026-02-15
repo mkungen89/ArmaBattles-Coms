@@ -51,7 +51,7 @@ const store = new Store({
   schema,
   defaults: {
     firstLaunch: true,
-    customFrame: true,
+    customFrame: false,
     minimiseToTray: true,
     spellchecker: true,
     hardwareAcceleration: true,

@@ -108,7 +108,7 @@
                 "user_timed_out": "Pinahinto ang User nang {{time}}.",
                 "bridged": "Ipinadala ang mensahe sa ibang platform",
                 "team": "Opisyal na Komunikasyon",
-                "new_to_revolt": "Bago sa Revolt",
+                "new_to_revolt": "Bago sa Arma Battles",
                 "new_to_server": "Bago sa server na ito",
                 "reactions": {
                     "others_reacted": "{{userlist}} at {{count}} iba pa ay na-redact",
@@ -254,7 +254,7 @@
                     "title": "Settings sa Boses",
                     "device_label_NA": "N/A",
                     "output_device": "Altabos / Hatinig",
-                    "tip_retry": "Hindi mo binigyan ang Revolt ng pahintulot na gamitin ang iyong mikropono. Mangyaring {{retryBtn}}.",
+                    "tip_retry": "Hindi mo binigyan ang Arma Battles ng pahintulot na gamitin ang iyong mikropono. Mangyaring {{retryBtn}}.",
                     "button_grant": "Payagan",
                     "tip_grant_permission": "Kailangan mong pahintulutan upang magamit ang settings ng audio."
                 },
@@ -357,7 +357,7 @@
                     "bug": "Tagasubaybay ng mga Peste",
                     "title": "Magpuna",
                     "suggest": "Magsumite ng suhestiyon sa features",
-                    "suggest_desc": "Magmungkahi ng mga panibagong Revolt features sa mga diskusyon sa GitHub.",
+                    "suggest_desc": "Magmungkahi ng mga panibagong Arma Battles features sa mga diskusyon sa GitHub.",
                     "description": "Magsumite ng ulat o puna"
                 },
                 "logOut": "Mag-log out",
@@ -595,7 +595,7 @@
         "special": {
             "invite": {
                 "invited_by": "Inimbita ni {{user}}",
-                "login": "Mag-login sa Revolt",
+                "login": "Mag-login sa Arma Battles",
                 "accept": "I-accept ang imbita",
                 "invalid_desc": "Maaring hindi umiiral ang imbita, o wala kang permiso para sumali.",
                 "user_count": "{{member_count}} na katao",
@@ -715,7 +715,7 @@
                 "changelogs": {
                     "title": "Mga Pagbabago",
                     "older": "Basahin ang mga lumang updates",
-                    "description": "Basahin ang mga updates sa Revolt."
+                    "description": "Basahin ang mga updates sa Arma Battles."
                 },
                 "sessions": {
                     "title": "Sigurado ka ba na gusto mong alisin ang iyong mga session?",
@@ -742,7 +742,7 @@
                     "reason": "Dahilan",
                     "additional_context": "Karagdagang Impormasyon",
                     "no_reason": "Walang dahilang sinabi / ibang reason",
-                    "thank_you": "Salamat sa pagtulong na panatilihing ligtas ang Revolt. Titignan namin ang iyong ulat sa lalong madaling panahon.",
+                    "thank_you": "Salamat sa pagtulong na panatilihing ligtas ang Arma Battles. Titignan namin ang iyong ulat sa lalong madaling panahon.",
                     "reported": "Na-report na",
                     "message": "I-report ang Mensahe",
                     "by_name": "Iulat si {{name}}"
@@ -800,8 +800,8 @@
         },
         "home": {
             "goto-testers": "Pumunta sa testers server",
-            "donate": "Mag-abuloy sa Revolt",
-            "feedback": "Magbigay ng puna sa Revolt",
+            "donate": "Mag-abuloy sa Arma Battles",
+            "feedback": "Magbigay ng puna sa Arma Battles",
             "settings": "Buksan ang mga opsyon",
             "directs": "Mga direktang mensahe",
             "join-testers": "Sumali sa testers server",
@@ -810,7 +810,7 @@
             "goto-testers_desc": "Maari mong i-ulat sa amin ang mga problemang nakaharap at ang iyong mga suhesiyon dito.",
             "donate_desc": "Suportahan itong proyekto sa pamamagitan ng pagbigay ng donasyon - salamat!",
             "feedback_desc": "Pakisabi kung paano namin mapagaganda ang aming app.",
-            "discover": "Magdeskubre sa Revolt",
+            "discover": "Magdeskubre sa Arma Battles",
             "discover_desc": "Humanap ng mga komunidad base sa iyong mga libangan o kagustuhan.",
             "group_desc": "Magsagawa ng engrandeng party kasama ang iyong mga kaibigan, at mga mahuhusay na bots.",
             "join-testers_desc": "Maaari mong i-ulat sa amin ang mga problemang nakaharap at ang iyong mga suhesiyon dito.",
@@ -852,7 +852,7 @@
         "email_delay": "Nagpadala kami ng verification email. Maari lamang maghintay ng 10 minuto upang dumating.",
         "resend": "Muling ipadala ang beripikasyon",
         "cancel": "Ikansela ang hiling",
-        "new": "Bago sa Revolt?",
+        "new": "Bago sa Arma Battles?",
         "existing": "Mayroon ka nang account?",
         "create": "Gumawa ng bagong account",
         "missing_verification": "Hindi nakatanggap ng email?",
@@ -868,7 +868,7 @@
         },
         "successful_registration": "Matagumpay ang pagrehistro!",
         "welcome": "Maligayang Pagdating!",
-        "subtitle": "Mag-Sign in sa Revolt",
+        "subtitle": "Mag-Sign in sa Arma Battles",
         "welcome2": "Kumusta!",
         "subtitle2": "Gumawa ng account",
         "unofficial_instance": "Instansyang third-party.",

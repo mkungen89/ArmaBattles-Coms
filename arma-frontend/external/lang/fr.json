@@ -24,7 +24,7 @@
             "new_password": "Entrez un nouveau mot de passe."
         },
         "forgot": "Mot de passe oublié ?",
-        "new": "Nouveau sur Revolt ?",
+        "new": "Nouveau sur Arma Battles ?",
         "create": "Créer un nouveau compte",
         "open_mail_provider": "Ouvrir {{provider}}",
         "successful_registration": "Inscription réussie !",
@@ -50,7 +50,7 @@
         "check_spam": "Vérifiez vos spams si vous ne le trouvez pas",
         "email_delay": "Nous vous avons envoyé un e-mail de vérification. Merci d'attendre jusqu'à 10 minutes pour qu'il arrive.",
         "welcome": "Bienvenue !",
-        "subtitle": "Se connecter à Revolt",
+        "subtitle": "Se connecter à Arma Battles",
         "welcome2": "Bonjour !",
         "subtitle2": "Créer un compte",
         "unofficial_instance": "Instance non-officielle.",
@@ -160,7 +160,7 @@
                     "unknown_reacted": "{{count}} personnes ont réagi",
                     "people_reacted": "{{people}} ont réagi"
                 },
-                "new_to_revolt": "Nouveau sur Revolt",
+                "new_to_revolt": "Nouveau sur Arma Battles",
                 "new_to_server": "Nouveau sur ce serveur"
             },
             "categories": {
@@ -373,7 +373,7 @@
                     "describe": "Veuillez décrire le problème.",
                     "send": "Envoyer un retour",
                     "suggest": "Proposer une fonctionnalité",
-                    "suggest_desc": "Suggérer de nouvelles fonctionnalités pour Revolt dans les discussions GitHub.",
+                    "suggest_desc": "Suggérer de nouvelles fonctionnalités pour Arma Battles dans les discussions GitHub.",
                     "issue": "Créer un nouveau ticket",
                     "issue_desc": "Pour nous aider à trier plus facilement les demandes, vous pouvez créer un ticket sur GitHub.",
                     "bug_desc": "Visionnez les rapports de bugs actifs ici.",
@@ -469,7 +469,7 @@
                     "output_device": "Haut-parleur / Casque",
                     "device_label_NA": "Indisponible",
                     "button_retry": "réessayer",
-                    "tip_retry": "Vous n'avez pas donné la permission à Revolt d'accéder à votre microphone. Veuillez {{retryBtn}}.",
+                    "tip_retry": "Vous n'avez pas donné la permission à Arma Battles d'accéder à votre microphone. Veuillez {{retryBtn}}.",
                     "tip_grant_permission": "Vous devez donner la permission pour accéder aux paramètres audio.",
                     "button_grant": "Donner la permission"
                 },
@@ -782,7 +782,7 @@
                 },
                 "changelogs": {
                     "title": "Liste des modifications",
-                    "description": "Renseignez-vous sur les mises à jour de Revolt.",
+                    "description": "Renseignez-vous sur les mises à jour de Arma Battles.",
                     "older": "Voir les mises à jour précédentes"
                 },
                 "out_of_date": {
@@ -813,7 +813,7 @@
                         "Underage": "Cet utilisateur n'a pas l'âge légal pour avoir un compte"
                     },
                     "reported": "Signalé",
-                    "thank_you": "Merci d'aider à garder Revolt sûr. Nous allons examiner votre signalement dès que possible.",
+                    "thank_you": "Merci d'aider à garder Arma Battles sûr. Nous allons examiner votre signalement dès que possible.",
                     "block_user": "Voulez-vous bloquer cet utilisateur ?"
                 },
                 "edit_keybind": {
@@ -869,7 +869,7 @@
             "copy": "Cliquez pour copier",
             "invite": {
                 "invited_by": "Invité par {{user}}",
-                "login": "Se connecter à Revolt",
+                "login": "Se connecter à Arma Battles",
                 "accept": "Accepter l'invitation",
                 "user_count": "{{member_count}} membres",
                 "invalid": "Invitation invalide !",
@@ -884,10 +884,10 @@
             "required": "Permissions requises"
         },
         "home": {
-            "donate": "Faire une donation à Revolt",
+            "donate": "Faire une donation à Arma Battles",
             "social": "Trouver des serveurs & des bots",
             "settings": "Ouvrir les paramètres",
-            "feedback": "Donnez votre avis sur Revolt",
+            "feedback": "Donnez votre avis sur Arma Battles",
             "settings-tooltip": "Vous pouvez aussi faire un clic droit sur l'icône utilisateur en haut à gauche, ou un clic gauche si vous êtes déjà sur l'accueil.",
             "join-testers": "Rejoindre le serveur de testeurs",
             "goto-testers": "Se rendre sur le serveur des testeurs",
@@ -895,7 +895,7 @@
             "join-testers_desc": "Vous pouvez y signaler des problèmes et discuter des améliorations à venir avec nous directement.",
             "goto-testers_desc": "Vous pouvez signaler des problèmes et discuter des améliorations avec nous directement ici.",
             "donate_desc": "Soutenez le projet en faisant un don, merci !",
-            "discover": "Découvrir Revolt",
+            "discover": "Découvrir Arma Battles",
             "discover_desc": "Trouvez une communauté basée sur vos passe-temps ou sur vos intérêts.",
             "group": "Créer un groupe",
             "group_desc": "Invitez tous vos amis, des bots sympa, et organisez une grande fête.",

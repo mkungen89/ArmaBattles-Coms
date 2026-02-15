@@ -18,10 +18,14 @@ import { updateTrayMenu } from "./tray";
 export let mainWindow: BrowserWindow;
 
 // currently in-use build
+// For now, we load the local dev server which serves index.html with our custom title bar
+// The index.html then loads chat.armabattles.com in an iframe
+const VITE_DEV_SERVER = 'http://localhost:5173';
+
 export const BUILD_URL = new URL(
   app.commandLine.hasSwitch("force-server")
     ? app.commandLine.getSwitchValue("force-server")
-    : /*MAIN_WINDOW_VITE_DEV_SERVER_URL ??*/ "https://chat.armabattles.com",
+    : VITE_DEV_SERVER
 );
 
 // internal window state
@@ -42,8 +46,8 @@ export function createMainWindow() {
     minHeight: 300,
     width: 1280,
     height: 720,
-    backgroundColor: "#191919",
-    frame: !config.customFrame,
+    backgroundColor: "#1A1A1A",
+    frame: true,  // Temporarily enabled for debugging
     icon: windowIcon,
     webPreferences: {
       // relative to `.vite/build`
@@ -103,7 +107,7 @@ export function createMainWindow() {
   mainWindow.on("moved", generateState);
   mainWindow.on("resized", generateState);
 
-  // rebind zoom controls to be more sensible
+  // rebind zoom controls and add keyboard shortcuts
   mainWindow.webContents.on("before-input-event", (event, input) => {
     if (input.control && input.key === "=") {
       // zoom in (+)
@@ -117,6 +121,18 @@ export function createMainWindow() {
       mainWindow.webContents.setZoomLevel(
         mainWindow.webContents.getZoomLevel() - 1,
       );
+    } else if (input.control && input.key === "w") {
+      // Ctrl+W to close window
+      event.preventDefault();
+      mainWindow.close();
+    } else if (input.alt && input.key === "F4") {
+      // Alt+F4 to quit (Windows standard)
+      event.preventDefault();
+      quitApp();
+    } else if (input.control && input.shift && input.key === "I") {
+      // Ctrl+Shift+I to toggle DevTools
+      event.preventDefault();
+      mainWindow.webContents.toggleDevTools();
     }
   });
 
@@ -173,7 +189,8 @@ export function createMainWindow() {
   );
   ipcMain.on("close", () => mainWindow.close());
 
-  // mainWindow.webContents.openDevTools();
+  // Open DevTools for debugging
+  mainWindow.webContents.openDevTools();
 
   // let i = 0;
   // setInterval(() => setBadgeCount((++i % 30) + 1), 1000);

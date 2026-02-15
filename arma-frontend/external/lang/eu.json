@@ -31,11 +31,11 @@
         "reset": "Pasahitza berrezarri",
         "successful_registration": "Behar bezala erregistratu da!",
         "remembered": "Itzuli saioa hasteko",
-        "new": "Revolt-en berria?",
+        "new": "Arma Battles-en berria?",
         "create": "Sortu kontu berria",
         "resend": "Bidali berriro egiaztapena",
         "welcome": "Ongi etorri berriro!",
-        "subtitle": "Revolt-en saioa hasi",
+        "subtitle": "Arma Battles-en saioa hasi",
         "missing_verification": "Ez duzu mezu elektronikorik jaso?",
         "welcome2": "Kaixo!",
         "subtitle2": "Kontu bat sortu"
@@ -355,7 +355,7 @@
                     "issue_desc": "Arazoak errazago sailkatzen laguntzeko, arazo bat sor dezakezu GitHub-en.",
                     "suggest": "Bidali funtzio iradokizuna",
                     "bug_desc": "Ikusi unean aktibo dauden akatsen txostenak hemen.",
-                    "suggest_desc": "Iradoki Revolt ezaugarri berriak GitHub eztabaidetan.",
+                    "suggest_desc": "Iradoki Arma Battles ezaugarri berriak GitHub eztabaidetan.",
                     "issue": "Sortu zenbaki berria"
                 },
                 "logOut": "Saioa amaitu",
@@ -556,7 +556,7 @@
                 "accept": "Onartu Gonbidapena",
                 "user_count": "{{member_count}} erabiltzaileak",
                 "invalid": "Gonbidapen baliogabea!",
-                "login": "Sartu Revolt-en",
+                "login": "Sartu Arma Battles-en",
                 "invalid_desc": "Baliteke gonbidapena ez egotea edo ez duzu sartzeko baimenik."
             }
         },
@@ -571,8 +571,8 @@
             "feedback_desc": "Jakin dezagun nola hobetu dezakegun gure aplikazioa zure iritzia emanez.",
             "join-testers": "Proba-zerbitzariarekin bat egin",
             "goto-testers": "Probalekuen zerbitzaria",
-            "donate": "Revolt-i dohaintza egitea",
-            "feedback": "Revolti buruzko iritzia eman"
+            "donate": "Arma Battles-i dohaintza egitea",
+            "feedback": "Arma Battlesi buruzko iritzia eman"
         }
     },
     "general": {

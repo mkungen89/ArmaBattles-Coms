@@ -13,7 +13,7 @@
     },
     "login": {
         "title": "入之",
-        "subtitle": "入 Revolt",
+        "subtitle": "入 Arma Battles",
         "subtitle2": "造一帳本",
         "register": "登名造冊",
         "username": "汝之名諱",
@@ -31,7 +31,7 @@
         "forgot": "汝忘暗語？",
         "reset": "重書暗語",
         "set_password": "書新暗語",
-        "new": "初用 Revolt？",
+        "new": "初用 Arma Battles？",
         "cancel": "請罷",
         "missing_verification": "未得洋飛鴿？",
         "email_delay": "請待洋飛鴿達，久至二三刻。",
@@ -81,14 +81,14 @@
             "directs": "密件",
             "join-testers_desc": "君可於此上奏。",
             "goto-testers_desc": "君可於此上奏。",
-            "donate": "打賞Revolt",
-            "discover": "窮Revolt之面貌",
+            "donate": "打賞Arma Battles",
+            "discover": "窮Arma Battles之面貌",
             "discover_desc": "尋與君志同道合之朋黨。",
             "group": "立黨",
             "group_desc": "迎汝之友，炫洋鐵俑辦一筵席。",
             "feedback_desc": "請示高見使吾等知何修業益進。",
             "donate_desc": "以銀兩援助之 不勝感激！",
-            "feedback": "予 Revolt 高見",
+            "feedback": "予 Arma Battles 高見",
             "join-testers": "入試者伺服器"
         },
         "main": {
@@ -299,7 +299,7 @@
             },
             "requires_online": "君需上朝方可閱此。",
             "invite": {
-                "login": "入 Revolt",
+                "login": "入 Arma Battles",
                 "invited_by": "{{user}} 邀之",
                 "invalid": "無用之請束！"
             }

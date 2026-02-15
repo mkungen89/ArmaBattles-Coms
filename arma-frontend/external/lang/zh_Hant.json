@@ -137,7 +137,7 @@
                     "bug_desc": "查看當前活躍的錯誤回報。",
                     "issue_desc": "為了幫助我們更輕鬆的區分問題，您可以在 Github 上新增 Issue。",
                     "issue": "新增 Issue",
-                    "suggest_desc": "在 Github 討論區為 Revolt 建議新功能。",
+                    "suggest_desc": "在 Github 討論區為 Arma Battles 建議新功能。",
                     "suggest": "提交功能建議",
                     "title": "意見回饋",
                     "description": "提供反應"
@@ -486,7 +486,7 @@
                 "user_timed_out": "用戶超時 {{time}}.",
                 "bridged": "訊息傳送自其他平台",
                 "team": "官方社群",
-                "new_to_revolt": "Revolt 新手",
+                "new_to_revolt": "Arma Battles 新手",
                 "new_to_server": "伺服器新成員",
                 "reactions": {
                     "others_reacted": "{{userlist}} 和其他 {{count}} 人做出反應",
@@ -609,7 +609,7 @@
                 },
                 "changelogs": {
                     "title": "更新日誌",
-                    "description": "閱讀 Revolt 的更新內容。",
+                    "description": "閱讀 Arma Battles 的更新內容。",
                     "older": "查看以前的更新"
                 },
                 "mfa": {
@@ -642,7 +642,7 @@
                         "Harassment": "針對其他使用者的騷擾或辱罵"
                     },
                     "reported": "已檢舉",
-                    "thank_you": "感謝您協助維護Revolt的安全，我們會盡快審查您的檢舉。",
+                    "thank_you": "感謝您協助維護Arma Battles的安全，我們會盡快審查您的檢舉。",
                     "block_user": "您想要封鎖這位使用者嗎？",
                     "additional_context": "附加訊息"
                 },
@@ -712,7 +712,7 @@
             "requires_online": "您需要上線才能查看。",
             "invite": {
                 "invited_by": "由 {{user}} 邀請",
-                "login": "登入 Revolt",
+                "login": "登入 Arma Battles",
                 "accept": "接受邀請",
                 "user_count": "{{member_count}} 位使用者",
                 "invalid": "邀請無效！",
@@ -788,11 +788,11 @@
         },
         "home": {
             "goto-testers": "前往測試者伺服器",
-            "donate": "捐獻給 Revolt",
+            "donate": "捐獻給 Arma Battles",
             "settings": "開啟設定",
             "join-testers": "加入測試者伺服器",
             "social": "尋找其他伺服器和機器人",
-            "feedback": "給予 Revolt 回饋",
+            "feedback": "給予 Arma Battles 回饋",
             "settings-tooltip": "您也可以右鍵點擊左上角的使用者頭像，或是在首頁點擊左鍵。",
             "directs": "私人訊息",
             "join-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
@@ -802,7 +802,7 @@
             "discover_desc": "根據您的愛好或興趣尋找社群。",
             "group": "建立群組",
             "group_desc": "邀請您所有的朋友，一些很酷的機器人，並舉辦一個盛大的派對。",
-            "discover": "探索 Revolt"
+            "discover": "探索 Arma Battles"
         }
     },
     "login": {
@@ -823,7 +823,7 @@
         "resend": "重新發送認證碼",
         "missing_verification": "沒有收到電子郵件？",
         "existing": "已經有一個帳號了嗎？",
-        "new": "第一次使用 Revolt？",
+        "new": "第一次使用 Arma Battles？",
         "remembered": "返回登入頁面",
         "set_password": "設定新密碼",
         "reset": "重設密碼",
@@ -846,7 +846,7 @@
         "welcome2": "您好！",
         "subtitle2": "建立帳號",
         "welcome": "歡迎！",
-        "subtitle": "登入 Revolt",
+        "subtitle": "登入 Arma Battles",
         "unofficial_instance": "第三方實例。",
         "totp": "二步驟驗證程式",
         "recovery": "備份安全碼",

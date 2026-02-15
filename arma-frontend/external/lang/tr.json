@@ -180,7 +180,7 @@
                     "single_reacted": "1 kişi tepki verdi",
                     "people_reacted": "{{people}} tepki verdi"
                 },
-                "new_to_revolt": "Revolt'ta yeni",
+                "new_to_revolt": "Arma Battles'ta yeni",
                 "new_to_server": "Bu sunucuda yeni"
             },
             "groups": {
@@ -348,7 +348,7 @@
                     "describe": "Lütfen sorunu belirtin.",
                     "send": "Geri bildirim Gönder",
                     "suggest": "Özellik tavsiyesi gönder",
-                    "suggest_desc": "GitHub tartışmalarında yeni Revolt özellikleri önerin.",
+                    "suggest_desc": "GitHub tartışmalarında yeni Arma Battles özellikleri önerin.",
                     "issue": "Yeni bir konu oluştur",
                     "issue_desc": "Sorunları daha kolay öncelik vermemize yardımcı olmak için GitHub'da bir konu oluşturabilirsiniz.",
                     "bug_desc": "Şu anda aktif olan hata raporlarını buradan görüntüleyin.",
@@ -411,7 +411,7 @@
                     "output_device": "Hoparlör / Kulaklık",
                     "button_retry": "tekrar dene",
                     "device_label_NA": "Yok",
-                    "tip_retry": "Revolt'un mikrofonunuza erişimine izin vermedin.Lütfen {{retryBtn}}.",
+                    "tip_retry": "Arma Battles'un mikrofonunuza erişimine izin vermedin.Lütfen {{retryBtn}}.",
                     "tip_grant_permission": "Ses ayarlarına izin vermeniz gerekiyor.",
                     "button_grant": "İzin ver"
                 },
@@ -722,7 +722,7 @@
                 },
                 "changelogs": {
                     "title": "Değişim Kayıtları",
-                    "description": "Revolt güncellemeleri hakkında bilgi edinin.",
+                    "description": "Arma Battles güncellemeleri hakkında bilgi edinin.",
                     "older": "Eski güncellemelere bakın"
                 },
                 "confirm": "İşlemi onayla",
@@ -755,7 +755,7 @@
                         "Impersonation": "Bu kullanıcı başka birini taklit ediyor",
                         "BanEvasion": "Bu kullanıcı bir yasaktan kaçıyor"
                     },
-                    "thank_you": "Revolt'u güvende tutmaya yardım ettiğiniz için teşekkür ederiz. Raporunuzu en kısa zamanda inceleyeceğiz.",
+                    "thank_you": "Arma Battles'u güvende tutmaya yardım ettiğiniz için teşekkür ederiz. Raporunuzu en kısa zamanda inceleyeceğiz.",
                     "reported": "Raporlandı",
                     "block_user": "Bu kullanıcıyı engellemek ister misiniz?"
                 },
@@ -806,7 +806,7 @@
             "copy": "Kopyalamak için tıkla",
             "invite": {
                 "invited_by": "{{user}} tarafından davet edildi",
-                "login": "Revolt'a Giriş Yap",
+                "login": "Arma Battles'a Giriş Yap",
                 "accept": "Daveti Kabul Et",
                 "user_count": "{{member_count}} kullanıcı",
                 "invalid": "Geçersiz davet!",
@@ -821,8 +821,8 @@
             "required": "Gerekli izinler"
         },
         "home": {
-            "donate": "Revolt'a bağış yap",
-            "feedback": "Revolt'ta geri bildirimde bulun",
+            "donate": "Arma Battles'a bağış yap",
+            "feedback": "Arma Battles'ta geri bildirimde bulun",
             "settings": "Ayarları aç",
             "social": "Sunucuları & Botları Bul",
             "join-testers": "Test edenler sunucusuna katıl",
@@ -832,7 +832,7 @@
             "join-testers_desc": "Sorunları bildirebilir ve gelişmeleri bizimle doğrudan buradan paylaşabilirsin.",
             "goto-testers_desc": "Sorunları bildirebilir ve gelişmeleri bizimle doğrudan buradan paylaşabilirsin.",
             "donate_desc": "Bağış yaparak projeyi destekleyin - teşekkürler!",
-            "discover": "Revolt'u Keşfedin",
+            "discover": "Arma Battles'u Keşfedin",
             "discover_desc": "Hobi ya da ilgi alanlarınıza göre bir topluluk bulun.",
             "group": "Bir grup oluştur",
             "group_desc": "Tüm arkadaşlarını, havalı botları davet edin ve büyük bir parti verin.",
@@ -870,7 +870,7 @@
         "reset": "Şifreni sıfırla",
         "set_password": "Yeni şifre belirleyin",
         "remembered": "Giriş sayfasına geri dönün",
-        "new": "Revolt'a yeni misiniz?",
+        "new": "Arma Battles'a yeni misiniz?",
         "create": "Yeni bir hesap oluştur",
         "resend": "Tekrar doğrulama gönder",
         "cancel": "İsteği iptal et",
@@ -891,7 +891,7 @@
         "email_delay": "Size bir doğrulama epostası gönderdik. Lütfen gelmesi için 10 dakikaya kadar bekleyin.",
         "welcome2": "Merhaba!",
         "subtitle2": "Bir hesap oluştur",
-        "subtitle": "Revolt'ta Oturum Aç",
+        "subtitle": "Arma Battles'ta Oturum Aç",
         "welcome": "Hoş geldin!",
         "unofficial_instance": "Üçüncü taraf örneği.",
         "totp": "Kimlik Doğrulama Uygulaması",

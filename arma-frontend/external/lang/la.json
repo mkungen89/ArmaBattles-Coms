@@ -30,7 +30,7 @@
         "set_password": "Tessera nova",
         "remembered": "Redire ad login",
         "forgot": "Nonne obliviscaris password?",
-        "new": "Nova in Revolt?",
+        "new": "Nova in Arma Battles?",
         "existing": "Habesne iam rationem?",
         "create": "Novum rationem crea",
         "resend": "Verificatam iterum mitte",
@@ -183,7 +183,7 @@
                     "single_reacted": "Unus homo respondit",
                     "people_reacted": "{{people}} responderunt"
                 },
-                "new_to_revolt": "Novus usor Revolt",
+                "new_to_revolt": "Novus usor Arma Battles",
                 "new_to_server": "Usor novus in hoc servo"
             },
             "groups": {
@@ -210,12 +210,12 @@
             "goto-testers": "Ad probatorem servo",
             "settings-tooltip": "Potes etiam ius-click in icon utentis sinistra vel sinistra superioris, si iam domi es.",
             "join-testers": "Iungere testers server",
-            "donate": "Datum to Revolt",
-            "feedback": "Subicite feedback on Revolt",
+            "donate": "Datum to Arma Battles",
+            "feedback": "Subicite feedback on Arma Battles",
             "settings": "Open occasus",
             "social": "Reperio servers & minores",
             "directs": "Mandata Directa",
-            "discover": "Invenire Revolt",
+            "discover": "Invenire Arma Battles",
             "group": "Facere unus group",
             "feedback_desc": "Sciamus quomodo app emendare possumus, nobis feedback dando.",
             "join-testers_desc": "Potes referre quaestiones et emendare nobiscum hic directe.",
@@ -377,7 +377,7 @@
                     "input_device": "Microphonum",
                     "device_label_NA": "N/A",
                     "button_retry": "Iterum tenta",
-                    "tip_retry": "Revolt microphono tuo accedere non permisisti. Quaeso {{retryBtn}}.",
+                    "tip_retry": "Arma Battles microphono tuo accedere non permisisti. Quaeso {{retryBtn}}.",
                     "tip_grant_permission": "Vos postulo ut licentiam aditus audio occasus concedas."
                 },
                 "sync": {
@@ -802,7 +802,7 @@
                 "invited_by": "Invitatus a {{user}}",
                 "invalid": "Irritum invitare!",
                 "accept": "Accipere invitare",
-                "login": "Login to Revolt",
+                "login": "Login to Arma Battles",
                 "invalid_desc": "Invitatio forsitan non exsistat, aut non habes licentiam iungere."
             },
             "status": {

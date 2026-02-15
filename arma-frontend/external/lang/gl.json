@@ -40,7 +40,7 @@
         "reset": "Restablecer o contrasinal",
         "set_password": "Establecer un novo contrasinal",
         "remembered": "Voltar ao inicio de sesión",
-        "new": "Primeira vez en Revolt?",
+        "new": "Primeira vez en Arma Battles?",
         "existing": "Xa tes unha conta?",
         "create": "Crear unha conta nova",
         "resend": "Reenviar verificación",
@@ -60,7 +60,7 @@
             "resend": "Non se puido reenviar!"
         },
         "unofficial_instance": "Instancia de terceiros.",
-        "subtitle": "Iniciar sesión en Revolt",
+        "subtitle": "Iniciar sesión en Arma Battles",
         "recovery": "Código de recuperación",
         "missing_verification": "Non recibiches un correo electrónico?",
         "check_spam": "Por favor, revisa o cartafol de spam se non o atopas"
@@ -89,12 +89,12 @@
             "join-testers": "Unirse ao servidor de probadores",
             "goto-testers": "Ir ao servidor de probadores",
             "goto-testers_desc": "Podes informar de problemas e discutir melloras connosco directamente aquí.",
-            "donate": "Donar a Revolt",
+            "donate": "Donar a Arma Battles",
             "donate_desc": "Apoia o proxecto facendo unha doación - grazas!",
-            "feedback": "Danos a túa opinión sobre Revolt",
+            "feedback": "Danos a túa opinión sobre Arma Battles",
             "settings": "Abrir axustes",
             "settings-tooltip": "Tamén podes facer clic dereito na icona de usuario na parte superior esquerda, ou clic esquerdo se xa estás no inicio.",
-            "discover": "Descobre Revolt",
+            "discover": "Descobre Arma Battles",
             "discover_desc": "Encontra unha comunidade basada nas túas aficións ou intereses.",
             "group": "Crea un grupo",
             "join-testers_desc": "Podes informar de problemas e discutir melloras connosco directamente aquí.",
@@ -179,7 +179,7 @@
                 "edited": "(editado)",
                 "bot": "Bot",
                 "bridge": "ponte",
-                "new_to_revolt": "Novo en Revolt",
+                "new_to_revolt": "Novo en Arma Battles",
                 "new_to_server": "Novo neste servidor",
                 "team": "Comunicación oficial",
                 "user_timed_out": "Usuario castigado durante {{time}}.",
@@ -390,7 +390,7 @@
                     "issue_desc": "Para axudarnos a clasificar os problemas con maior facilidade, podes abrir unha incidencia en GitHub.",
                     "title": "Comentarios",
                     "description": "Enviar comentarios",
-                    "suggest_desc": "Suxerir novas características para Revolt nas discusións de GitHub.",
+                    "suggest_desc": "Suxerir novas características para Arma Battles nas discusións de GitHub.",
                     "issue": "Informar dun problema",
                     "bug": "Rastrexador de erros",
                     "bug_desc": "Consulta aquí os informes de erros activos."
@@ -420,7 +420,7 @@
                     "button_retry": "tentar de novo",
                     "button_grant": "Conceder permiso",
                     "tip_grant_permission": "Debes conceder permiso para acceder aos axustes de audio.",
-                    "tip_retry": "Non diches permiso a Revolt para acceder ao teu micrófono. Por favor, {{retryBtn}}."
+                    "tip_retry": "Non diches permiso a Arma Battles para acceder ao teu micrófono. Por favor, {{retryBtn}}."
                 },
                 "notifications": {
                     "title": "Notificacións",
@@ -667,7 +667,7 @@
                         "Impersonation": "Este usuario está suplantando a outra persoa",
                         "Underage": "Este usuario non ten a idade mínima para ter unha conta"
                     },
-                    "thank_you": "Grazas por axudar a manter seguro Revolt. Revisaremos o teu reporte na maior brevidade posible.",
+                    "thank_you": "Grazas por axudar a manter seguro Arma Battles. Revisaremos o teu reporte na maior brevidade posible.",
                     "message": "Reportar mensaxe",
                     "by_name": "Reportar {{name}}",
                     "reason": "Motivo",
@@ -693,7 +693,7 @@
                     "enter_code": "Introducir o código"
                 },
                 "changelogs": {
-                    "description": "Le sobre as actualizacións de Revolt.",
+                    "description": "Le sobre as actualizacións de Arma Battles.",
                     "title": "Rexistro de cambios",
                     "older": "Ver actualizacións máis antigas"
                 },
@@ -797,7 +797,7 @@
                 }
             },
             "invite": {
-                "login": "Iniciar sesión en Revolt",
+                "login": "Iniciar sesión en Arma Battles",
                 "invalid_desc": "Pode que a invitación non exista ou non teñas permiso para unirte.",
                 "invited_by": "Convidado por {{user}}",
                 "accept": "Aceptar invitación",

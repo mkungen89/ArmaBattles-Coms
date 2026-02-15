@@ -29,7 +29,7 @@
         "forgot": "Wedi anghofio eich cyfrinair?",
         "reset": "Ailosod cyfrinair",
         "set_password": "Gosod cyfrinair newydd",
-        "new": "Newydd i Revolt?",
+        "new": "Newydd i Arma Battles?",
         "existing": "Eisioes cyfrif yn barod?",
         "create": "Creu cyfrif neywdd",
         "resend": "Ailanfon dilysu",
@@ -52,7 +52,7 @@
         "welcome2": "Helo!",
         "subtitle2": "Creu cryfrif",
         "welcome": "Croeso!",
-        "subtitle": "Mewngofnodi i Revolt",
+        "subtitle": "Mewngofnodi i Arma Battles",
         "verifying_account": "Wrthi'n gwirio'ch cyfrif…",
         "log_out_other": "Allgofnodi o bob sesiwn arall",
         "new_password": "Cyfrinair Newydd",
@@ -83,8 +83,8 @@
         },
         "home": {
             "goto-testers": "Ewch i'r gweinydd profwyr",
-            "donate": "Rhoi arian i Revolt",
-            "feedback": "Rhoi adborth am Revolt",
+            "donate": "Rhoi arian i Arma Battles",
+            "feedback": "Rhoi adborth am Arma Battles",
             "settings": "Agord gosodiadau",
             "social": "Darganfod gweinyddau & botiau",
             "join-testers": "Ymunwch â'r gweinydd profwyr",
@@ -94,7 +94,7 @@
             "goto-testers_desc": "Gallwch adrodd problemau a thrafod gwelliannau gyda ni yn uniongyrchol yma.",
             "donate_desc": "Cefnogwch y prosiect yma gan rhoddi - diolch!",
             "feedback_desc": "Gadewch i ni wybod sut gallwn gwella ain ap gan rhoi adborth iddyn ni.",
-            "discover": "Darganfod Revolt",
+            "discover": "Darganfod Arma Battles",
             "discover_desc": "Darganfodwch gymuned yn seiliedig ar eich hobïau a diddorau.",
             "group": "Creu grwp",
             "group_desc": "Gwahoddwch pob un o'ch ffrindia, rhai botiau cwl, a thaflu parti mawr."
@@ -195,7 +195,7 @@
                 "bridged": "Anfonwyd y neges ar blatfform arall",
                 "team": "Gohebiaeth Swyddogol",
                 "user_timed_out": "Distewir user am {{time}}.",
-                "new_to_revolt": "Newydd i Revolt",
+                "new_to_revolt": "Newydd i Arma Battles",
                 "new_to_server": "Newydd i'r gweinydd hwn",
                 "reactions": {
                     "single_reacted": "Adweithiodd un person",
@@ -283,7 +283,7 @@
                 "audio": {
                     "button_retry": "ail geisio",
                     "button_grant": "Rhoi caniatâd",
-                    "tip_retry": "Ni rhoddwch Revolt y caniatâd i ddefnyddio'r meicroffon. {{retryBtn}} os gwelwch yn dda.",
+                    "tip_retry": "Ni rhoddwch Arma Battles y caniatâd i ddefnyddio'r meicroffon. {{retryBtn}} os gwelwch yn dda.",
                     "tip_grant_permission": "Mae angen iddych chi rhoi caniatâd i ddefnyddio gosodiadau sain.",
                     "device_label_NA": "N/A",
                     "output_device": "Siaradwr / Clustffonau",
@@ -498,7 +498,7 @@
                     }
                 },
                 "feedback": {
-                    "suggest_desc": "Awgrym nodwedd Revolt newydd ar drafodaethau GitHub.",
+                    "suggest_desc": "Awgrym nodwedd Arma Battles newydd ar drafodaethau GitHub.",
                     "issue_desc": "Gallwch yn creu rhifyn ar GitHub i'n helpu brysbennu rhifynnau.",
                     "issue": "Creu rhifyn newydd",
                     "title": "Adborth",

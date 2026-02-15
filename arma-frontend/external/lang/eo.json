@@ -90,7 +90,7 @@
                 "user_timed_out": "Uzanto estas tempolimigita dum {{time}}.",
                 "team": "Oficiala komunikaĵo",
                 "bridged": "Mesaĝo sendiĝis ĉe alia platformo",
-                "new_to_revolt": "Nove en Revolt",
+                "new_to_revolt": "Nove en Arma Battles",
                 "reactions": {
                     "unknown_reacted": "{{count}} homoj reagis",
                     "single_reacted": "1 homo reagis",
@@ -254,7 +254,7 @@
                     "output_device": "Laŭtparolilo / kapaŭskultiloj",
                     "device_label_NA": "Neaplikebla",
                     "button_retry": "reprovi",
-                    "tip_retry": "Vi ne donis al Revolt permeson uzi la mikrofonon. Bonvolu {{retryBtn}}.",
+                    "tip_retry": "Vi ne donis al Arma Battles permeson uzi la mikrofonon. Bonvolu {{retryBtn}}.",
                     "button_grant": "Doni permeson",
                     "tip_grant_permission": "Vi devas doni permeson por aliri agordojn de sono."
                 },
@@ -311,7 +311,7 @@
                     "issue_desc": "Por helpi al ni pli facile ordigi la problemojn, vi povas krei problemraporton ĉe GitHub.",
                     "bug_desc": "Rigardu nune aktivajn cimraportojn ĉi tie.",
                     "suggest": "Sendi sugeston por funkcio",
-                    "suggest_desc": "Proponu novajn funkciojn de Revolt ĉe GitHub Discussions.",
+                    "suggest_desc": "Proponu novajn funkciojn de Arma Battles ĉe GitHub Discussions.",
                     "issue": "Krei novan problemraporton",
                     "bug": "Cimspurilo",
                     "description": "Alsendi prikomentojn"
@@ -638,7 +638,7 @@
                 },
                 "changelogs": {
                     "title": "Ŝanĝoprotokoloj",
-                    "description": "Legu pri ĝisdatigoj de Revolt.",
+                    "description": "Legu pri ĝisdatigoj de Arma Battles.",
                     "older": "Vidi malnovajn ĝisdatigojn"
                 },
                 "sessions": {
@@ -668,7 +668,7 @@
                         "Underage": "Ĉi tiu uzanto ne sufiĉe aĝas por havi konton"
                     },
                     "reported": "Raportite",
-                    "thank_you": "Dankon pro helpi plu sekurigi Revolt. Ni kontrolos vian raporton kiel eble plej baldaŭe.",
+                    "thank_you": "Dankon pro helpi plu sekurigi Arma Battles. Ni kontrolos vian raporton kiel eble plej baldaŭe.",
                     "block_user": "Ĉu vi volas bloki ĉi tiun uzanton?"
                 },
                 "edit_keybind": {
@@ -716,7 +716,7 @@
             "invite": {
                 "invalid_desc": "La invitilo eble ne ekzistas, alie vi ne havas permeson por aliĝi.",
                 "invited_by": "Invitita de {{user}}",
-                "login": "Ensaluti al Revolt",
+                "login": "Ensaluti al Arma Battles",
                 "accept": "Akcepti inviton",
                 "invalid": "Nevalida invitilo!",
                 "user_count": "{{member_count}} uzantoj"
@@ -792,8 +792,8 @@
         },
         "home": {
             "goto-testers": "Iri al la servilo de testantoj",
-            "donate": "Donaci al Revolt",
-            "feedback": "Prikomenti al Revolt",
+            "donate": "Donaci al Arma Battles",
+            "feedback": "Prikomenti al Arma Battles",
             "settings": "Malfermi agordojn",
             "social": "Trovi servilojn kaj robotojn",
             "join-testers": "Aliĝi al la servilo de testantoj",
@@ -804,7 +804,7 @@
             "feedback_desc": "Sciigu nin kiel ni povas plibonigi nian apon, prikomentante al ni.",
             "discover_desc": "Trovu komunumon baze sur viaj ŝatokupoj aŭ interesoj.",
             "group_desc": "Invitu viajn amikojn, kelkajn mojosajn robotojn, kaj faru grandan feston.",
-            "discover": "Malkovri Revolt",
+            "discover": "Malkovri Arma Battles",
             "group": "Krei grupon",
             "goto-testers_desc": "Vi povas raporti problemojn kaj rekte priparoli plibonigojn kun ni ĉi tie."
         },
@@ -830,7 +830,7 @@
         "missing_verification": "Ĉu neniu retpoŝto alvenis?",
         "create": "Krei novan konton",
         "existing": "Ĉu vi jam havas konton?",
-        "new": "Ĉu vi novas en Revolt?",
+        "new": "Ĉu vi novas en Arma Battles?",
         "remembered": "Reiri al ensalutado",
         "set_password": "Agordi novan pasvorton",
         "reset": "Restarigi pasvorton",
@@ -853,7 +853,7 @@
         "welcome2": "Saluton!",
         "subtitle2": "Krei konton",
         "welcome": "Bonvenon!",
-        "subtitle": "Ensaluti al Revolt",
+        "subtitle": "Ensaluti al Arma Battles",
         "totp": "Aŭtentiga apo",
         "recovery": "Restariga kodo",
         "unofficial_instance": "Apero de ekstera liveranto.",

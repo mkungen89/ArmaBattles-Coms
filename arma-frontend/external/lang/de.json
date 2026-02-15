@@ -28,7 +28,7 @@
         "forgot": "Passwort vergessen?",
         "reset": "Passwort zurücksetzen",
         "remembered": "Zurück zum Login",
-        "new": "Neu bei Revolt?",
+        "new": "Neu bei Arma Battles?",
         "existing": "Hast du bereits einen Account?",
         "create": "Neuen Account erstellen",
         "cancel": "Anfrage abbrechen",
@@ -52,7 +52,7 @@
         "welcome2": "Hallo!",
         "subtitle2": "Einen Account erstellen",
         "welcome": "Willkommen!",
-        "subtitle": "Bei Revolt anmelden",
+        "subtitle": "Bei Arma Battles anmelden",
         "unofficial_instance": "Drittanbieter-Instanz.",
         "totp": "Authentifizierungs-App",
         "recovery": "Wiederherstellungscode",
@@ -184,7 +184,7 @@
                     "single_reacted": "Eine Person hat reagiert",
                     "people_reacted": "{{people}} haben reagiert"
                 },
-                "new_to_revolt": "Neu bei Revolt",
+                "new_to_revolt": "Neu bei Arma Battles",
                 "new_to_server": "Neu bei diesem Server"
             },
             "groups": {
@@ -365,7 +365,7 @@
                 },
                 "changelogs": {
                     "title": "Änderungsprotokolle",
-                    "description": "Lies mehr über die Aktualisierungen von Revolt.",
+                    "description": "Lies mehr über die Aktualisierungen von Arma Battles.",
                     "older": "Ältere Aktualisierungen anzeigen"
                 },
                 "mfa": {
@@ -387,7 +387,7 @@
                 },
                 "report": {
                     "reported": "Gemeldet",
-                    "thank_you": "Danke für deine Mithilfe Revolt zu einem Sicheren Ort zu machen. Wir werden deine Meldung so schnell wie möglich beurteilen.",
+                    "thank_you": "Danke für deine Mithilfe Arma Battles zu einem Sicheren Ort zu machen. Wir werden deine Meldung so schnell wie möglich beurteilen.",
                     "block_user": "Möchtest du diesen Benutzer blockieren?",
                     "content_reason": {
                         "PromotesHarm": "Inhalt fördert Gewalt gegen andere oder einen Selbst",
@@ -461,7 +461,7 @@
             "copy": "Klick hier zum kopieren",
             "invite": {
                 "invited_by": "Eingeladen von {{user}}",
-                "login": "Bei Revolt anmelden",
+                "login": "Bei Arma Battles anmelden",
                 "accept": "Einladung annehmen",
                 "user_count": "{{member_count}} Mitglieder",
                 "invalid": "Ungültige Einladung!",
@@ -608,7 +608,7 @@
                     "feature": "Vorschlag für ein fehlendes Feature",
                     "report": "Über was willst du berichten?",
                     "suggest": "Funktionsvorschlag einreichen",
-                    "suggest_desc": "Schlage neue Revolt-Funktionen in GitHub Discussions vor.",
+                    "suggest_desc": "Schlage neue Arma Battles-Funktionen in GitHub Discussions vor.",
                     "issue": "Neues Issue erstellen",
                     "issue_desc": "Damit wir Probleme leichter einordnen können, kannst du ein Issue auf GitHub erstellen.",
                     "bug_desc": "Zeige aktuell aktive Bugmeldungen hier an.",
@@ -672,7 +672,7 @@
                     "title": "Spracheinstellungen",
                     "output_device": "Ausgabegerät",
                     "input_device": "Eingabegerät",
-                    "tip_retry": "Du hast Revolt nicht die Berechtigung gegeben, auf dein Mikrofon zuzugreifen. Bitte {{retryBtn}}.",
+                    "tip_retry": "Du hast Arma Battles nicht die Berechtigung gegeben, auf dein Mikrofon zuzugreifen. Bitte {{retryBtn}}.",
                     "device_label_NA": "Nicht angegeben",
                     "button_retry": "Erneut versuchen",
                     "tip_grant_permission": "Du musst die Berechtigung erteilen, um auf die Audioeinstellungen zugreifen zu können.",
@@ -887,13 +887,13 @@
         "home": {
             "join-testers": "Betrete den Test-Server",
             "goto-testers": "Gehe zum Test-Server",
-            "donate": "Spende an Revolt",
-            "feedback": "Feedback zu Revolt geben",
+            "donate": "Spende an Arma Battles",
+            "feedback": "Feedback zu Arma Battles geben",
             "settings": "Einstellungen öffnen",
             "settings-tooltip": "Du kannst auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste darauf klicken, wenn du bereits auf der Hauptseite bist.",
             "social": "Server & Bots finden",
             "directs": "Direktnachrichten",
-            "discover": "Entdecke Server bei Revolt",
+            "discover": "Entdecke Server bei Arma Battles",
             "group": "Eine Gruppe erstellen",
             "feedback_desc": "Teile uns mit, wie wir unsere App verbessern können, indem du uns ein Feedback gibst.",
             "goto-testers_desc": "Hier kannst du Probleme melden und Vorschläge einbringen.",

@@ -23,7 +23,7 @@
             "invite": "Anna kutsukoodisi.",
             "new_password": "Anna uusi salasana."
         },
-        "new": "Uusi Revoltin käyttäjä?",
+        "new": "Uusi Arma Battlesin käyttäjä?",
         "create": "Luo uusi tili",
         "title": "Kirjaudu sisään",
         "check_spam": "Tarkista roskapostikansiosi, jos et löydä sitä",
@@ -50,7 +50,7 @@
         "cancel": "Peruuta pyyntö",
         "email_delay": "Lähetimme vahvistussähköpostin. Joudut odottamaan jopa 10 minuuttia sen saapumista.",
         "welcome": "Tervetuloa!",
-        "subtitle": "Kirjaudu Revoltiin",
+        "subtitle": "Kirjaudu Arma Battlesiin",
         "welcome2": "Hei!",
         "subtitle2": "Luo tili",
         "unofficial_instance": "Kolmannen osapuolen instanssi.",
@@ -154,7 +154,7 @@
                 "team": "Virallinen viestintä",
                 "bridged": "Viesti on lähetetty toisella alustalla",
                 "user_timed_out": "Käyttäjä on aikakatkaistu ajaksi {{time}}.",
-                "new_to_revolt": "Uutta Revoltissa",
+                "new_to_revolt": "Uutta Arma Battlesissa",
                 "new_to_server": "Uutta tällä palvelimella",
                 "reactions": {
                     "others_reacted": "{{userlist}} ja {{count}} muuta reagoivat",
@@ -380,7 +380,7 @@
                 },
                 "changelogs": {
                     "title": "Muutoslokit",
-                    "description": "Lue Revoltin päivityksistä.",
+                    "description": "Lue Arma Battlesin päivityksistä.",
                     "older": "Näytä vanhemmat päivitykset"
                 },
                 "out_of_date": {
@@ -391,7 +391,7 @@
                     "title": "Asiakasohjelmasi on vanhentunut!"
                 },
                 "report": {
-                    "thank_you": "Kiitos, että autat pitämään Revoltin turvallisena. Tarkistamme ilmoituksesi mahdollisimman pian.",
+                    "thank_you": "Kiitos, että autat pitämään Arma Battlesin turvallisena. Tarkistamme ilmoituksesi mahdollisimman pian.",
                     "reported": "Ilmoitettu",
                     "block_user": "Haluatko estää tämän käyttäjän?",
                     "additional_context": "Lisätietoja",
@@ -443,7 +443,7 @@
             "copy": "Kopioi napsauttamalla",
             "invite": {
                 "invited_by": "Kutsuja: {{user}}",
-                "login": "Kirjaudu sisään Revolttiin",
+                "login": "Kirjaudu sisään Arma Battlestiin",
                 "accept": "Hyväksy kutsu",
                 "invalid": "Virheellinen kutsu!",
                 "user_count": "{{member_count}} käyttäjät",
@@ -467,7 +467,7 @@
                     "suggest": "Lähetä ominaisuusehdotus",
                     "issue": "Luo uusi ongelma",
                     "bug_desc": "Katso tällä hetkellä aktiivisia bugireportteja täällä.",
-                    "suggest_desc": "Ehdota uusia ominaisuuksia Revoltiin GitHubin keskusteluissa.",
+                    "suggest_desc": "Ehdota uusia ominaisuuksia Arma Battlesiin GitHubin keskusteluissa.",
                     "issue_desc": "Auttaaksesi meitä korjaamaan ongelmia, voit luoda ongelman GitHubiin.",
                     "description": "Lähetä palautetta"
                 },
@@ -876,8 +876,8 @@
         "home": {
             "join-testers": "Liity testaajien palvelimeen",
             "goto-testers": "Mene testaajien palvelimeen",
-            "donate": "Lahjoita Revoltille",
-            "feedback": "Anna palautetta Revoltista",
+            "donate": "Lahjoita Arma Battlesille",
+            "feedback": "Anna palautetta Arma Battlesista",
             "settings": "Avaa asetukset",
             "settings-tooltip": "Voit myös napsauttaa oikealla klikkauksella vasemmassa yläkulmassa olevaa käyttäjäkuvaketta, tai napsauttaa sitä vasemmalla klikkauksella, jos olet jo kotona.",
             "social": "Löydä palvelimia & botteja",
@@ -886,7 +886,7 @@
             "goto-testers_desc": "Voit ilmoittaa ongelmia ja keskustella kanssamme parannuksista täällä.",
             "donate_desc": "Tue projektia lahjoittamalla - kiitos!",
             "feedback_desc": "Kerro meille, miten voimme parantaa sovellustamme antamalla palautetta.",
-            "discover": "Löydä Revolt",
+            "discover": "Löydä Arma Battles",
             "group": "Luo ryhmä",
             "group_desc": "Kutsu kaikki ystäväsi, muutama botti, ja aloita juhlat.",
             "discover_desc": "Löydä harrastuksiisi tai kiinnostuksen kohteisiisi pohjautuva yhteisö."

@@ -87,7 +87,7 @@
                     "toggle": "Uključi ping za autora"
                 },
                 "bridge": "most",
-                "new_to_revolt": "Novi na Revoltu",
+                "new_to_revolt": "Novi na Arma Battlesu",
                 "team": "Službena komunikacija",
                 "bridged": "Poruka je poslana na drugoj platformi",
                 "new_to_server": "Novi u serveru",
@@ -321,7 +321,7 @@
                     "other": "Ostalo",
                     "send": "Pošalji feedback",
                     "describe": "Opišite problem.",
-                    "suggest_desc": "Predložite nove značajke Revolta u raspravama na GitHubu.",
+                    "suggest_desc": "Predložite nove značajke Arma Battlesa u raspravama na GitHubu.",
                     "issue": "Izradite novo izdanje",
                     "suggest": "Pošaljite prijedlog značajke",
                     "issue_desc": "Da biste nam lakše olakšali probleme s trijažom, problem možete stvoriti na GitHubu.",
@@ -591,7 +591,7 @@
                         "Harassment": "Ovo je maltretiranje ili omalovažanje ciljano na drugog korisnika"
                     },
                     "by_name": "Prijavi {{name}}",
-                    "thank_you": "Hvala vam što čuvate Revolt sigurnim. Pregledat ćemo vašu prijavu što prije moguće.",
+                    "thank_you": "Hvala vam što čuvate Arma Battles sigurnim. Pregledat ćemo vašu prijavu što prije moguće.",
                     "block_user": "Želite li blokirati ovog korisnika?",
                     "no_reason": "Razlog nije specifiran / drugi razlog",
                     "user_reason": {
@@ -605,7 +605,7 @@
                 },
                 "changelogs": {
                     "title": "Spis promjena",
-                    "description": "Pročitaj promjene na Revoltu.",
+                    "description": "Pročitaj promjene na Arma Battlesu.",
                     "older": "Pogledaj starije promjene"
                 },
                 "confirm": "Potvrdi akciju"
@@ -651,7 +651,7 @@
             "invite": {
                 "user_count": "Broj korisnika: {{member_count}}",
                 "invited_by": "Pozvao korisnik {{user}}",
-                "login": "Prijavite se u Revolt",
+                "login": "Prijavite se u Arma Battles",
                 "accept": "Prihvati Poziv",
                 "invalid": "Pogrešan invite!",
                 "invalid_desc": "Invite možda ne postoji ili nemaš dozvolu za pristup."
@@ -724,9 +724,9 @@
         },
         "home": {
             "join-testers": "Pridružite se serveru za testiranje",
-            "feedback": "Dajte povratne informacije Revoltu",
+            "feedback": "Dajte povratne informacije Arma Battlesu",
             "goto-testers": "Idite do servera za testiranje",
-            "donate": "Donirajte Revoltu",
+            "donate": "Donirajte Arma Battlesu",
             "settings": "Otvori podešavanja",
             "social": "Nađite servere i botove",
             "settings-tooltip": "Također možete kliknuti desnom tipkom miša na ikonu korisnika u gornjem lijevom kutu ili je kliknuti lijevom tipkom ako ste već kod kuće.",
@@ -735,7 +735,7 @@
             "goto-testers_desc": "Možete prijaviti greške i razgovarati o poboljšanjima s nama izravno ovdje.",
             "donate_desc": "Podržite projekt donacijom - hvala!",
             "feedback_desc": "Javite nam kako možemo poboljšati našu aplikaciju ostavljajući nam povratne informacije.",
-            "discover": "Istraži Revolt",
+            "discover": "Istraži Arma Battles",
             "discover_desc": "Pronađite zajednicu koja se temelji na vašim hobijima ili interesima.",
             "group": "Stvori grupu",
             "group_desc": "Pozovite sve svoje prijatelje, neke cool botove i priredite veliku zabavu."
@@ -758,7 +758,7 @@
         "missing_verification": "Niste primili e-poruku?",
         "create": "Napravi novi račun",
         "existing": "Već imate račun?",
-        "new": "Novi ste na Revolt-u?",
+        "new": "Novi ste na Arma Battles-u?",
         "remembered": "Vrati se na prijavu",
         "set_password": "Postavi novu zaporku",
         "reset": "Promjeni zaporku",
@@ -780,7 +780,7 @@
         "title": "Prijavi se",
         "email_delay": "Pričekajte do 10 minuta da se pojavi.",
         "welcome": "Dobro došli!",
-        "subtitle": "Prijavi se u Revolt",
+        "subtitle": "Prijavi se u Arma Battles",
         "welcome2": "Bok!",
         "subtitle2": "Napravi račun",
         "totp": "Aplikacija za autentifikaciju",

@@ -77,7 +77,7 @@
                 "feedback": {
                     "title": "Tagasiside",
                     "suggest": "Saada soovitus",
-                    "suggest_desc": "Soovita Revoltile uus funktsionaalsus läbi GitHub Discussions'i.",
+                    "suggest_desc": "Soovita Arma Battlesile uus funktsionaalsus läbi GitHub Discussions'i.",
                     "issue": "Teavita veast",
                     "bug": "Vigade jälgija",
                     "bug_desc": "Vaata hetkel aktiivsete vigade listi siit.",
@@ -134,7 +134,7 @@
                     "output_device": "Kõlarid / Kõrvaklapid",
                     "device_label_NA": "Pole saadaval",
                     "button_retry": "proovi uuesti",
-                    "tip_retry": "Sa ei andnud Revoltile luba mikrofoni kasutamiseks. Palun {{retryBtn}}.",
+                    "tip_retry": "Sa ei andnud Arma Battlesile luba mikrofoni kasutamiseks. Palun {{retryBtn}}.",
                     "button_grant": "Andke luba",
                     "tip_grant_permission": "Te peate andma mikrofoni kasutamiseks õiguse et muuta helisätteid."
                 },
@@ -488,7 +488,7 @@
                 "confirm": "Kinnita tegevus",
                 "changelogs": {
                     "title": "Muudatuste logid",
-                    "description": "Lugege Revolti värskenduste kohta.",
+                    "description": "Lugege Arma Battlesi värskenduste kohta.",
                     "older": "Vaadake vanemaid värskendusi"
                 },
                 "out_of_date": {
@@ -524,7 +524,7 @@
                         "Underage": "See kasutaja pole konto jaoks piisavalt vana"
                     },
                     "reported": "Esitatud",
-                    "thank_you": "Tänan, et aitasite Revolt kaitsta. Me vaatame teie aruande läbi niipea kui võimalik.",
+                    "thank_you": "Tänan, et aitasite Arma Battles kaitsta. Me vaatame teie aruande läbi niipea kui võimalik.",
                     "block_user": "Kas soovite selle kasutaja blokeerida?"
                 },
                 "edit_keybind": {
@@ -592,7 +592,7 @@
             },
             "invite": {
                 "invited_by": "Kustutud {{user}} poolt",
-                "login": "Logi Revolti sisse",
+                "login": "Logi Arma Battlesi sisse",
                 "user_count": "{{member_count}} kasutajat",
                 "accept": "Aktsepteeri kutse",
                 "invalid": "Kehtetu kutselink!",
@@ -725,7 +725,7 @@
                     "unknown_reacted": "{{count}} inimest reageeris",
                     "others_reacted": "{{userlist}} ja {{count}} teised reageerisid"
                 },
-                "new_to_revolt": "Uus Revoltis"
+                "new_to_revolt": "Uus Arma Battlesis"
             },
             "groups": {
                 "create": "Loo grupp",
@@ -811,9 +811,9 @@
             "required": "Vajalikud õigused"
         },
         "home": {
-            "donate": "Anneta Revolt-ile",
+            "donate": "Anneta Arma Battles-ile",
             "goto-testers": "Mine testijate serverisse",
-            "feedback": "Anna Revolt-i kohta tagasisidet",
+            "feedback": "Anna Arma Battles-i kohta tagasisidet",
             "settings-tooltip": "Samuti on võimalik ekraani üleval vasakus nurgas vajutada paremat hiireklahvi kasutaja ikoonil või vasakut hiireklahvi kui koduvaade on ees.",
             "social": "Otsi servereid ning bot-e",
             "settings": "Ava sätted",
@@ -848,7 +848,7 @@
         "forgot": "Unustasid oma parooli?",
         "reset": "Muuda parool",
         "set_password": "Määra uus parool",
-        "new": "Uus Revoltis?",
+        "new": "Uus Arma Battlesis?",
         "existing": "Konto on juba olemas?",
         "create": "Loo uus konto",
         "missing_verification": "Kas e-kiri ei saabunud?",
@@ -868,7 +868,7 @@
         "cancel": "Katkesta päring",
         "email_delay": "Oleme sulle saatnud kinnituskirja e-posti teel. Palun oota kuni 10 minutit, et see kohale jõuaks.",
         "welcome": "Tere tulemast!",
-        "subtitle": "Logi sisse Revolti",
+        "subtitle": "Logi sisse Arma Battlesi",
         "welcome2": "Tere!",
         "subtitle2": "Loo kont",
         "totp": "Autentimise rakendus",

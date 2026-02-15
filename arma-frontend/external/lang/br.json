@@ -18,11 +18,11 @@
         "welcome2": "Salud deoc'h !",
         "subtitle2": "Krouiñ ur gont",
         "register": "En em enskrivañ",
-        "new": "Implijer nevez war Revolt ?",
+        "new": "Implijer nevez war Arma Battles ?",
         "resend": "Adkas ar gwiriadur",
         "cancel": "Nullañ ar goulenn",
         "username": "Anv Implijer",
-        "subtitle": "Kevreañ ouzh Revolt",
+        "subtitle": "Kevreañ ouzh Arma Battles",
         "create": "Krouiñ ur gont nevez",
         "check_mail": "Sellit ouzh ho posteloù !",
         "invite": "Kod-pediñ",
@@ -82,10 +82,10 @@
             }
         },
         "home": {
-            "donate": "Ober ur roadenn da Revolt",
+            "donate": "Ober ur roadenn da Arma Battles",
             "donate_desc": "Skorañ ar raktres gant reiñ - trugarez !",
-            "discover": "Dizoleiñ Revolt",
-            "feedback": "Grit un evezhiadenn diwar-benn Revolt",
+            "discover": "Dizoleiñ Arma Battles",
+            "feedback": "Grit un evezhiadenn diwar-benn Arma Battles",
             "group": "Krouiñ ur strollad",
             "settings": "Digeriñ an arventennoù",
             "group_desc": "Pedit ho mignoned, ur re bennak robotoù, ha bec'h d'ar fest.",
@@ -189,7 +189,7 @@
                 },
                 "bridge": "pont",
                 "team": "Darempred ofisiel",
-                "new_to_revolt": "nevez da Revolt",
+                "new_to_revolt": "nevez da Arma Battles",
                 "reactions": {
                     "single_reacted": "1 tud ersavet",
                     "people_reacted": "{{people}} ersavet",
@@ -394,7 +394,7 @@
                 },
                 "feedback": {
                     "title": "Evezhiadennoù",
-                    "suggest_desc": "Kinnig aezamantoù nevez da Revolt war GitHub.",
+                    "suggest_desc": "Kinnig aezamantoù nevez da Arma Battles war GitHub.",
                     "suggest": "Kinnig un aezamant",
                     "bug": "Chaseour Beugoù",
                     "bug_desc": "Gwelout amañ an danevell oberiant beugoù a-vremañ.",
@@ -609,7 +609,7 @@
                 }
             },
             "invite": {
-                "login": "Kevreañ ouzh Revolt",
+                "login": "Kevreañ ouzh Arma Battles",
                 "invalid": "Direizh eo ar bedadenn !",
                 "invited_by": "Pedet gant {{user}}",
                 "accept": "Degemer ur bedadenn",

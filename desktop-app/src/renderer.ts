@@ -1,32 +1,36 @@
 /**
- * This file will automatically be loaded by vite and run in the "renderer" context.
- * To learn more about the differences between the "main" and the "renderer" context in
- * Electron, visit:
- *
- * https://electronjs.org/docs/tutorial/process-model
- *
- * By default, Node.js integration in this file is disabled. When enabling Node.js integration
- * in a renderer process, please be aware of potential security implications. You can read
- * more about security risks here:
- *
- * https://electronjs.org/docs/tutorial/security
- *
- * To enable Node.js integration in this file, open up `main.ts` and enable the `nodeIntegration`
- * flag:
- *
- * ```
- *  // Create the browser window.
- *  mainWindow = new BrowserWindow({
- *    width: 800,
- *    height: 600,
- *    webPreferences: {
- *      nodeIntegration: true
- *    }
- *  });
- * ```
+ * Renderer process for Arma Battles Chat Desktop
+ * Handles custom title bar controls
  */
 import "./index.css";
 
-console.log(
-  '👋 This message is being logged by "renderer.ts", included via Vite',
-);
+console.log('⚔️ Arma Battles Chat Desktop - Renderer loaded');
+
+// Wait for DOM to be ready
+document.addEventListener('DOMContentLoaded', () => {
+  // Get window control buttons
+  const minimizeBtn = document.getElementById('btn-minimize');
+  const maximizeBtn = document.getElementById('btn-maximize');
+  const closeBtn = document.getElementById('btn-close');
+
+  // Add event listeners to window controls
+  if (minimizeBtn) {
+    minimizeBtn.addEventListener('click', () => {
+      (window as any).native?.minimise();
+    });
+  }
+
+  if (maximizeBtn) {
+    maximizeBtn.addEventListener('click', () => {
+      (window as any).native?.maximise();
+    });
+  }
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      (window as any).native?.close();
+    });
+  }
+
+  console.log('✅ Title bar controls initialized');
+});

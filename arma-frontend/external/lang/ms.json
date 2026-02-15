@@ -21,7 +21,7 @@
         "current_password": "Kata Laluan Semasa",
         "invite": "Kod Jemputan",
         "remembered": "Kembali ke log masuk",
-        "new": "Baharu kepada Revolt?",
+        "new": "Baharu kepada Arma Battles?",
         "cancel": "Batalkan permintaan",
         "create": "Cipta akaun baru",
         "resend": "Hantar semula pengesahan",
@@ -41,7 +41,7 @@
         "welcome2": "Hai!",
         "unofficial_instance": "Contoh pihak ketiga.",
         "welcome": "Selamat Datang!",
-        "subtitle": "Log masuk ke Revolt",
+        "subtitle": "Log masuk ke Arma Battles",
         "new_password": "Kata Laluan Baharu",
         "log_out_other": "Log keluar daripada semua sesi lain",
         "totp": "Aplikasi pengesah",
@@ -235,7 +235,7 @@
                     "output_device": "Pembesar suara / Alat dengar",
                     "button_retry": "Cuba semula",
                     "device_label_NA": "N/A",
-                    "tip_retry": "Anda tidak memberi kebenaran untuk Revolt mengakses mikrofon anda. Sila {{retryBtn}}.",
+                    "tip_retry": "Anda tidak memberi kebenaran untuk Arma Battles mengakses mikrofon anda. Sila {{retryBtn}}.",
                     "tip_grant_permission": "Anda perlu memberikan kebenaran untuk mengakses tetapan audio.",
                     "button_grant": "Berikan kebenaran"
                 },
@@ -363,7 +363,7 @@
                 "feedback": {
                     "title": "Maklum balas",
                     "suggest": "Hantar cadangan ciri",
-                    "suggest_desc": "Cadangkan ciri Revolt baru pada perbincangan GitHub.",
+                    "suggest_desc": "Cadangkan ciri Arma Battles baru pada perbincangan GitHub.",
                     "issue": "Cipta isu baru",
                     "issue_desc": "Untuk membantu kami membuat percubaan pada masalah-masalah dengan lebih mudah, anda boleh mencipta isu di GitHub.",
                     "bug": "Penjejak Bug",
@@ -587,7 +587,7 @@
                 "token_reveal": "Token bagi {{name}}",
                 "report": {
                     "reported": "Dilaporkan",
-                    "thank_you": "Terima kasih kerana membantu memastikan Revolt selamat. Kami akan menyemak laporan anda secepat mungkin.",
+                    "thank_you": "Terima kasih kerana membantu memastikan Arma Battles selamat. Kami akan menyemak laporan anda secepat mungkin.",
                     "message": "Mesej Laporan",
                     "by_name": "Laporkan {{name}}",
                     "reason": "Sebab",
@@ -634,7 +634,7 @@
                 "changelogs": {
                     "title": "Log perubahan",
                     "older": "Lihat kemas kini yang lebih lama",
-                    "description": "Baca tentang kemas kini kepada Revolt."
+                    "description": "Baca tentang kemas kini kepada Arma Battles."
                 }
             },
             "popovers": {
@@ -679,7 +679,7 @@
                 "invited_by": "Dijemput oleh {{user}}",
                 "accept": "Terima Jemputan",
                 "user_count": "{{member_count}} pengguna",
-                "login": "Log masuk ke Revolt",
+                "login": "Log masuk ke Arma Battles",
                 "invalid": "Pautan jemputan tidak sah!",
                 "invalid_desc": "Pautan jemputan ini mungkin tidak sah atau anda tiada kebenaran untuk masuk."
             },
@@ -750,20 +750,20 @@
             "required": "Kebenaran diperlukan"
         },
         "home": {
-            "donate": "Derma kepada Revolt",
+            "donate": "Derma kepada Arma Battles",
             "settings": "Buka Tetapan",
             "social": "Cari pelayan & bot",
             "directs": "Mesej terus",
             "group_desc": "Jemput semua rakan anda, beberapa bot yang hebat, dan buat parti besar-besaran.",
             "join-testers": "Sertai server penguji",
             "goto-testers": "Pergi ke server penguji",
-            "feedback": "Beri maklum balas tentang Revolt",
+            "feedback": "Beri maklum balas tentang Arma Battles",
             "settings-tooltip": "Anda juga boleh mengklik kanan ikon pengguna di bahagian atas sebelah kiri, atau klik kiri jika anda sudah berada di rumah.",
             "donate_desc": "Sokong projek dengan menderma - terima kasih!",
             "feedback_desc": "Beritahu kami cara kami boleh menambah baik aplikasi kami dengan memberi maklum balas kepada kami.",
             "join-testers_desc": "Anda boleh melaporkan isu dan membincangkan penambahbaikan dengan kami terus di sini.",
             "goto-testers_desc": "Anda boleh melaporkan isu dan membincangkan penambahbaikan dengan kami terus di sini.",
-            "discover": "Temui Revolt",
+            "discover": "Temui Arma Battles",
             "group": "Cipta grup",
             "discover_desc": "Cari komuniti berdasarkan hobi atau minat anda."
         }

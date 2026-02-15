@@ -14,7 +14,7 @@
     "login": {
         "title": "Têketin",
         "welcome": "Bi xêr hatî!",
-        "subtitle": "Têkeve Revolt",
+        "subtitle": "Têkeve Arma Battles",
         "welcome2": "Silav!",
         "subtitle2": "Hesab çêke",
         "register": "Tomarî bûn",
@@ -88,12 +88,12 @@
             "join-testers_desc": "Hûn dikarin pirsgirêkan ragihînin û li vir rasterast bi me re çêtirkirinan nîqaş bikin.",
             "goto-testers": "Biçe ser servera testers",
             "goto-testers_desc": "Hûn dikarin pirsgirêkan ragihînin û li vir rasterast bi me re çêtirkirinan nîqaş bikin.",
-            "donate": "bexş bike ber Revolt",
-            "feedback": "Li ser Revolt bertek bidin",
+            "donate": "bexş bike ber Arma Battles",
+            "feedback": "Li ser Arma Battles bertek bidin",
             "feedback_desc": "Ka em zanibin ka em çawa dikarin bi dayîna bertekên xwe ve sepana xwe baştir bikin.",
             "settings": "Mîhengan vekin",
             "settings-tooltip": "Her weha hûn dikarin li ser îkonê bikarhênerê li milê çepê yê jor rast-klîk bikin, an ger hûn berê li malê ne, wê bikirtînin.",
-            "discover": "Kişfkirina Revolt",
+            "discover": "Kişfkirina Arma Battles",
             "discover_desc": "Civatek li ser bingeha hobî an berjewendîyên xwe bibînin.",
             "group": "Komek çêbikin",
             "group_desc": "Hemî hevalên xwe, çend botên xweş vexwînin, û şahiyek mezin bavêjin."
@@ -194,7 +194,7 @@
                 "user_timed_out": "Bikarhêner ji bo bikarhêneran demderbasdar e {{time}}.",
                 "bridged": "Di platformeke din de peyam hate şandin",
                 "team": "Ragihandina Fermî",
-                "new_to_revolt": "Nû li ser Revolt",
+                "new_to_revolt": "Nû li ser Arma Battles",
                 "new_to_server": "Ji bo vê serverê nû ye",
                 "reactions": {
                     "single_reacted": "1 kes bertek nîşan da",
@@ -278,7 +278,7 @@
                     "title": "Mîhengên Deng",
                     "input_device": "Mîkrofon",
                     "output_device": "Axaftvan / Headset",
-                    "tip_retry": "We destûr neda Revolt ku bigihîje mîkrofona we. Ji kerema xwe {{retryBtn}}.",
+                    "tip_retry": "We destûr neda Arma Battles ku bigihîje mîkrofona we. Ji kerema xwe {{retryBtn}}.",
                     "device_label_NA": "ez nizanim",
                     "button_retry": "dîsa hewl didin",
                     "button_grant": "Destûr bide"
@@ -416,7 +416,7 @@
                     "by": "ji"
                 },
                 "feedback": {
-                    "suggest_desc": "Li ser nîqaşên GitHub taybetmendiyên nû yên Revolt pêşniyar bikin.",
+                    "suggest_desc": "Li ser nîqaşên GitHub taybetmendiyên nû yên Arma Battles pêşniyar bikin.",
                     "bug_desc": "Li vir raporên xeletiyên heyî yên çalak bibînin.",
                     "title": "TEXMÎN",
                     "description": "şandin TexmÎn",
@@ -679,7 +679,7 @@
                 },
                 "changelogs": {
                     "title": "Guherînanê Peyamekî",
-                    "description": "Li ser nûvekirinên Revolt bixwînin.",
+                    "description": "Li ser nûvekirinên Arma Battles bixwînin.",
                     "older": "Nûvekirinên kevnî lê bêkînin"
                 },
                 "out_of_date": {

@@ -96,7 +96,7 @@
                     "people_reacted": "{{people}}이(가) 반응했어요",
                     "others_reacted": "{{userlist}}님과 {{count}}명의 사람들이 반응했어요"
                 },
-                "new_to_revolt": "Revolt는 처음이에요",
+                "new_to_revolt": "Arma Battles는 처음이에요",
                 "new_to_server": "이 서버는 처음이에요"
             },
             "groups": {
@@ -267,7 +267,7 @@
                     "bug_desc": "여기에서 현재 활성화된 버그 보고서를 봅니다.",
                     "issue_desc": "이슈를 더 쉽게 알 수 있도록, GitHub에서 이슈를 만들 수 있어요.",
                     "suggest": "기능 제안하기",
-                    "suggest_desc": "GitHub 토론에서 Revolt의 새로운 기능을 제안하세요.",
+                    "suggest_desc": "GitHub 토론에서 Arma Battles의 새로운 기능을 제안하세요.",
                     "description": "피드백 제출"
                 },
                 "experiments": {
@@ -637,7 +637,7 @@
                 }
             },
             "invite": {
-                "login": "Revolt에 로그인",
+                "login": "Arma Battles에 로그인",
                 "accept": "초대 수락",
                 "invited_by": "{{user}}님의 초대",
                 "user_count": "{{member_count}}명의 유저",
@@ -734,7 +734,7 @@
                 "confirm": "작업 확인",
                 "changelogs": {
                     "title": "새로운 기능",
-                    "description": "Revolt 업데이트에 대해 읽어보세요.",
+                    "description": "Arma Battles 업데이트에 대해 읽어보세요.",
                     "older": "이전 업데이트 보기"
                 },
                 "out_of_date": {
@@ -746,7 +746,7 @@
                 },
                 "report": {
                     "reported": "신고되었습니다",
-                    "thank_you": "Revolt를 안전하게 만들어주셔서 감사해요. 최대한 빨리 신고내용을 확인해볼게요.",
+                    "thank_you": "Arma Battles를 안전하게 만들어주셔서 감사해요. 최대한 빨리 신고내용을 확인해볼게요.",
                     "block_user": "이 사용자를 차단하시겠습니까?",
                     "message": "메세지 신고",
                     "by_name": "{{name}} 신고",
@@ -800,8 +800,8 @@
         "home": {
             "join-testers": "테스트 서버 참가",
             "goto-testers": "테스트 서버로 이동",
-            "donate": "Revolt 후원",
-            "feedback": "Revolt에 의견 전송",
+            "donate": "Arma Battles 후원",
+            "feedback": "Arma Battles에 의견 전송",
             "settings": "설정 열기",
             "social": "서버와 봇 찾기",
             "settings-tooltip": "왼쪽 상단에 있는 사용자 아이콘을 우클릭하거나, 홈에 있는 경우 좌클릭할 수도 있어요.",
@@ -811,7 +811,7 @@
             "goto-testers_desc": "여기서 문제점을 제보하고 개선 사항에 대해 논의할 수 있어요.",
             "donate_desc": "기부로 프로젝트를 지원해 주세요. 감사드려요!",
             "feedback_desc": "여러분의 의견으로 앱을 개선할 수 있는 방법을 알려주세요.",
-            "discover": "Revolt 살펴보기",
+            "discover": "Arma Battles 살펴보기",
             "group": "그룹 생성",
             "group_desc": "내 친구들과 멋진 봇을 초대해서 큰 파티를 열어보세요."
         }
@@ -975,7 +975,7 @@
         "current_password": "현재 비밀번호",
         "forgot": "비밀번호를 잊어버리셨나요?",
         "set_password": "새로운 비밀번호를 설정하세요",
-        "new": "Revolt가 처음이신가요?",
+        "new": "Arma Battles가 처음이신가요?",
         "existing": "이미 계정이 있으신가요?",
         "create": "새 계정 생성",
         "missing_verification": "이메일을 받지 못하셨나요?",
@@ -986,7 +986,7 @@
         "resend": "인증 메일 재전송",
         "welcome2": "환영해요!",
         "welcome": "환영합니다!",
-        "subtitle": "Revolt에 로그인",
+        "subtitle": "Arma Battles에 로그인",
         "subtitle2": "계정 생성",
         "unofficial_instance": "제삼자 인스턴스.",
         "totp": "인증 앱",

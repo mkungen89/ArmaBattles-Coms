@@ -99,9 +99,9 @@ export default function ChangelogUsernames({
                                 />
                                 <InputBox
                                     value={
-                                        client.user.username +
-                                        "#" +
-                                        client.user.discriminator
+                                        `${client.user.username 
+                                        }#${ 
+                                        client.user.discriminator}`
                                     }
                                     style={{
                                         maxWidth: "180px",
@@ -110,7 +110,7 @@ export default function ChangelogUsernames({
                                 />
                                 <a
                                     href="https://revolt.chat/posts/evolving-usernames"
-                                    target="_blank">
+                                    target="_blank" rel="noreferrer">
                                     Read more about this change
                                 </a>
                             </Column>

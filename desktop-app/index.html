@@ -2,11 +2,115 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Arma Battles Chat</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        overflow: hidden;
+        background: #1A1A1A;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      #app-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      #titlebar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 32px;
+        background: #0F0F0F;
+        color: #E0E0E0;
+        -webkit-app-region: drag;
+        user-select: none;
+        border-bottom: 1px solid #2A2A2A;
+      }
+
+      #titlebar-title {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 12px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      #titlebar-controls {
+        display: flex;
+        height: 100%;
+        -webkit-app-region: no-drag;
+      }
+
+      .titlebar-button {
+        width: 46px;
+        height: 100%;
+        background: transparent;
+        border: none;
+        color: #E0E0E0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.15s;
+      }
+
+      .titlebar-button:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .titlebar-button.close:hover {
+        background: #E24A4A;
+        color: white;
+      }
+
+      .titlebar-button svg {
+        width: 12px;
+        height: 12px;
+      }
+
+      #content-frame {
+        flex: 1;
+        border: none;
+        width: 100%;
+        height: calc(100vh - 32px);
+      }
+    </style>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div id="app-container">
+      <div id="titlebar">
+        <div id="titlebar-title">
+          <span>⚔️ Arma Battles Chat</span>
+        </div>
+        <div id="titlebar-controls">
+          <button class="titlebar-button minimize" id="btn-minimize" title="Minimize">
+            <svg viewBox="0 0 12 12" fill="currentColor">
+              <rect x="0" y="5" width="12" height="1.5"/>
+            </svg>
+          </button>
+          <button class="titlebar-button maximize" id="btn-maximize" title="Maximize">
+            <svg viewBox="0 0 12 12" fill="currentColor">
+              <rect x="1" y="1" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </button>
+          <button class="titlebar-button close" id="btn-close" title="Close">
+            <svg viewBox="0 0 12 12" fill="currentColor">
+              <path d="M1 1 L11 11 M11 1 L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <iframe id="content-frame" src="https://chat.armabattles.com" allow="microphone; camera; display-capture"></iframe>
+    </div>
     <script type="module" src="/src/renderer.ts"></script>
   </body>
 </html>

@@ -60,12 +60,10 @@ export default observer((props: Props) => {
 
     useEffect(() => {
         if (!geoLoaded) {
-            fetch("https://geo.revolt.chat")
-                .then((res) => res.json())
-                .then((data) => {
-                    geoBlock = data;
-                    setGeoLoaded(true);
-                });
+            // TODO: Set up geo.armabattles.com geolocation service
+            // For now, disable geo-blocking
+            geoBlock = { isAgeRestrictedGeo: false };
+            setGeoLoaded(true);
         }
     }, []);
 
@@ -85,11 +83,7 @@ export default observer((props: Props) => {
 
     return (
         <Base>
-            <img
-                loading="eager"
-                src={"https://static.revolt.chat/emoji/mutant/26a0.svg"}
-                draggable={false}
-            />
+            <div style={{ fontSize: "64px" }}>⚠️</div>
             <h2>{props.channel.name}</h2>
             <span className="subtext">
                 <Text id={`app.main.channel.nsfw.${props.type}.marked`} />{" "}

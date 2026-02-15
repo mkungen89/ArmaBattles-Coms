@@ -127,7 +127,7 @@
             "requires_online": "Trebuie să fi online pentru a vedea acest lucru.",
             "invite": {
                 "invited_by": "Invitat(ă) de {{user}}",
-                "login": "Autentificare la Revolt",
+                "login": "Autentificare la Arma Battles",
                 "accept": "Acceptă Invitația",
                 "user_count": "{{member_count}} (de) utilizatori",
                 "invalid": "Invitație invalidă!",
@@ -281,7 +281,7 @@
                 "feedback": {
                     "title": "Părere",
                     "suggest": "Propune o nouă funcție",
-                    "suggest_desc": "Propune caracteristici noi pentru Revolt în discuțiile de pe GitHub.",
+                    "suggest_desc": "Propune caracteristici noi pentru Arma Battles în discuțiile de pe GitHub.",
                     "issue": "Creează un subiect nou",
                     "issue_desc": "Pentru a ne ajuta în trierea subiectelor, poți crea un subiect pe GitHub.",
                     "bug": "Bug tracker",
@@ -552,7 +552,7 @@
         "reset": "Resetează parola.",
         "set_password": "Setează o parolă nouă.",
         "remembered": "Întoarce-te la conectare.",
-        "new": "Prima oară pe Revolt?",
+        "new": "Prima oară pe Arma Battles?",
         "existing": "Ai deja un cont?",
         "create": "Creează un cont nou.",
         "missing_verification": "Fără email?",

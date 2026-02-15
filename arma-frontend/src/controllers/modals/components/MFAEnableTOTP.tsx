@@ -16,7 +16,7 @@ const Qr = styled.div`
     border-radius: 4px;
     background: white;
     /* QR codes require a "quiet zone" of at least 4 modules around them for scanner readability */
-    padding: 20px;
+    padding: 32px;
 
     width: auto;
     height: auto;
@@ -26,8 +26,8 @@ const Qr = styled.div`
 
     svg {
         display: block;
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        height: 180px;
     }
 `;
 
@@ -80,6 +80,8 @@ export default function MFAEnableTOTP({
                             value={uri}
                             bgColor="white"
                             fgColor="black"
+                            includeMargin={true}
+                            size={180}
                         />
                     </Qr>
                 </Centred>

@@ -118,15 +118,8 @@ export default function MemberList({
                     return (
                         <NoOomfie>
                             <div>
-                                Offline users have temporarily been disabled for
-                                larger servers - see{" "}
-                                <a
-                                    href="https://github.com/revoltchat/backend/issues/178"
-                                    target="_blank"
-                                    rel="noreferrer">
-                                    issue #178
-                                </a>{" "}
-                                for when this will be resolved.
+                                Offline users have been temporarily disabled for
+                                larger servers to improve performance.
                             </div>
                             <div>
                                 You may re-enable them{" "}

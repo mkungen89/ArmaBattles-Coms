@@ -92,7 +92,7 @@
                     "bug": "Sledovanie Chýb",
                     "issue_desc": "Aby ste nám uľahčili triedenie problémov, môžete problém vytvoriť na GitHube.",
                     "issue": "Vytvorte nový problém",
-                    "suggest_desc": "Navrhnite nové funkcie Revoltu v diskusiách na GitHube.",
+                    "suggest_desc": "Navrhnite nové funkcie Arma Battlesu v diskusiách na GitHube.",
                     "suggest": "Odošlite návrh Funkcie",
                     "title": "Spätná väzba",
                     "description": "Odoslať spätnú väzbu"
@@ -419,7 +419,7 @@
                     "people_reacted": "{{people}} reagovali"
                 },
                 "new_to_server": "Nový na tomto serveri",
-                "new_to_revolt": "Nový v Revolte"
+                "new_to_revolt": "Nový v Arma Battlese"
             },
             "categories": {
                 "members": "Členovia",
@@ -544,7 +544,7 @@
                 "confirm": "Potvrďiť akciu",
                 "changelogs": {
                     "title": "Denníky zmien",
-                    "description": "Prečítajte si o aktualizáciách Revolt.",
+                    "description": "Prečítajte si o aktualizáciách Arma Battles.",
                     "older": "Zobraziť staršie aktualizácie"
                 },
                 "report": {
@@ -568,7 +568,7 @@
                         "Underage": "Tento používateľ nie je dostatočne starý na to, aby mal účet"
                     },
                     "reported": "Nahlásené",
-                    "thank_you": "Ďakujeme, že pomáhate udržiavať Revoltu v bezpečí. Vašu správu čo najskôr preveríme.",
+                    "thank_you": "Ďakujeme, že pomáhate udržiavať Arma Battlesu v bezpečí. Vašu správu čo najskôr preveríme.",
                     "block_user": "Chcete zablokovať tohto používateľa?"
                 }
             },
@@ -633,7 +633,7 @@
             },
             "invite": {
                 "invited_by": "Pozvaný používateľom {{user}}",
-                "login": "Prihláste sa do Revolt",
+                "login": "Prihláste sa do Arma Battles",
                 "accept": "Prijmi pozvanie",
                 "user_count": "Používatelia: {{member_count}}",
                 "invalid": "Neplatná pozvánka!",
@@ -705,9 +705,9 @@
             "required": "Vyžadujú sa povolenia"
         },
         "home": {
-            "donate": "Prispieť na Revolt",
+            "donate": "Prispieť na Arma Battles",
             "settings-tooltip": "Taktiež môžete kliknúť pravým tlačidlom myši na ikonu používateľa vľavo hore, alebo kliknúť ľavým tlačidlom ak už ste na domovskej stránke.",
-            "feedback": "Dajte spätnú väzbu na Revolt",
+            "feedback": "Dajte spätnú väzbu na Arma Battles",
             "settings": "Otvoriť nastavenia",
             "social": "Nájdite servery a botov",
             "join-testers": "Pripojte sa do serveru testerov",
@@ -715,7 +715,7 @@
             "discover_desc": "Nájdite komunitu na základe svojich koníčkov alebo záujmov.",
             "goto-testers_desc": "Tu môžete nahlásiť problémy a diskutovať o vylepšeniach.",
             "donate_desc": "Podporte projekt príspevkom - ďakujeme!",
-            "discover": "Objavte Revolt",
+            "discover": "Objavte Arma Battles",
             "group": "Vytvoriť Skupinu",
             "group_desc": "Pozvite všetkých svojich priateľov, pár cool robotov a usporiadajte veľkú párty.",
             "directs": "Súkromné Správy",
@@ -726,7 +726,7 @@
     "general": {
         "off": "Vypnuté",
         "on": "Zapnuté",
-        "about": "O Revolte",
+        "about": "O Arma Battlese",
         "unavailable": "Nedostupné",
         "disabled": "Vypnuté",
         "loading": "Načítava sa…",
@@ -753,7 +753,7 @@
         "missing_verification": "Nedostali ste email?",
         "create": "Vytvor si nový účet",
         "existing": "Máš už účet?",
-        "new": "Nový v Revolte?",
+        "new": "Nový v Arma Battlese?",
         "remembered": "Späť na prihlásenie",
         "set_password": "Nastaviť nové heslo",
         "forgot": "Zabudol si heslo?",
@@ -776,7 +776,7 @@
         "subtitle2": "Vytvoriť učet",
         "welcome2": "Ahoj!",
         "welcome": "Vitaj!",
-        "subtitle": "Prihlásiť sa do Revolt",
+        "subtitle": "Prihlásiť sa do Arma Battles",
         "unofficial_instance": "Inštancia tretej strany.",
         "totp": "Overovacia aplikácia",
         "recovery": "Obnovovací kód",

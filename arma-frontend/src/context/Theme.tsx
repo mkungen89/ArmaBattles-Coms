@@ -4,7 +4,7 @@ import { observer } from "mobx-react-lite";
 import { Helmet } from "react-helmet";
 import { createGlobalStyle } from "styled-components/macro";
 
-import { useEffect, useMemo } from "preact/hooks";
+import { useEffect } from "preact/hooks";
 
 import { useApplicationState } from "../mobx/State";
 
@@ -350,10 +350,10 @@ export default observer(() => {
 
     const root = document.documentElement.style;
 
-    // Memoize font values to prevent unnecessary re-renders
-    const currentFont = useMemo(() => theme.getFont() ?? DEFAULT_FONT, [theme.getFont()]);
-    const currentMonoFont = useMemo(() => theme.getMonospaceFont() ?? DEFAULT_MONO_FONT, [theme.getMonospaceFont()]);
-    const ligatures = useMemo(() => settings.get("appearance:ligatures") ?? true, [settings.get("appearance:ligatures")]);
+    // MobX @computed values handle memoization automatically
+    const currentFont = theme.getFont() ?? DEFAULT_FONT;
+    const currentMonoFont = theme.getMonospaceFont() ?? DEFAULT_MONO_FONT;
+    const ligatures = settings.get("appearance:ligatures") ?? true;
 
     useEffect(() => {
         root.setProperty("--font", `"${currentFont}"`);

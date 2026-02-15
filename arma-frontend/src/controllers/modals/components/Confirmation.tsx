@@ -85,7 +85,7 @@ export default function Confirmation(
                         props.target.delete();
                         break;
                     case "delete_bot":
-                        clientController
+                        await clientController
                             .getAvailableClient()
                             .bots.delete(props.target);
                         props.cb?.();

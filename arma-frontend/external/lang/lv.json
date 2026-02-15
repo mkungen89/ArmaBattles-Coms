@@ -29,7 +29,7 @@
         "reset": "Atiestatīt paroli",
         "set_password": "Iestatīt jaunu paroli",
         "remembered": "Atgriezties ienākšanas lapā",
-        "new": "Lieto Revolt pirmo reizi?",
+        "new": "Lieto Arma Battles pirmo reizi?",
         "error": {
             "create": "Neizdevās reģistrēties!",
             "login": "Neizdevās ienākt!",
@@ -40,7 +40,7 @@
         "welcome2": "Sveiki!",
         "subtitle2": "Izveidot kontu",
         "welcome": "Laipni lūdzam!",
-        "subtitle": "Pierakstieties Revolt",
+        "subtitle": "Pierakstieties Arma Battles",
         "unofficial_instance": "Trešās puses instance.",
         "totp": "Autentifikācijas lietotne",
         "recovery": "Piekļuves atgūšanas kods",
@@ -153,7 +153,7 @@
                     "others_reacted": "{{userlist}} un {{count}} citi reaģēja"
                 },
                 "team": "Oficiālā saziņa",
-                "new_to_revolt": "Jauns Revolt lietotājs",
+                "new_to_revolt": "Jauns Arma Battles lietotājs",
                 "new_to_server": "Jauns šajā serverī"
             },
             "groups": {
@@ -250,7 +250,7 @@
                     "output_device": "Skaļrunis / Austiņas",
                     "device_label_NA": "N/A",
                     "button_retry": "mēģināt vēlreiz",
-                    "tip_retry": "Jūs nedevāt Revolt atļauju piekļūt jūsu mikrofonam. Lūdzu, {{retryBtn}}.",
+                    "tip_retry": "Jūs nedevāt Arma Battles atļauju piekļūt jūsu mikrofonam. Lūdzu, {{retryBtn}}.",
                     "tip_grant_permission": "Tev jāpiešķir atļauja piekļūt audio iestatījumiem.",
                     "button_grant": "Piešķirt atļauju"
                 },
@@ -400,7 +400,7 @@
                 },
                 "feedback": {
                     "issue": "Izveidot jaunu ziņojumu",
-                    "suggest_desc": "Iesaki jaunas Revolt funkcijas GitHub diskusijās.",
+                    "suggest_desc": "Iesaki jaunas Arma Battles funkcijas GitHub diskusijās.",
                     "suggest": "Ieteikt jaunu funkcijas",
                     "issue_desc": "Lai palīdzētu mums vieglāk izvērtēt ieteikumus, vari izveidot ziņojumu platformā GitHub.",
                     "bug": "Kļūdu Meklētājs",
@@ -587,8 +587,8 @@
             "social": "Atrodiet serverus un robotprogrammatūras",
             "join-testers": "Pievienoties testētāju serverim",
             "goto-testers": "Doties uz testētāju serveri",
-            "donate": "Ziedot Revolt",
-            "feedback": "Sniegt atsauksmes par Revolt",
+            "donate": "Ziedot Arma Battles",
+            "feedback": "Sniegt atsauksmes par Arma Battles",
             "settings": "Atvērt iestatījumus",
             "settings-tooltip": "Vari arī veikt labo klikšķi uz lietotāja ikonas augšējā kreisajā stūri, vai arī, ja jau esi sākumā – ar kreiso klikšķi.",
             "directs": "Tiešās sarunas",
@@ -596,7 +596,7 @@
             "goto-testers_desc": "Šeit vari ziņot par problēmām uz pārrunāt uzlabojumus ar mums.",
             "donate_desc": "Atbalsti projektu ziedojot – paldies!",
             "feedback_desc": "Pastāsti, kā mēs varam uzlabot mūsu lietotni, sniedzot mums atsauksmes.",
-            "discover": "Atklāj Revolt",
+            "discover": "Atklāj Arma Battles",
             "discover_desc": "Atrodi kopienu ar līdzīgiem hobijiem un interesēm.",
             "group": "Izveidot grupu",
             "group_desc": "Uzaicini savus draugus un foršus robotus, un sāciet ballīti."
@@ -647,7 +647,7 @@
                 }
             },
             "invite": {
-                "login": "Ienākt Revolt",
+                "login": "Ienākt Arma Battles",
                 "invited_by": "Ielūdza lietotājs {{user}}",
                 "invalid_desc": "Iespējams, ielūgums neeksistē, vai arī tu nedrīksti pievienoties.",
                 "accept": "Pieņemt ielūgumu",
@@ -752,7 +752,7 @@
                 },
                 "changelogs": {
                     "title": "Izmaiņas",
-                    "description": "Lasīt par Revolt jaunumiem.",
+                    "description": "Lasīt par Arma Battles jaunumiem.",
                     "older": "Skatīt vecākus atjauninājumus"
                 },
                 "report": {
@@ -770,7 +770,7 @@
                     "reported": "Ziņots",
                     "message": "Ziņot par ziņojumu",
                     "by_name": "Ziņot par {{name}}",
-                    "thank_you": "Paldies, ka palīdzējāt nodrošināt Revolt drošību. Mēs izskatīsim jūsu ziņojumu, cik drīz vien iespējams.",
+                    "thank_you": "Paldies, ka palīdzējāt nodrošināt Arma Battles drošību. Mēs izskatīsim jūsu ziņojumu, cik drīz vien iespējams.",
                     "user_reason": {
                         "SpamAbuse": "Lietotājs sūta surogātpastu vai citādi ļaunprātīgi izmanto platformu",
                         "InappropriateProfile": "Lietotāja profils ir nepiemērots vispārējāi auditorijai",

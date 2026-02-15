@@ -366,6 +366,7 @@ const Base = styled.div<{ detached?: boolean }>`
         width: 100%;
         position: absolute;
         background: var(--primary-header);
+        z-index: 10;
     }
 
     button {

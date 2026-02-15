@@ -135,7 +135,7 @@
                     "feature": "新功能",
                     "bug": "漏洞追踪",
                     "report": "想要反馈什么呢？",
-                    "suggest_desc": "在 GitHub 讨论区为 Revolt 建议新功能。",
+                    "suggest_desc": "在 GitHub 讨论区为 Arma Battles 建议新功能。",
                     "suggest": "提交功能建议",
                     "issue": "创建新 Issue",
                     "issue_desc": "为了帮助我们更轻松地对问题进行分类，您可以在 GitHub 上创建 Issue。",
@@ -201,7 +201,7 @@
                     "output_device": "扬声器 / 耳机",
                     "device_label_NA": "不可用",
                     "button_retry": "重试",
-                    "tip_retry": "您没有为 Revolt 授予访问麦克风权限。请 {{retryBtn}}。",
+                    "tip_retry": "您没有为 Arma Battles 授予访问麦克风权限。请 {{retryBtn}}。",
                     "tip_grant_permission": "您需要授予权限才能访问音频设置。",
                     "button_grant": "授予权限"
                 },
@@ -503,7 +503,7 @@
                     "single_reacted": "1 人反应了",
                     "people_reacted": "{{people}} 反应了"
                 },
-                "new_to_revolt": "Revolt 新人",
+                "new_to_revolt": "Arma Battles 新人",
                 "new_to_server": "服务器新人"
             },
             "categories": {
@@ -694,7 +694,7 @@
                 "changelogs": {
                     "title": "更新日志",
                     "older": "查看以前的更新",
-                    "description": "阅读 Revolt 的更新内容。"
+                    "description": "阅读 Arma Battles 的更新内容。"
                 },
                 "report": {
                     "message": "举报消息",
@@ -717,7 +717,7 @@
                         "Underage": "用户未到可以拥有账户的年龄"
                     },
                     "reported": "已举报",
-                    "thank_you": "感谢您帮助维护 Revolt 的秩序。我们会尽快核查您的举报。",
+                    "thank_you": "感谢您帮助维护 Arma Battles 的秩序。我们会尽快核查您的举报。",
                     "block_user": "您要屏蔽这名用户吗？"
                 },
                 "edit_keybind": {
@@ -736,7 +736,7 @@
             "invite": {
                 "user_count": "{{member_count}} 位用户",
                 "invited_by": "由 {{user}} 邀请",
-                "login": "登录 Revolt",
+                "login": "登录 Arma Battles",
                 "accept": "接受邀请",
                 "invalid": "无效邀请！",
                 "invalid_desc": "此邀请可能不存在，或者您没有权限加入。"
@@ -813,8 +813,8 @@
         "home": {
             "join-testers": "加入测试服务器",
             "goto-testers": "前往测试服务器",
-            "donate": "捐赠给 Revolt",
-            "feedback": "为 Revolt 反馈",
+            "donate": "捐赠给 Arma Battles",
+            "feedback": "为 Arma Battles 反馈",
             "settings": "打开设置",
             "settings-tooltip": "您也可以右键点击左上角的用户图标，或者在主页时直接左键点击。",
             "social": "寻找服务器和机器人",
@@ -822,7 +822,7 @@
             "goto-testers_desc": "您可以在此处直接报告问题和讨论建议。",
             "donate_desc": "捐赠以支持此项目——谢谢！",
             "feedback_desc": "发送反馈让我们知道怎样改进此应用。",
-            "discover": "探索 Revolt",
+            "discover": "探索 Arma Battles",
             "discover_desc": "根据您的爱好和兴趣寻找社区。",
             "group": "创建群组",
             "join-testers_desc": "您可以在此处直接报告问题和讨论建议。",
@@ -846,7 +846,7 @@
         "missing_verification": "没有收到邮件吗？",
         "create": "创建新账户",
         "existing": "已经有账户了吗？",
-        "new": "初次使用 Revolt 吗？",
+        "new": "初次使用 Arma Battles 吗？",
         "remembered": "返回登录页面",
         "set_password": "设置新密码",
         "reset": "重置密码",
@@ -870,7 +870,7 @@
         "welcome2": "您好！",
         "subtitle2": "创建账户",
         "welcome": "欢迎！",
-        "subtitle": "登录 Revolt",
+        "subtitle": "登录 Arma Battles",
         "unofficial_instance": "第三方实例。",
         "totp": "身份验证器应用",
         "recovery": "恢复代码",

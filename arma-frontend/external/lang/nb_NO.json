@@ -4,7 +4,7 @@
             "pages": {
                 "feedback": {
                     "issue_desc": "For å gjøre det lettere for oss å lete etter feil, kan du rapportere det på GitHub.",
-                    "suggest_desc": "Foreslå nye Revolt-funksjoner i GitHub-diskusjon.",
+                    "suggest_desc": "Foreslå nye Arma Battles-funksjoner i GitHub-diskusjon.",
                     "issue": "Opprett en ny problemrapport",
                     "suggest": "Send inn funksjonsforslag",
                     "bug": "Feilsporer",
@@ -132,7 +132,7 @@
                     "input_device": "Mikrofon",
                     "button_retry": "prøv igjen",
                     "device_label_NA": "Ikke tilgjengelig",
-                    "tip_retry": "Du har ikke gitt Revolt tillatelse til å bruke mikrofonen din, vennligst {{retryBtn}}.",
+                    "tip_retry": "Du har ikke gitt Arma Battles tillatelse til å bruke mikrofonen din, vennligst {{retryBtn}}.",
                     "button_grant": "Gi tillatelse",
                     "tip_grant_permission": "Du må gi oss tillatelse for å nå lydinstillinger."
                 },
@@ -443,7 +443,7 @@
                     "unknown_reacted": "{{count}} reagerte",
                     "single_reacted": "1 person reagerte"
                 },
-                "new_to_revolt": "Ny til Revolt",
+                "new_to_revolt": "Ny til Arma Battles",
                 "new_to_server": "Ny til denne serveren"
             },
             "servers": {
@@ -511,7 +511,7 @@
                 }
             },
             "invite": {
-                "login": "Logg inn på Revolt",
+                "login": "Logg inn på Arma Battles",
                 "user_count": "{{member_count}} brukere",
                 "accept": "Godta invitasjon",
                 "invited_by": "Invitert av {{user}}",
@@ -615,7 +615,7 @@
                     "ignore": "Ignorer oppdatering"
                 },
                 "changelogs": {
-                    "description": "Les om oppdateringer til Revolt.",
+                    "description": "Les om oppdateringer til Arma Battles.",
                     "title": "Endringslogg",
                     "older": "Vis eldre oppdateringer"
                 },
@@ -640,7 +640,7 @@
                         "Underage": "Denne brukeren er ikke gammel nok til å ha en konto"
                     },
                     "reported": "Rapportert",
-                    "thank_you": "Takk for at du hjelper til med å holde Revolt trygt. Vi vil se igjennom rapporten din så snart som mulig.",
+                    "thank_you": "Takk for at du hjelper til med å holde Arma Battles trygt. Vi vil se igjennom rapporten din så snart som mulig.",
                     "block_user": "Vil du blokkere denne brukeren?"
                 }
             },
@@ -752,15 +752,15 @@
             "directs": "Direktemeldinger",
             "join-testers": "Bli med i testers serveren",
             "goto-testers": "Gå til tester serveren",
-            "donate": "Doner til Revolt",
+            "donate": "Doner til Arma Battles",
             "settings-tooltip": "Du kan også høyre-klikke bruker ikonet øverst til venstre, eller venstre klikk den hvis du er hjemme allerede.",
-            "feedback": "Gi en tilbakemelding til Revolt",
+            "feedback": "Gi en tilbakemelding til Arma Battles",
             "settings": "Åpne innstillinger",
             "join-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
             "goto-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
             "donate_desc": "Støtt prosjektet ved å donere - takk!",
             "feedback_desc": "Fortell oss hvordan vi kan forbedre appen vår ved å gi oss en tilbakemelding.",
-            "discover": "Oppdag Revolt",
+            "discover": "Oppdag Arma Battles",
             "discover_desc": "Finn et fellesskap basert på dine hobbyer eller interesser.",
             "group": "Opprett en gruppe",
             "group_desc": "Inviter alle vennene dine, noen kule roboter, og ha en stor fest."
@@ -978,7 +978,7 @@
         "missing_verification": "Fikk du ingen e-post?",
         "create": "Opprett en ny konto",
         "existing": "Har du allerede en konto?",
-        "new": "Ny på Revolt?",
+        "new": "Ny på Arma Battles?",
         "remembered": "Gå tilbake til innlogging",
         "set_password": "Skriv et nytt passord",
         "reset": "Tilbakestill passord",
@@ -999,7 +999,7 @@
         "register": "Registrer",
         "title": "Logg inn",
         "welcome": "Velkommen!",
-        "subtitle": "Logg inn på Revolt",
+        "subtitle": "Logg inn på Arma Battles",
         "welcome2": "Hallo!",
         "subtitle2": "Opprett en konto",
         "unofficial_instance": "Tredjepartsinstans.",

@@ -10,7 +10,7 @@
         },
         "title": "Iniciar sessió",
         "welcome": "Benvingut de nou!",
-        "subtitle": "Inicia sessió en Revolt",
+        "subtitle": "Inicia sessió en Arma Battles",
         "welcome2": "Hola!",
         "subtitle2": "Crear un compte",
         "register": "Registrar",
@@ -31,7 +31,7 @@
         "reset": "Restablir contrasenya",
         "set_password": "Establir nova contrasenya",
         "remembered": "Tornar a l'inici de sessió",
-        "new": "Nou a Revolt?",
+        "new": "Nou a Arma Battles?",
         "existing": "Ja tens un compte?",
         "missing_verification": "No ha rebut el email?",
         "resend": "Reenviar verificació",
@@ -54,16 +54,16 @@
         "home": {
             "directs": "Missatges directes",
             "join-testers_desc": "Pots discutir problemes i millores ací.",
-            "donate": "Donar a Revolt",
+            "donate": "Donar a Arma Battles",
             "feedback_desc": "Deixa'ns saber com podem millorar la nostra app.",
             "settings-tooltip": "També pots fer clic dret a l'icona de l'usuari a dalt a l'esquerra, o clic esquerre so ja estés un casa.",
-            "discover": "Descobreix Revolt",
+            "discover": "Descobreix Arma Battles",
             "discover_desc": "Troba una communitat basat en els teus hobbies o interessos.",
             "join-testers": "Unisca's al servidor d'emprovadors",
             "goto-testers": "Ir al servidor d'emprovadors",
             "goto-testers_desc": "Pots discutir problemes i millores ací.",
             "donate_desc": "Soporta el projecte donant-us - Gracies!",
-            "feedback": "Proporcione feedback en Revolt",
+            "feedback": "Proporcione feedback en Arma Battles",
             "settings": "Obrir les configuracións",
             "group": "Crear un grup",
             "group_desc": "Invita als teus amics, uns guays bots, i lanza una gran festa."
@@ -158,7 +158,7 @@
                 },
                 "user_timed_out": "Usuari castigat per {{time}}.",
                 "bridged": "El missatge fou enviat en una altra plataforma",
-                "new_to_revolt": "Nou en Revolt",
+                "new_to_revolt": "Nou en Arma Battles",
                 "new_to_server": "Nou en este servidor",
                 "reactions": {
                     "others_reacted": "{{userlist}} i {{count}} més reaccionaren",
@@ -307,7 +307,7 @@
                 },
                 "feedback": {
                     "title": "Comentaris",
-                    "suggest_desc": "Sugerir noves característiques per a Revolt en discussions de GitHub.",
+                    "suggest_desc": "Sugerir noves característiques per a Arma Battles en discussions de GitHub.",
                     "issue_desc": "Per a ajudar-nos més fàcilment a classificar problemes, pots obrir una incidència en GitHub.",
                     "bug": "Rastrejador d'errors. Woof 🐶",
                     "bug_desc": "Consultar els informes d'errors actius.",
@@ -410,7 +410,7 @@
                     "logout": "Tancar totes les altres sessions"
                 },
                 "audio": {
-                    "tip_retry": "No donares permisos a Revolt per a accedir al teu micròfon. Per favor {{retryBtn}}.",
+                    "tip_retry": "No donares permisos a Arma Battles per a accedir al teu micròfon. Per favor {{retryBtn}}.",
                     "tip_grant_permission": "Has de donar permís per a accedir a la configuració d'àudio.",
                     "button_grant": "Concedir permissos",
                     "title": "Configuració de veu",
@@ -592,7 +592,7 @@
                 },
                 "languages": {
                     "a": "Hi ha cap llengua que se'ns oblide?",
-                    "b": "Ajuda'ns a traduir Revolt."
+                    "b": "Ajuda'ns a traduir Arma Battles."
                 },
                 "sessions": {
                     "a": "Si veus una sessió desconeguda en la llista,",
@@ -644,7 +644,7 @@
                     "message": "Informa sobre el missatge",
                     "by_name": "Informar sobre {{name}}",
                     "reported": "Reportat",
-                    "thank_you": "Gràcies per ajudar a mantindre Revolt segur. Revisarem el teu report quan puguem.",
+                    "thank_you": "Gràcies per ajudar a mantindre Arma Battles segur. Revisarem el teu report quan puguem.",
                     "no_reason": "No especifica el motiu / una altra raó"
                 },
                 "sessions": {
@@ -679,7 +679,7 @@
                     "select_method": "Per favor, selecciona un mètode per a autenticar la seua sol·licitud."
                 },
                 "changelogs": {
-                    "description": "Llig sobre les actualitzacions de Revolt.",
+                    "description": "Llig sobre les actualitzacions de Arma Battles.",
                     "title": "Registre de canvis",
                     "older": "Mirar actualitzacions anteriors"
                 },
@@ -796,7 +796,7 @@
             "invite": {
                 "invited_by": "Convidat per {{user}}",
                 "invalid": "Invitació sense validea!",
-                "login": "Iniciar sessió en Revolt",
+                "login": "Iniciar sessió en Arma Battles",
                 "accept": "Acceptar invitació",
                 "user_count": "Hi ha {{member_count}} usuaris",
                 "invalid_desc": "Creem que la invitació no existix, o simplement no tens permisos per a unir-t'hi."

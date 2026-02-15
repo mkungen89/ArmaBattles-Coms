@@ -19,17 +19,17 @@
             }
         },
         "home": {
-            "donate": "Donar al Revolt",
+            "donate": "Donar al Arma Battles",
             "directs": "Mesàji Driti",
             "goto-testers": "Ndar al servidor dei testadori",
             "donate_desc": "Te juti el projeto donando - gràsie miłe!",
             "join-testers": "Unirse al servidor dei testadori",
             "goto-testers_desc": "Te pol reportar probleme e discutir sora meioranse co nantri quà.",
             "join-testers_desc": "Te pol reportar probleme e discutir sora meioranse co nantri quà.",
-            "feedback": "Dar feedback al Revolt",
+            "feedback": "Dar feedback al Arma Battles",
             "settings": "Vardar inpostasioni",
             "group": "Crea un grupo",
-            "discover": "Scoèrder el Revolt",
+            "discover": "Scoèrder el Arma Battles",
             "discover_desc": "Cata na comunità con tui hobbies o interessi.",
             "feedback_desc": "Fane saver cofà podemo sviłupar mèio ła nostra app con feedbacks.",
             "group_desc": "Convida tuti i to amighi, arquanti boni bot e comemora.",
@@ -130,7 +130,7 @@
                     "people_reacted": "{{people}} i gà reazìo"
                 },
                 "user_timed_out": "'Sta utensa ła ze mudada par {{time}}.",
-                "new_to_revolt": "Novo in Revolt",
+                "new_to_revolt": "Novo in Arma Battles",
                 "new_to_server": "Novo inte 'sto servidor",
                 "team": "Comunicasion Ufisiałe"
             },
@@ -392,7 +392,7 @@
         "register": "Registrate",
         "username": "Nome utensa",
         "email": "E-mail",
-        "subtitle": "Asedi a Revolt",
+        "subtitle": "Asedi a Arma Battles",
         "invite": "Còdise de convite",
         "current_password": "Ciave atual",
         "enter": {
@@ -404,7 +404,7 @@
             "new_password": "Inseri na nova ciave."
         },
         "forgot": "Gheto smentegà ła to ciave?",
-        "new": "Novo in Revolt?",
+        "new": "Novo in Arma Battles?",
         "set_password": "Determinar na nova ciave",
         "remembered": "Tornar al login",
         "missing_verification": "No gheto recevisto mia un e-mail?",

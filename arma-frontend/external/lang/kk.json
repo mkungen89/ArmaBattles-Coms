@@ -37,7 +37,7 @@
             "resend": "Қайта жібере алмадық!"
         },
         "welcome": "Қош келдіңіз!",
-        "subtitle": "Revolt-қа кіру",
+        "subtitle": "Arma Battles-қа кіру",
         "welcome2": "Сәлем!",
         "subtitle2": "Тіркелгі жасау",
         "register": "Тіркелу",
@@ -50,7 +50,7 @@
         "forgot": "Құпиясөзіңізді ұмытып қалдыңыз ба?",
         "reset": "Құпиясөзді қалпына келтіру",
         "set_password": "Жаңа құпиясөз қою",
-        "new": "Revolt-қа жаңадан келдіңіз бе?",
+        "new": "Arma Battles-қа жаңадан келдіңіз бе?",
         "existing": "Тіркелгі жасап қойғансыз ба?",
         "create": "Жаңа тіркелгі жасаңыз",
         "remembered": "Кіруге оралу",
@@ -91,10 +91,10 @@
             "directs": "Жеке хаттар",
             "goto-testers": "Тестерлер серверіне бару",
             "goto-testers_desc": "Тікелей бізге мәселе жайлы хабарлап, бірдеңе ұсына аласыз.",
-            "donate": "Revolt-ты қаржылай қолдау",
-            "feedback": "Revolt жайлы пікір айту",
+            "donate": "Arma Battles-ты қаржылай қолдау",
+            "feedback": "Arma Battles жайлы пікір айту",
             "settings": "Баптауды ашу",
-            "discover": "Revolt-ты шолу",
+            "discover": "Arma Battles-ты шолу",
             "discover_desc": "Қызығушылықтарыңызға сәйкес қауым табыңыз.",
             "group": "Топ құру"
         },
@@ -200,7 +200,7 @@
                 "edited": "(өңделген)",
                 "bot": "Бот",
                 "bridge": "көпір",
-                "new_to_revolt": "Revolt-қа жаңадан келген",
+                "new_to_revolt": "Arma Battles-қа жаңадан келген",
                 "team": "Ресми әңгіме"
             },
             "groups": {
@@ -276,7 +276,7 @@
                 },
                 "audio": {
                     "output_device": "Динамик / Құлаққап",
-                    "tip_retry": "Revolt-қа микрофоныңызға қол жеткізуге рұқсат бермедіңіз. {{retryBtn}}.",
+                    "tip_retry": "Arma Battles-қа микрофоныңызға қол жеткізуге рұқсат бермедіңіз. {{retryBtn}}.",
                     "button_retry": "қайталап көріңізші",
                     "title": "Дауысты баптау",
                     "input_device": "Микрофон",

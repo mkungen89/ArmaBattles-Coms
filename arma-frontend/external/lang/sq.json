@@ -13,7 +13,7 @@
     },
     "login": {
         "title": "Hyr",
-        "subtitle": "Hyr në Revolt",
+        "subtitle": "Hyr në Arma Battles",
         "welcome2": "Përshëndetje!",
         "subtitle2": "Krijo një llogari",
         "register": "Regjistrohu",
@@ -32,7 +32,7 @@
         "forgot": "Keni harruar fjalëkalimin?",
         "reset": "Rivendosni fjalëkalimin",
         "remembered": "Shko mbrapsht për tek identifikimi",
-        "new": "I ri në Revolt?",
+        "new": "I ri në Arma Battles?",
         "existing": "Keni një llogari?",
         "create": "Krijo një llogari të re",
         "cancel": "Anullo kërkesën",
@@ -85,8 +85,8 @@
             "join-testers": "Futu në serverin e testuesve",
             "goto-testers": "Shko tek serveri i testuesve",
             "settings": "Hap opsionet",
-            "feedback": "Jep mendimin tënd mbi Revolt",
-            "donate": "Dhuroni Revolt-it",
+            "feedback": "Jep mendimin tënd mbi Arma Battles",
+            "donate": "Dhuroni Arma Battles-it",
             "settings-tooltip": "Ju gjithashtu mund të klikoni me anën e djathtë ikonin e përdoruesit lart majtas, ose të klikoni normalisht në qoftë se jeni në krye.",
             "directs": "Mesazhet direkte",
             "join-testers_desc": "Ju mund të raportoni probleme dhe të diskutoni përmirësime me ne këtu.",
@@ -96,7 +96,7 @@
             "discover_desc": "Gjeni një komunitet të bazuar mbi hobitë ose interesat e tua.",
             "group": "Krijoni një grup",
             "group_desc": "Ftoni të gjithë miqtë e tua, shtoni disa robotë të lezetshëm dhe organizoni një festë të madhe.",
-            "discover": "Zbuloni Revolt-in"
+            "discover": "Zbuloni Arma Battles-in"
         },
         "main": {
             "categories": {
@@ -192,7 +192,7 @@
                 },
                 "bridge": "urë",
                 "user_timed_out": "Ky përdorues nuk lejohet të çoj mesazh për {{time}}.",
-                "new_to_revolt": "I ri në Revolt",
+                "new_to_revolt": "I ri në Arma Battles",
                 "new_to_server": "I ri në këtë server",
                 "bridged": "Mesazhi është nisur mbi një platform tjetër",
                 "team": "Komunikim Zyrtar",
@@ -574,7 +574,7 @@
                 "confirm": "Konfirmo veprimin",
                 "changelogs": {
                     "title": "Ndryshimet",
-                    "description": "Lexoni rreth përditësimeve të Revolt.",
+                    "description": "Lexoni rreth përditësimeve të Arma Battles.",
                     "older": "Shiko përditësimet më të vjetra"
                 },
                 "report": {
@@ -598,7 +598,7 @@
                         "Underage": "Ky përdorues nuk është mjaft i vjetër për të pasur një llogari"
                     },
                     "reported": "Raportuar",
-                    "thank_you": "Faleminderit për ndihmën për të mbajtur Revolt të sigurt. Ne do ta shqyrtojmë raportin tuaj sa më shpejt të jetë e mundur.",
+                    "thank_you": "Faleminderit për ndihmën për të mbajtur Arma Battles të sigurt. Ne do ta shqyrtojmë raportin tuaj sa më shpejt të jetë e mundur.",
                     "block_user": "A do të bllokosh këtë përdorues?"
                 }
             },
@@ -647,7 +647,7 @@
             },
             "invite": {
                 "invited_by": "I ftuar nga {{user}}",
-                "login": "Hyni në Revolt",
+                "login": "Hyni në Arma Battles",
                 "accept": "Pranoje Ftesen",
                 "user_count": "{{member_count}} përdoruesit",
                 "invalid": "Ftesë e pavlefshme!",

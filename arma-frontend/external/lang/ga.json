@@ -178,7 +178,7 @@
                 "team": "Cumarsáid Oifigiúil",
                 "bridge": "droichead",
                 "user_timed_out": "Tá an t-am istigh ag úsáideoir {{time}}.",
-                "new_to_revolt": "Nua san Revolt",
+                "new_to_revolt": "Nua san Arma Battles",
                 "new_to_server": "Nua don fhreastalaí seo",
                 "reactions": {
                     "others_reacted": "D'fhreagair {{userlist}} agus {{count}} duine eile",
@@ -348,7 +348,7 @@
                     "features": "Ceannaithe ar fáil"
                 },
                 "feedback": {
-                    "suggest_desc": "Tabhair ceannaithe nua de Revolt ar GitHub discussions.",
+                    "suggest_desc": "Tabhair ceannaithe nua de Arma Battles ar GitHub discussions.",
                     "title": "Aischothú",
                     "suggest": "Tabhair moladh ceannaithe",
                     "issue": "Chruthú tál nua",
@@ -637,7 +637,7 @@
                 "accept": "Glac cuireadh",
                 "invited_by": "Cuireadh ag an {{user}}",
                 "invalid": "Chuireadh neamhbhailí!",
-                "login": "Logáil isteach chuig Revolt",
+                "login": "Logáil isteach chuig Arma Battles",
                 "user_count": "{{member_count}} úsáideoirí",
                 "invalid_desc": "Ní fhéadfaidh an cuireadh a bheith i bhfeidhm nó b’fhéidir nach gceadófar duit páirt a ghlacadh."
             },
@@ -653,8 +653,8 @@
         "home": {
             "join-testers": "Téigh isteach insan freastalaí tástálaí",
             "goto-testers": "Téigh chuig freastalaí an tástálaí",
-            "donate": "Deonaigh chuig Revolt",
-            "feedback": "Tabhair aiseolas ar Revolt",
+            "donate": "Deonaigh chuig Arma Battles",
+            "feedback": "Tabhair aiseolas ar Arma Battles",
             "settings": "Oscail rogha",
             "settings-tooltip": "Is féidir leat cliceáil ar dheis freisin ar an deilbhín úsáideora ar thaobh na láimhe clé barr, nó cliceáil ar chlé má tá tú sa bhaile cheana féin.",
             "social": "Aimsigh freastalaithe agus bots",
@@ -759,7 +759,7 @@
         "forgot": "Pasfhocal i ndearmad?",
         "reset": "Athshocraigh Pasfhocal",
         "remembered": "Téigh ar ais chuig Logáil Isteach",
-        "new": "Nua go Revolt?",
+        "new": "Nua go Arma Battles?",
         "existing": "Cuntas agat cheana?",
         "create": "Cruthaigh cuntas nua",
         "cancel": "Cealaigh iarratas",
@@ -782,7 +782,7 @@
         "email_delay": "Lig suas go dtí 10 nóiméad chun go dtiocfaidh sé le do thoil.",
         "successful_registration": "Cláraithe go rathúil!",
         "welcome": "Fáilte romhat!",
-        "subtitle": "Sínigh isteach i Revolt",
+        "subtitle": "Sínigh isteach i Arma Battles",
         "welcome2": "Haigh!",
         "subtitle2": "Cruthaigh cuntas",
         "unofficial_instance": "Sampla tríú páirtí.",

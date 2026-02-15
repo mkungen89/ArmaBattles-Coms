@@ -329,7 +329,7 @@
                     "bug": "Rat Finder",
                     "suggest": "Propose a ship improvement",
                     "description": "Offer yer thoughts",
-                    "suggest_desc": "Put forth fresh ideas for Revolt on the GitHub parley.",
+                    "suggest_desc": "Put forth fresh ideas for Arma Battles on the GitHub parley.",
                     "issue_desc": "To aid us in sorting troubles on the digital high seas, ye can craft a conundrum on GitHub, matey.",
                     "bug_desc": "Gaze upon the currently active bug reckonings here."
                 },
@@ -592,7 +592,7 @@
                 "changelogs": {
                     "title": "Log of Changes",
                     "older": "Behold previous updates",
-                    "description": "Learn 'bout updates to Revolt."
+                    "description": "Learn 'bout updates to Arma Battles."
                 },
                 "out_of_date": {
                     "description": "She must be updated to align with recent changes, or she won't sail smoothly.",
@@ -626,7 +626,7 @@
                         "Underage": "This young swashbuckler be not old enough to be sailing these waters",
                         "InappropriateProfile": "This scallywag's log be not fit for all to see"
                     },
-                    "thank_you": "Arrr, thank ye fer helpin' to keep Revolt safe me matey. We'll be reviewin' yer report as soon as we can set sail.",
+                    "thank_you": "Arrr, thank ye fer helpin' to keep Arma Battles safe me matey. We'll be reviewin' yer report as soon as we can set sail.",
                     "additional_context": "Extra Intel",
                     "no_reason": "No reason be given / other reason",
                     "block_user": "Would ye fancy blockin' this scurvy dog of a user?"
@@ -643,7 +643,7 @@
                 "invalid": "Bogus summon!",
                 "invalid_desc": "The summons be fishy or ye lack the seal.",
                 "invited_by": "Summoned by {{user}}",
-                "login": "Come aboard Revolt",
+                "login": "Come aboard Arma Battles",
                 "user_count": "{{member_count}}crewmates"
             },
             "requires_online": "Ye must be sailin' the digital seas to lay eyes on this."
@@ -694,7 +694,7 @@
         "open_mail_provider": "Check yer {{provider}}",
         "invite": "Ye' Invitation Code",
         "email": "Email",
-        "new": "New t' Revolt?",
+        "new": "New t' Arma Battles?",
         "reset": "Reset codeword",
         "successful_registration": "Ahoy! Successfully registered!",
         "set_password": "Set new codeword",

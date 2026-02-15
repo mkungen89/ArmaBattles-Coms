@@ -176,9 +176,9 @@ export const UserProfile = observer(
                                     className={styles.username}
                                     onClick={() =>
                                         modalController.writeText(
-                                            user.username +
-                                                "#" +
-                                                user.discriminator,
+                                            `${user.username 
+                                                }#${ 
+                                                user.discriminator}`,
                                         )
                                     }>
                                     <Localizer>

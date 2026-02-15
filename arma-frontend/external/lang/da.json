@@ -25,7 +25,7 @@
         "create": "Opret en ny konto",
         "set_password": "Indstil ny adgangskode",
         "existing": "Har du allerede en bruger?",
-        "new": "Ny hos Revolt?",
+        "new": "Ny hos Arma Battles?",
         "remembered": "Gå tilbage til login",
         "reset": "Nulstil adgangskode",
         "forgot": "Glemt din adgangskode?",
@@ -40,7 +40,7 @@
         "welcome2": "Hej!",
         "subtitle2": "Opret en konto",
         "welcome": "Velkommen!",
-        "subtitle": "Log ind på Revolt",
+        "subtitle": "Log ind på Arma Battles",
         "unofficial_instance": "Tredjepartstjeneste.",
         "totp": "Godkendelsesapp",
         "recovery": "Gendannelseskode",
@@ -148,7 +148,7 @@
                     "unknown_reacted": "{{count}} personer reagerede"
                 },
                 "new_to_server": "Ny på denne server",
-                "new_to_revolt": "Ny hos Revolt"
+                "new_to_revolt": "Ny hos Arma Battles"
             },
             "categories": {
                 "members": "Medlemmer",
@@ -286,7 +286,7 @@
                     "enter_code": "Indtast kode"
                 },
                 "changelogs": {
-                    "description": "Læs om opdateringerne af Revolt.",
+                    "description": "Læs om opdateringerne af Arma Battles.",
                     "title": "Ændringslog",
                     "older": "Se ældre opdateringer"
                 },
@@ -299,7 +299,7 @@
                     "attempting": "Forsøger at opdatere…"
                 },
                 "report": {
-                    "thank_you": "Tak, fordi du hjælper med at holde Revolt sikkert. Vi vil gennemgå din rapport så hurtigt som muligt.",
+                    "thank_you": "Tak, fordi du hjælper med at holde Arma Battles sikkert. Vi vil gennemgå din rapport så hurtigt som muligt.",
                     "block_user": "Vil du blokere denne bruger?",
                     "content_reason": {
                         "PromotesHarm": "Indholdet fremmer skade på andre eller sig selv",
@@ -380,7 +380,7 @@
             "requires_online": "Du skal være online for at se dette.",
             "invite": {
                 "invited_by": "Inviteret af {{user}}",
-                "login": "Log ind på Revolt",
+                "login": "Log ind på Arma Battles",
                 "accept": "Acceptér invitation",
                 "user_count": "{{member_count}} brugere",
                 "invalid": "Ugyldig invitation!",
@@ -444,7 +444,7 @@
                     "custom_background": "Brugerdefineret baggrund"
                 },
                 "audio": {
-                    "tip_retry": "Du har ikke givet Revolt tilladelse til mikrofonen. {{retryBtn}}.",
+                    "tip_retry": "Du har ikke givet Arma Battles tilladelse til mikrofonen. {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "prøv igen",
                     "title": "Stemmeindstillinger",
@@ -525,7 +525,7 @@
                     "title": "Feedback",
                     "bug": "Fejlsporing",
                     "suggest": "Indsend forslag til funktioner",
-                    "suggest_desc": "Foreslå nye Revolt-funktioner på GitHub-diskussioner.",
+                    "suggest_desc": "Foreslå nye Arma Battles-funktioner på GitHub-diskussioner.",
                     "issue": "Opret et nyt problem",
                     "issue_desc": "For at hjælpe os med at håndtere problemer kan du oprette et problem på GitHub.",
                     "bug_desc": "Se aktuelt aktive fejlrapporter her.",
@@ -852,8 +852,8 @@
         "home": {
             "join-testers": "Deltag i testernes server",
             "goto-testers": "Gå til testernes server",
-            "donate": "Donér til Revolt",
-            "feedback": "Giv feedback om Revolt",
+            "donate": "Donér til Arma Battles",
+            "feedback": "Giv feedback om Arma Battles",
             "settings": "Åbn indstillinger",
             "settings-tooltip": "Du kan også højreklikke på brugerikonet øverst til venstre eller venstreklikke, hvis du allerede er på startsiden.",
             "social": "Find servere og bots",
@@ -865,7 +865,7 @@
             "group": "Opret en gruppe",
             "group_desc": "Inviter alle dine venner og nogle seje bots, og hold en stor fest.",
             "feedback_desc": "Fortæl os hvordan vi kan forbedre appen ved at give os feedback.",
-            "discover": "Udforsk Revolt"
+            "discover": "Udforsk Arma Battles"
         },
         "permissions": {
             "required": "Rettigheder påkrævet"

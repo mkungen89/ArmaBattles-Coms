@@ -19,7 +19,7 @@
         "password": "Mật Khẩu",
         "invite": "Mã mời",
         "forgot": "Quên mật khẩu?",
-        "new": "Lần đầu đến Revolt?",
+        "new": "Lần đầu đến Arma Battles?",
         "existing": "Đã có tài khoản?",
         "enter": {
             "password": "Nhập mật khẩu của bạn.",
@@ -52,7 +52,7 @@
         "welcome2": "Chào bạn!",
         "subtitle2": "Tạo tài khoản mới",
         "welcome": "Chào mừng!",
-        "subtitle": "Đăng nhập vào Revolt",
+        "subtitle": "Đăng nhập vào Arma Battles",
         "unofficial_instance": "Phiên bản của bên thứ ba.",
         "totp": "Ứng Dụng Xác Thực",
         "recovery": "Mã Khôi Phục",
@@ -183,7 +183,7 @@
                     "single_reacted": "1 người đã bày tỏ cảm xúc",
                     "people_reacted": "{{people}} đã bày tỏ cảm xúc"
                 },
-                "new_to_revolt": "Mới dùng Revolt",
+                "new_to_revolt": "Mới dùng Arma Battles",
                 "new_to_server": "Mới vào server này"
             },
             "groups": {
@@ -358,7 +358,7 @@
                 "feedback": {
                     "title": "Phản Hồi",
                     "suggest": "Góp ý tính năng",
-                    "suggest_desc": "Gợi ý tính năng mới của Revolt ở các cuộc bàn luận trong GitHub.",
+                    "suggest_desc": "Gợi ý tính năng mới của Arma Battles ở các cuộc bàn luận trong GitHub.",
                     "issue": "Tạo một bản phát hành mới",
                     "issue_desc": "Để giúp chúng tôi xử lý các vấn đề một cách dễ dàng hơn, bạn có thể tạo một văn bản đề cập đến một vấn đề trên GitHub.",
                     "bug": "Trình theo dõi lỗi",
@@ -388,7 +388,7 @@
                     "title": "Cài Đặt Giọng Nói",
                     "input_device": "Mic",
                     "output_device": "Loa / Tai nghe",
-                    "tip_retry": "Bạn chưa cho Revolt cấp quyền truy cập microphone của bạn, vui lòng {{retryBtn}}.",
+                    "tip_retry": "Bạn chưa cho Arma Battles cấp quyền truy cập microphone của bạn, vui lòng {{retryBtn}}.",
                     "device_label_NA": "Không có sẵn",
                     "button_retry": "thử lại",
                     "button_grant": "Cấp quyền",
@@ -709,7 +709,7 @@
                 "changelogs": {
                     "older": "Xem các cập nhật cũ hơn",
                     "title": "Lịch sử thay đổi",
-                    "description": "Đọc về các cập nhật của Revolt."
+                    "description": "Đọc về các cập nhật của Arma Battles."
                 },
                 "confirm": "Xác nhận hành động",
                 "mfa": {
@@ -736,7 +736,7 @@
                     },
                     "reported": "Đã báo cáo",
                     "block_user": "Bạn có muốn chặn người dùng này không?",
-                    "thank_you": "Cảm ơn bạn đã góp sức giữ Revolt an toàn. Chúng tôi sẽ xem xét báo cáo của bạn sớm nhất có thể.",
+                    "thank_you": "Cảm ơn bạn đã góp sức giữ Arma Battles an toàn. Chúng tôi sẽ xem xét báo cáo của bạn sớm nhất có thể.",
                     "user_reason": {
                         "SpamAbuse": "Người dùng đang gửi tin nhắn rác hoặc đang lạm dụng nền tảng",
                         "InappropriateProfile": "Hồ sơ của người dùng không phù hợp với đối tượng chung",
@@ -790,7 +790,7 @@
             "requires_online": "Bạn phải có kết nối mạng để xem cái này.",
             "invite": {
                 "invited_by": "Được mời bỏi {{user}}",
-                "login": "Đăng nhập vào Revolt",
+                "login": "Đăng nhập vào Arma Battles",
                 "invalid": "Lời mời không hợp lệ!",
                 "invalid_desc": "Lời mời không tồn tại, hoặc bạn không có quyền tham gia.",
                 "accept": "Chấp nhận lời mời",
@@ -869,12 +869,12 @@
             "goto-testers_desc": "Bạn có thể báo cáo vấn đề và trao đổi về những cải tiến trực tiếp với chúng tôi tại đây.",
             "donate_desc": "Ủng hộ dự án bằng cách quyên góp - cảm ơn bạn!",
             "feedback_desc": "Giúp chúng tôi cải tiến bằng cách gửi phản hồi.",
-            "discover": "Khám phá Revolt",
+            "discover": "Khám phá Arma Battles",
             "group": "Tạo một nhóm mới",
             "join-testers": "Tham gia máy chủ thử nghiệm",
             "goto-testers": "Đi đến máy chủ thử nghiệm",
-            "donate": "Ủng hộ Revolt",
-            "feedback": "Phản hồi cho Revolt",
+            "donate": "Ủng hộ Arma Battles",
+            "feedback": "Phản hồi cho Arma Battles",
             "settings": "Mở cài đặt",
             "settings-tooltip": "Bạn cũng có thể nhấp chuột phải vào biểu tượng người dùng ở trên cùng góc trái, hoặc nhấp chuột trái vào biểu tượng nếu bạn ở trang chủ.",
             "directs": "Tin Nhắn Trực Tiếp",

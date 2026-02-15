@@ -24,7 +24,7 @@
             "new_password": "Podaj nowe hasło."
         },
         "forgot": "Zapomniałeś (-aś) swojego hasła?",
-        "new": "Nowy w Revolt?",
+        "new": "Nowy w Arma Battles?",
         "create": "Stwórz nowe konto",
         "cancel": "Anuluj żądanie",
         "existing": "Masz już konto?",
@@ -50,7 +50,7 @@
         "invite": "Kod zaproszenia",
         "email_delay": "Wysłaliśmy wiadomość weryfikacyjną. Proszę poczekaj do 10 minut na jej nadejście.",
         "welcome": "Witamy!",
-        "subtitle": "Zaloguj się do Revolt",
+        "subtitle": "Zaloguj się do Arma Battles",
         "welcome2": "Witaj!",
         "subtitle2": "Utwórz konto",
         "totp": "Aplikacja uwierzytelniająca",
@@ -184,7 +184,7 @@
                     "single_reacted": "1 osoba zareagowała",
                     "people_reacted": "{{people}} zareagowało"
                 },
-                "new_to_revolt": "Nowe w Revolt",
+                "new_to_revolt": "Nowe w Arma Battles",
                 "new_to_server": "Nowe w tym serwerze"
             },
             "groups": {
@@ -312,7 +312,7 @@
                 },
                 "changelogs": {
                     "title": "Dziennik zmian",
-                    "description": "Poczytaj o aktualizacjach w Revolt.",
+                    "description": "Poczytaj o aktualizacjach w Arma Battles.",
                     "older": "Zobacz starsze aktualizacje"
                 },
                 "confirm": "Potwierdź akcję",
@@ -327,7 +327,7 @@
                 },
                 "report": {
                     "reported": "Zgłoszono",
-                    "thank_you": "Dziękujemy za pomoc w zapewnieniu bezpieczeństwa na Revolt. Zapoznamy się z Twoim zgłoszeniem tak szybko jak to tylko możliwe.",
+                    "thank_you": "Dziękujemy za pomoc w zapewnieniu bezpieczeństwa na Arma Battles. Zapoznamy się z Twoim zgłoszeniem tak szybko jak to tylko możliwe.",
                     "message": "Zgłoś wiadomość",
                     "by_name": "Zgłoś {{name}}",
                     "reason": "Powód",
@@ -400,7 +400,7 @@
             "copy_username": "Kliknij aby skopiować nazwę użytkownika",
             "invite": {
                 "user_count": "{{member_count}} użytkowników",
-                "login": "Zaloguj się do Revolt",
+                "login": "Zaloguj się do Arma Battles",
                 "invited_by": "Zaproszony przez {{user}}",
                 "accept": "Zaakceptuj zaproszenie",
                 "invalid": "Nieprawidłowe zaproszenie!",
@@ -582,7 +582,7 @@
                     "report": "Co chcesz zgłosić?",
                     "suggest": "Prześlij propozycję funkcji",
                     "bug_desc": "Zobacz obecnie aktywne raporty o błędach.",
-                    "suggest_desc": "Zaproponuj nowe funkcje Revolt na dyskusjach GitHub.",
+                    "suggest_desc": "Zaproponuj nowe funkcje Arma Battles na dyskusjach GitHub.",
                     "issue": "Powiadom o problemie",
                     "issue_desc": "Aby pomóc nam sprawniej klasyfikować problemy, możesz zgłosić je na GitHub.",
                     "description": "Prześlij opinię"
@@ -674,7 +674,7 @@
                     "title": "Ustawienia głosu",
                     "button_retry": "spróbuj ponownie",
                     "device_label_NA": "niedostępne",
-                    "tip_retry": "Nie dałeś Revoltowi pozwolenia na dostęp do twojego mikrofonu. Proszę {{retryBtn}}.",
+                    "tip_retry": "Nie dałeś Arma Battlesowi pozwolenia na dostęp do twojego mikrofonu. Proszę {{retryBtn}}.",
                     "tip_grant_permission": "Musisz przydzielić uprawnienia, aby mieć dostęp do ustawień audio.",
                     "button_grant": "Przyznaj uprawnienia"
                 },
@@ -888,11 +888,11 @@
             "social": "Odkryj serwery i boty",
             "join-testers": "Dołącz do serwera testerów",
             "goto-testers": "Przejdź do serwera testerów",
-            "donate": "Przekaż darowiznę na rzecz Revolt",
-            "feedback": "Przekaż opinię na temat Revolt",
+            "donate": "Przekaż darowiznę na rzecz Arma Battles",
+            "feedback": "Przekaż opinię na temat Arma Battles",
             "settings-tooltip": "Możesz również kliknąć prawym przyciskiem myszy na ikonę użytkownika w lewym górnym rogu lub kliknąć ją lewym przyciskiem myszy, jeśli jesteś już na stronie głównej.",
             "directs": "Wiadomości Prywatne",
-            "discover": "Odkryj Revolt",
+            "discover": "Odkryj Arma Battles",
             "discover_desc": "Znajdź społeczność w oparciu o własne hobby lub zainteresowania.",
             "group": "Stwórz grupę",
             "group_desc": "Zaproś przyjaciół, parę fajnych botów i urządźcie wielką imprezę.",

@@ -24,7 +24,7 @@
             "new_password": "Įveskite naują slaptažodį."
         },
         "forgot": "Pamiršote slaptažodį?",
-        "new": "Neturite Revolt paskyros?",
+        "new": "Neturite Arma Battles paskyros?",
         "create": "Kurti naują paskyrą",
         "register": "Registruotis",
         "remembered": "Grįžti prie prisijungimo",
@@ -51,7 +51,7 @@
         "email_delay": "Mes išsiuntėme patvirtinimo el. laišką. Gali užtrukti iki 10 minučių, kol jį gausite.",
         "welcome2": "Sveiki!",
         "subtitle2": "Kurti paskyrą",
-        "subtitle": "Prisijungti prie Revolt",
+        "subtitle": "Prisijungti prie Arma Battles",
         "welcome": "Sveiki!",
         "unofficial_instance": "Trečiųjų šalių objektas.",
         "recovery": "Atkūrimo kodas",
@@ -154,7 +154,7 @@
                 "user_timed_out": "Naudotojas sulaikytas {{time}}.",
                 "bridged": "Žinutė buvo išsiųsta kitoje platformoje",
                 "team": "Oficialus pranešimas",
-                "new_to_revolt": "Revolt naujokas",
+                "new_to_revolt": "Arma Battles naujokas",
                 "new_to_server": "Serverio naujokas",
                 "reactions": {
                     "others_reacted": "{{userlist}} ir dar {{count}} sureagavo",
@@ -317,7 +317,7 @@
                 },
                 "changelogs": {
                     "title": "Keitimų sąrašai",
-                    "description": "Skaitykite apie Revolt naujinimus.",
+                    "description": "Skaitykite apie Arma Battles naujinimus.",
                     "older": "Rodyti senesnius naujinimus"
                 },
                 "out_of_date": {
@@ -350,7 +350,7 @@
                     },
                     "block_user": "Norite užblokuoti šį naudotoją?",
                     "reported": "Išsiųsta",
-                    "thank_you": "Ačiū, kad rūpinatės Revolt saugumu. Mes peržiūrėsime jūsų skundą kaip galima greičiau."
+                    "thank_you": "Ačiū, kad rūpinatės Arma Battles saugumu. Mes peržiūrėsime jūsų skundą kaip galima greičiau."
                 },
                 "edit_keybind": {
                     "title": "Redaguoti {{action}} klavišų priskyrimą",
@@ -399,7 +399,7 @@
             "copy": "Spustelėkite, kad nukopijuotumėte",
             "invite": {
                 "invited_by": "Kvietimas nuo {{user}}",
-                "login": "Prisijungti prie Revolt",
+                "login": "Prisijungti prie Arma Battles",
                 "accept": "Priimti kvietimą",
                 "user_count": "{{member_count}} naudotojai",
                 "invalid": "Negaliojantis kvietimas!",
@@ -590,7 +590,7 @@
                     "title": "Atsiliepimai",
                     "issue_desc": "Jei norite padėti mums lengviau išspręsti problemas, galite sukurti problemą GitHub.",
                     "suggest": "Pateikti funkcijos pasiūlymą",
-                    "suggest_desc": "Siūlykite naujų Revolt funkcijų GitHub diskusijose.",
+                    "suggest_desc": "Siūlykite naujų Arma Battles funkcijų GitHub diskusijose.",
                     "issue": "Kurti naują problemą",
                     "bug_desc": "Peržiūrėkite šiuo metu aktyvius klaidų pranešimus čia.",
                     "description": "Pateikti atsiliepimą"
@@ -671,7 +671,7 @@
                     "output_device": "Garsiakalbis / Ausinės",
                     "button_retry": "Bandyti iš naujo",
                     "device_label_NA": "Nerasta",
-                    "tip_retry": "Nesuteikėte Revolt prieigos prie savo mikrofono. {{retryBtn}}.",
+                    "tip_retry": "Nesuteikėte Arma Battles prieigos prie savo mikrofono. {{retryBtn}}.",
                     "button_grant": "Suteikti prieigą",
                     "tip_grant_permission": "Turite suteikti prieigą prie garso nustatymų."
                 },
@@ -884,8 +884,8 @@
             "settings-tooltip": "Taip pat galite spustelėti dešinįjį pelės klavišą ant naudotojo piktogramos arba kairįjį, jei jau esate pagrindiniame puslapyje.",
             "join-testers": "Prisijunkite prie testuotojų serverio",
             "goto-testers": "Prisijunkite prie testuotojų serverio",
-            "donate": "Paremkite Revolt",
-            "feedback": "Parašykite atsiliepimą apie Revolt",
+            "donate": "Paremkite Arma Battles",
+            "feedback": "Parašykite atsiliepimą apie Arma Battles",
             "settings": "Atidarykite nustatymus",
             "social": "Rasti serverių arba botų",
             "directs": "Asmeninės žinutės",
@@ -893,7 +893,7 @@
             "goto-testers_desc": "Galite pranešti apie problemas ir aptarti patobulinimus su mumis tiesiogiai čia.",
             "donate_desc": "Paremkite projektą paaukodami – ačiū!",
             "feedback_desc": "Pateikite atsiliepimą, kad galėtume tobulinti mūsų programėlę.",
-            "discover": "Atraskite Revolt",
+            "discover": "Atraskite Arma Battles",
             "discover_desc": "Raskite bendruomenę pagal savo hobius ar interesus.",
             "group": "Sukurkite grupę",
             "group_desc": "Pakvieskite visus savo draugus, keletą šaunių botų ir pasilinksminkite."

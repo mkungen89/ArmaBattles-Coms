@@ -5,7 +5,7 @@
         "missing_verification": "E-poçt almadınız?",
         "create": "Yeni hesab yarat",
         "existing": "Artıq hesabınız var?",
-        "new": "Revolt üçün yenisiniz?",
+        "new": "Arma Battles üçün yenisiniz?",
         "remembered": "Giriş səyfəsinə geri qayıt",
         "set_password": "Yeni parol seç",
         "reset": "Parolu sıfırla",
@@ -38,7 +38,7 @@
         },
         "email_delay": "Sizə Təsdiq e-poçtu göndərdik. Zəhmət olmasa 10 dəqiqəyə qədər gözləyin.",
         "welcome": "Xoşgəldiniz!",
-        "subtitle": "Revolta daxil ol",
+        "subtitle": "Arma Battlesa daxil ol",
         "welcome2": "Salam!",
         "subtitle2": "Hesab yarat",
         "verified_account": "Hesabınız təsdiqləndi!",
@@ -176,7 +176,7 @@
                 "bridged": "Mesaj başqa platformada göndərildi",
                 "bridge": "körpü",
                 "team": "Rəsmi Əlaqə",
-                "new_to_revolt": "Revolt üçün yeni",
+                "new_to_revolt": "Arma Battles üçün yeni",
                 "new_to_server": "Bu serverdə yeni",
                 "reactions": {
                     "others_reacted": "{{userlist}} və digər {{count}} nəfər reaksiya verdi",
@@ -357,7 +357,7 @@
                     "other": "Digər",
                     "describe": "Xahiş edirəm məsələni təsvir edin.",
                     "suggest": "Xüsusiyyət təklifi göndərin",
-                    "suggest_desc": "GitHub müzakirələrində yeni Revolt xüsusiyyətləri təklif edin.",
+                    "suggest_desc": "GitHub müzakirələrində yeni Arma Battles xüsusiyyətləri təklif edin.",
                     "bug_desc": "Hazırda aktiv bug reportlarına burada baxın.",
                     "issue_desc": "Problemləri daha asan həll etmək üçün GitHub-da bildirə bilərsiniz.",
                     "issue": "Yeni məsələ yaradın",
@@ -401,7 +401,7 @@
                     "device_label_NA": "heç biri",
                     "button_retry": "yenidən cəhd elə",
                     "output_device": "Dinamik / Qulaqlıq",
-                    "tip_retry": "Revolt tətbiqinə mikrofonunuza daxil olmaq icazəsi vermədiniz. Xahiş edirik {{retryBtn}} düyməsini basın.",
+                    "tip_retry": "Arma Battles tətbiqinə mikrofonunuza daxil olmaq icazəsi vermədiniz. Xahiş edirik {{retryBtn}} düyməsini basın.",
                     "tip_grant_permission": "Sənin səs icazələrinə ehtiyacın var.",
                     "button_grant": "İcazə ver"
                 },
@@ -675,7 +675,7 @@
                     "additional_context": "əlavə informasiya",
                     "message": "Şikayət Mesajı",
                     "reported": "Məlumat verildi",
-                    "thank_you": "Revolt-u təhlükəsiz saxlamağa kömək etdiyiniz üçün təşəkkür edirik. Hesabatınızı ən qısa zamanda nəzərdən keçirəcəyik."
+                    "thank_you": "Arma Battles-u təhlükəsiz saxlamağa kömək etdiyiniz üçün təşəkkür edirik. Hesabatınızı ən qısa zamanda nəzərdən keçirəcəyik."
                 },
                 "mfa": {
                     "confirm": "Lütfən, seçilmiş metoddan istifadə edərək təsdiqləyin.",
@@ -698,7 +698,7 @@
                 },
                 "changelogs": {
                     "title": "Dəyişiklik qeydləri",
-                    "description": "Revolt yeniləmələri haqqında oxuyun.",
+                    "description": "Arma Battles yeniləmələri haqqında oxuyun.",
                     "older": "Köhnə yeniləmələrə baxın"
                 },
                 "confirm": "Fəaliyyəti təsdiqləyin"
@@ -754,7 +754,7 @@
                 "accept": "Dəvəti Qəbul et",
                 "user_count": "{{member_count}} istifadəçi",
                 "invalid_desc": "Sənin bu dəvət ilə daxil olma icazən yoxdur.",
-                "login": "Revolt-a daxil olun",
+                "login": "Arma Battles-a daxil olun",
                 "invited_by": "{{user}} Tərəfindən dəvət edildi"
             },
             "server-badges": {
@@ -820,14 +820,14 @@
         "home": {
             "join-testers": "Testerlər serverinə qatıl",
             "goto-testers": "Testerlər serverinə get",
-            "donate": "Revolta dəstək",
+            "donate": "Arma Battlesa dəstək",
             "settings": "Parametrləri aç",
-            "feedback": "Revolta xəbərdarlıq göndər",
+            "feedback": "Arma Battlesa xəbərdarlıq göndər",
             "settings-tooltip": "Siz həmçinin yuxarı sol küncdəki istifadəçi ikonasına sağ klikləyə və ya artıq evdəsinizsə, sol klikləyə bilərsiniz.",
             "social": "Serverlər vəya botları axtar",
             "directs": "Özəl mesajlar",
             "group": "Qrup yaradın",
-            "discover": "Revolt kəşf edin",
+            "discover": "Arma Battles kəşf edin",
             "donate_desc": "Layihəni ianə ilə dəstəkləyin - təşəkkür edirəm!",
             "join-testers_desc": "Problemləri bildirə və inkişafları birbaşa burada bizimlə müzakirə edə bilərsiniz.",
             "goto-testers_desc": "Problemləri bildirə və inkişafları birbaşa burada bizimlə müzakirə edə bilərsiniz.",

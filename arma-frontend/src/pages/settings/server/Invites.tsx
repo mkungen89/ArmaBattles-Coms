@@ -85,6 +85,7 @@ export const Invites = ({ server }: Props) => {
             {invites && invites.length > 0 && (
                 <div className={styles.virtual}>
                     <Virtuoso
+                        key={invites.map(i => i._id).join(',')}
                         totalCount={invites.length}
                         itemContent={(index) => {
                             // Guard against invalid index after deletion

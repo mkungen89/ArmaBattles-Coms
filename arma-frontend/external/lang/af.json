@@ -16,7 +16,7 @@
     },
     "login": {
         "welcome": "Welkom!",
-        "subtitle": "Teken in by Revolt",
+        "subtitle": "Teken in by Arma Battles",
         "welcome2": "Hallo!",
         "title": "Inteken",
         "username": "Gebruikersnaam",
@@ -37,7 +37,7 @@
         "forgot": "Jou wagwoord vergeet?",
         "reset": "Stel wagwoord terug",
         "set_password": "Stel nuwe wagwoord",
-        "new": "Nuut by Revolt?",
+        "new": "Nuut by Arma Battles?",
         "create": "Skep 'n nuwe rekening",
         "missing_verification": "Nie 'n epos gekry nie?",
         "resend": "Stuur bewysing weer",
@@ -88,12 +88,12 @@
             "directs": "Direkte Boodskappe",
             "join-testers": "Sluit by die toetsersbediener in",
             "goto-testers": "Gaan na die toetsersbediener toe",
-            "donate": "Dra by Revolt",
+            "donate": "Dra by Arma Battles",
             "donate_desc": "Ondersteun die projek deur skenking - dankie!",
-            "feedback": "Gee terugvoer aan Revolt",
+            "feedback": "Gee terugvoer aan Arma Battles",
             "settings": "Maak instellings oop",
             "settings-tooltip": "Jy kan ook die gebruikerikoon in die bo-linker kant regs-klik, of links-klik as jy alklaar tuis is.",
-            "discover": "Ontdek vir Revolt",
+            "discover": "Ontdek vir Arma Battles",
             "group": "Skep 'n groep",
             "group_desc": "Nooi al jou vriende by, sommige koel botte, en gooi 'n groot partytjie.",
             "join-testers_desc": "Jy kan sake aangee en verbeterings met ons direk hier bespreek.",
@@ -180,7 +180,7 @@
                 "bot": "Robotjie",
                 "bridge": "brug",
                 "bridged": "Boodskap was op 'n ander platform gestuur",
-                "new_to_revolt": "Nuut by Revolt",
+                "new_to_revolt": "Nuut by Arma Battles",
                 "team": "Amptelike Inligting",
                 "user_timed_out": "Gebruikeris vir {{time}} verstil.",
                 "notifications": {
@@ -285,7 +285,7 @@
                 "audio": {
                     "title": "Steminstellings",
                     "input_device": "Mikrofoon",
-                    "tip_retry": "Jy het nie vir Revolt toegang om jou mikrofoon te gebruik gegee nie. Asseblief {{retryBtn}}.",
+                    "tip_retry": "Jy het nie vir Arma Battles toegang om jou mikrofoon te gebruik gegee nie. Asseblief {{retryBtn}}.",
                     "device_label_NA": "NVT",
                     "button_retry": "probeer weer",
                     "button_grant": "Gee toestemming",
@@ -522,7 +522,7 @@
                     "title": "Terugvoer",
                     "description": "Stuur terugvoer",
                     "suggest": "Stuur kenmerkvoorstelling",
-                    "suggest_desc": "Stel nuwe Revolt kenmerke aan GitHub besprekings voor.",
+                    "suggest_desc": "Stel nuwe Arma Battles kenmerke aan GitHub besprekings voor.",
                     "issue": "Skep 'n nuwe probleem",
                     "issue_desc": "Om ons te help om probleme meer maklik af te deel, kan jy 'n probleem op GitHub skep.",
                     "bug": "Foutspoorsnyer",
@@ -695,7 +695,7 @@
                 },
                 "changelogs": {
                     "title": "Veranderingslogs",
-                    "description": "Lees oor opdaterings na Revolt toe.",
+                    "description": "Lees oor opdaterings na Arma Battles toe.",
                     "older": "Besien ouer opdaterings"
                 },
                 "out_of_date": {
@@ -736,7 +736,7 @@
                         "Underage": "Hierdie gebruiker is nie oud genoeg om 'n rekening te hê nie"
                     },
                     "by_name": "Gee {{name}} Aan",
-                    "thank_you": "Dankie dat jy help om Revolt veilig te hou. Ons sal so gou as moontlik deur jou aangewing gaan.",
+                    "thank_you": "Dankie dat jy help om Arma Battles veilig te hou. Ons sal so gou as moontlik deur jou aangewing gaan.",
                     "no_reason": "Geen rede bepaal nie / ander rede"
                 },
                 "actions": {
@@ -811,7 +811,7 @@
             "requires_online": "Jy moet aanlyn wees om hierdie te lees.",
             "invite": {
                 "invited_by": "By {{user}} genooi",
-                "login": "Meld by Revolt aan",
+                "login": "Meld by Arma Battles aan",
                 "accept": "Vaar Nooi Aan",
                 "user_count": "{{member_count}} gebruikers",
                 "invalid": "Ongeldige nooi!",

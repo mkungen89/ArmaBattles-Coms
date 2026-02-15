@@ -6,7 +6,7 @@ import { API } from "revolt.js";
 
 import styles from "./Panes.module.scss";
 import { Text } from "preact-i18n";
-import { useCallback, useContext, useEffect, useState } from "preact/hooks";
+import { useCallback, useEffect, useState } from "preact/hooks";
 
 import { Button, LineDivider, Tip, CategoryButton } from "@revoltchat/ui";
 

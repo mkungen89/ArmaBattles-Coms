@@ -17,7 +17,7 @@
     "login": {
         "title": "Вход",
         "welcome": "Добры дзень!",
-        "subtitle": "Войти в Revolt",
+        "subtitle": "Войти в Arma Battles",
         "subtitle2": "Стварыць акаўнт",
         "username": "Імя карыстальніка",
         "password": "Пароль",
@@ -37,7 +37,7 @@
         "forgot": "Забыліся пароль?",
         "reset": "Аднавіць пароль",
         "remembered": "Вярнуцца да ўваходу",
-        "new": "Упершыню ў Revolt?",
+        "new": "Упершыню ў Arma Battles?",
         "existing": "Ужо ёсць акаўнт?",
         "missing_verification": "Не прыйшоў ліст?",
         "resend": "Адправіць пацверджанне паўторна",

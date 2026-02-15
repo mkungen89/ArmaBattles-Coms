@@ -52,7 +52,7 @@
         "subtitle2": "Vytvořit účet",
         "welcome2": "Dobrý den!",
         "welcome": "Vítejte!",
-        "subtitle": "Přihlaste se do Revoltu",
+        "subtitle": "Přihlaste se do Arma Battlesu",
         "unofficial_instance": "Instance třetí strany.",
         "totp": "Ověřovací aplikace",
         "recovery": "Obnovovací kód",
@@ -160,7 +160,7 @@
                     "unknown_reacted": "{{count}} lidí zareagovalo",
                     "single_reacted": "1 osoba zareagovala"
                 },
-                "new_to_revolt": "Nový v Revoltu",
+                "new_to_revolt": "Nový v Arma Battlesu",
                 "new_to_server": "Nový na tomto serveru"
             },
             "categories": {
@@ -321,11 +321,11 @@
                 },
                 "changelogs": {
                     "title": "Seznam změn",
-                    "description": "Přečtěte si o aktualizacích aplikace Revolt.",
+                    "description": "Přečtěte si o aktualizacích aplikace Arma Battles.",
                     "older": "Zobrazit starší aktualizace"
                 },
                 "report": {
-                    "thank_you": "Děkujeme, že pomáháte udržet Revolt bezpečným. Vaše nahlášení co nejdříve prověříme.",
+                    "thank_you": "Děkujeme, že pomáháte udržet Arma Battles bezpečným. Vaše nahlášení co nejdříve prověříme.",
                     "reported": "Nahlášen",
                     "block_user": "Chcete tohoto uživatele zablokovat?",
                     "content_reason": {
@@ -402,7 +402,7 @@
             "invite": {
                 "invalid_desc": "Pozvánka možná neexistuje, nebo nemáte oprávnění k připojení.",
                 "user_count": "{{member_count}} uživatelů",
-                "login": "Přihlásit se do Revoltu",
+                "login": "Přihlásit se do Arma Battlesu",
                 "invited_by": "Pozván uživatelem {{user}}",
                 "accept": "Přijmout pozvánku",
                 "invalid": "Neplatná pozvánka!"
@@ -584,7 +584,7 @@
                 "source_code": "Zdrojový kód",
                 "feedback": {
                     "title": "Zpětná vazba",
-                    "suggest_desc": "Navrhněte nové funkce Revoltu v diskusích na GitHubu.",
+                    "suggest_desc": "Navrhněte nové funkce Arma Battlesu v diskusích na GitHubu.",
                     "issue_desc": "Chcete-li nám snadněji řešit problémy, můžete na GitHubu vytvořit problém.",
                     "suggest": "Poslat návrh na funkci",
                     "bug": "Sledování chyb",
@@ -651,7 +651,7 @@
                     "button_retry": "Zkusit znovu",
                     "input_device": "Mikrofon",
                     "output_device": "Reproduktor / sluchátka",
-                    "tip_retry": "Neudělili jste aplikaci Revolt oprávnění k použití mikrofonu. {{retryBtn}}.",
+                    "tip_retry": "Neudělili jste aplikaci Arma Battles oprávnění k použití mikrofonu. {{retryBtn}}.",
                     "title": "Nastavení hlasu",
                     "tip_grant_permission": "Pro přístup k nastavení zvuku musíte udělit oprávnění.",
                     "button_grant": "Udělit oprávnění"
@@ -869,7 +869,7 @@
         "home": {
             "join-testers": "Připojte se na testovací server",
             "goto-testers": "Přejít na server pro testery",
-            "donate": "Přispět na Revolt",
+            "donate": "Přispět na Arma Battles",
             "settings": "Otevřít nastavení",
             "feedback": "Zpětná vazba",
             "settings-tooltip": "Také můžete kliknout pravým na ikonu uživatele vlevo nahoře, nebo na ni kliknout levým, pokud jste již doma.",
@@ -880,7 +880,7 @@
             "directs": "Přímé zprávy",
             "join-testers_desc": "Zde můžete nahlásit problémy a diskutovat o vylepšeních přímo s námi.",
             "group": "Vytvořit skupinu",
-            "discover": "Prozkoumat Revolt",
+            "discover": "Prozkoumat Arma Battles",
             "discover_desc": "Najděte komunitu podle svých koníčků a zájmů.",
             "group_desc": "Pozvěte všechny své přátele, pár cool botů a uspořádejte velkou párty."
         },

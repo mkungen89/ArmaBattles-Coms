@@ -14,7 +14,7 @@
     "login": {
         "title": "Iniciar sessão",
         "welcome": "Bem-vindo!",
-        "subtitle": "Assinar em Revolt",
+        "subtitle": "Assinar em Arma Battles",
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
         "register": "Registre-se",
@@ -36,7 +36,7 @@
         "forgot": "Esqueceu-se da sua palavra-passe?",
         "reset": "Redefinir a sua senha",
         "set_password": "Definir nova palavra-passe",
-        "new": "Novo na Revolt?",
+        "new": "Novo na Arma Battles?",
         "existing": "Já possui uma conta?",
         "create": "Criar uma nova conta",
         "error": {
@@ -92,7 +92,7 @@
             "donate_desc": "Apoie o projeto doando - obrigado!",
             "feedback": "Dê sua opinião sobre a revolt",
             "settings": "Abrir configurações",
-            "discover": "Descobrir Revolt",
+            "discover": "Descobrir Arma Battles",
             "discover_desc": "Encontre uma comunidade baseada nos seus passatempos ou interesses.",
             "group": "Criar um grupo",
             "group_desc": "Convide todos os seus amigos, alguns bots legais e dê uma grande festa.",
@@ -287,7 +287,7 @@
                     "title": "Configurações de voz",
                     "input_device": "Microfone",
                     "output_device": "Alto-falante / fone de ouvido",
-                    "tip_retry": "Você não deu permissão ao Revolt para acessar seu microfone. Por favor, {{retryBtn}}.",
+                    "tip_retry": "Você não deu permissão ao Arma Battles para acessar seu microfone. Por favor, {{retryBtn}}.",
                     "tip_grant_permission": "Você precisa conceder permissão para acessar as configurações de áudio.",
                     "device_label_NA": "N/D",
                     "button_retry": "Tente novamente",
@@ -524,7 +524,7 @@
                     "title": "Opinião",
                     "description": "Enviar comentários",
                     "suggest": "Enviar sugestão de recurso",
-                    "suggest_desc": "Sugira novos recursos do Revolt nas discussões do GitHub.",
+                    "suggest_desc": "Sugira novos recursos do Arma Battles nas discussões do GitHub.",
                     "issue": "Crie um novo problema",
                     "bug": "Rastreador de Bugs",
                     "bug_desc": "Veja aqui os relatórios de bugs atualmente ativos.",
@@ -698,7 +698,7 @@
                 },
                 "changelogs": {
                     "title": "Registros de alterações",
-                    "description": "Leia sobre as atualizações do Revolt.",
+                    "description": "Leia sobre as atualizações do Arma Battles.",
                     "older": "Ver atualizações mais antigas"
                 },
                 "out_of_date": {
@@ -740,7 +740,7 @@
                         "Underage": "Este usuário não tem idade suficiente para ter uma conta",
                         "InappropriateProfile": "O perfil do usuário é impróprio para o público em geral"
                     },
-                    "thank_you": "Obrigado por ajudar a manter o Revolt seguro. Analisaremos seu relatório o mais rápido possível."
+                    "thank_you": "Obrigado por ajudar a manter o Arma Battles seguro. Analisaremos seu relatório o mais rápido possível."
                 },
                 "actions": {
                     "done": "Feito",
@@ -813,7 +813,7 @@
             },
             "requires_online": "Você precisa estar online para ver isso.",
             "invite": {
-                "login": "Faça login na Revolt",
+                "login": "Faça login na Arma Battles",
                 "accept": "Aceitar convite",
                 "user_count": "{{member_count}} usuários",
                 "invalid": "Convite inválido!",

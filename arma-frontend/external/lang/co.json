@@ -17,7 +17,7 @@
     "login": {
         "title": "Cunnettati",
         "welcome": "Bè venutu!",
-        "subtitle": "Cunnettassi à Revolt",
+        "subtitle": "Cunnettassi à Arma Battles",
         "welcome2": "Salute!",
         "subtitle2": "Crià un contu",
         "register": "Registrassi",
@@ -42,7 +42,7 @@
         "reset": "Cambià a parulla d'intesa",
         "set_password": "Dichjarà a nova parulla d'intesa",
         "remembered": "Vultà à l'accessu",
-        "new": "Sì novu in Revolt ?",
+        "new": "Sì novu in Arma Battles ?",
         "existing": "Hai dighjà un contu ?",
         "create": "Crià un novu contu",
         "missing_verification": "Ùn hai recevutu un currieru elettronicu ?",
@@ -90,9 +90,9 @@
             "directs": "Missaghji Diretti",
             "join-testers_desc": "Pudete signalà i prublemi è scuntizà di migliuramenti cun noi direttamente quì.",
             "goto-testers_desc": "Pudete signalà i prublemi è scuntizà di migliuramenti cun noi direttamente quì.",
-            "donate": "Date à Revolt",
+            "donate": "Date à Arma Battles",
             "donate_desc": "Aiutate u prughjettu ramazzè à un donu - À ringraziavvi!",
-            "feedback": "Date un ritornu à nantu à Revolt",
+            "feedback": "Date un ritornu à nantu à Arma Battles",
             "settings": "Apre preferenze",
             "feedback_desc": "Fate ci sapè cume pudemu amendà a nostra appiicazione cù un ritornu."
         }

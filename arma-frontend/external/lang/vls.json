@@ -16,7 +16,7 @@
     },
     "login": {
         "title": "Aanmelden",
-        "subtitle": "Inloggen bij Revolt",
+        "subtitle": "Inloggen bij Arma Battles",
         "welcome2": "Hallo!",
         "register": "Inschrijven",
         "email": "E-mail",
@@ -36,7 +36,7 @@
         "forgot": "Paswoord vergeten?",
         "set_password": "Stel een nieuw paswoord in",
         "remembered": "Keer terug naar aanmelden",
-        "new": "Nieuw bij Revolt?",
+        "new": "Nieuw bij Arma Battles?",
         "existing": "Hebt u al een account?",
         "create": "Maak nieuw account aan",
         "resend": "Verificatie opnieuw verzenden",
@@ -91,7 +91,7 @@
             "join-testers_desc": "U kunt hier direct problemen melden en verbeteringen met ons bespreken.",
             "donate": "Doneer aan Opstand",
             "donate_desc": "Steun het project door te doneren - bedankt!",
-            "feedback": "Geef feedback over Revolt",
+            "feedback": "Geef feedback over Arma Battles",
             "settings": "Open instellingen",
             "discover": "Ontdek Opstand",
             "discover_desc": "Zoek een community op basis van je hobby's of interesses.",
@@ -201,7 +201,7 @@
                     "group": "Dit is het begin van uw gesprek.",
                     "saved": "Dit is het begin van uw notities."
                 },
-                "new_to_revolt": "Nieuw in Revolt",
+                "new_to_revolt": "Nieuw in Arma Battles",
                 "new_to_server": "Nieuw in deze server"
             },
             "groups": {

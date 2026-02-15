@@ -1,4 +1,4 @@
-// ! FIXME: this code is garbage, need to replace
+// Bot management UI component
 import { Key, Clipboard, Globe, Plus } from "@styled-icons/boxicons-regular";
 import { LockAlt, HelpCircle } from "@styled-icons/boxicons-solid";
 import type { AxiosError } from "axios";
@@ -78,7 +78,7 @@ function BotCard({ bot, onDelete, onUpdate }: Props) {
         token: bot.token,
         username: user.username,
         public: bot.public,
-        interactions_url: bot.interactions_url as any,
+        interactions_url: bot.interactions_url,
     });
     const [error, setError] = useState<string | JSX.Element>("");
     const [saving, setSaving] = useState(false);
@@ -147,52 +147,70 @@ function BotCard({ bot, onDelete, onUpdate }: Props) {
     async function editBotAvatar(avatar?: string) {
         setSaving(true);
         setError("");
-        await client.api.patch(
-            "/users/@me",
-            avatar ? { avatar } : { remove: ["Avatar"] },
-            {
-                headers: { "x-bot-token": data.token },
-            },
-        );
+        try {
+            await client.api.patch(
+                "/users/@me",
+                avatar ? { avatar } : { remove: ["Avatar"] },
+                {
+                    headers: { "x-bot-token": data.token },
+                },
+            );
 
-        const res = await client.bots.fetch(bot._id);
-        if (!avatar) res.user.update({}, ["Avatar"]);
-        setUser(res.user);
-        setSaving(false);
+            const res = await client.bots.fetch(bot._id);
+            if (!avatar) res.user.update({}, ["Avatar"]);
+            setUser(res.user);
+        } catch (err) {
+            setError("Failed to update bot avatar");
+            console.error("Bot avatar update error:", err);
+        } finally {
+            setSaving(false);
+        }
     }
 
     async function editBotBackground(background?: string) {
         setSaving(true);
         setError("");
-        await client.api.patch(
-            "/users/@me",
-            background
-                ? { profile: { background } }
-                : { remove: ["ProfileBackground"] },
-            {
-                headers: { "x-bot-token": data.token },
-            },
-        );
+        try {
+            await client.api.patch(
+                "/users/@me",
+                background
+                    ? { profile: { background } }
+                    : { remove: ["ProfileBackground"] },
+                {
+                    headers: { "x-bot-token": data.token },
+                },
+            );
 
-        if (!background) setProfile({ ...profile, background: undefined });
-        else refreshProfile();
-        setSaving(false);
+            if (!background) setProfile({ ...profile, background: undefined });
+            else refreshProfile();
+        } catch (err) {
+            setError("Failed to update bot background");
+            console.error("Bot background update error:", err);
+        } finally {
+            setSaving(false);
+        }
     }
 
     async function editBotContent(content?: string) {
         setSaving(true);
         setError("");
-        await client.api.patch(
-            "/users/@me",
-            content ? { profile: { content } } : { remove: ["ProfileContent"] },
-            {
-                headers: { "x-bot-token": data.token },
-            },
-        );
+        try {
+            await client.api.patch(
+                "/users/@me",
+                content ? { profile: { content } } : { remove: ["ProfileContent"] },
+                {
+                    headers: { "x-bot-token": data.token },
+                },
+            );
 
-        if (!content) setProfile({ ...profile, content: undefined });
-        else refreshProfile();
-        setSaving(false);
+            if (!content) setProfile({ ...profile, content: undefined });
+            else refreshProfile();
+        } catch (err) {
+            setError("Failed to update bot profile content");
+            console.error("Bot content update error:", err);
+        } finally {
+            setSaving(false);
+        }
     }
 
     const {
@@ -460,8 +478,7 @@ function BotCard({ bot, onDelete, onUpdate }: Props) {
                         </Button>
                         <Button
                             palette="error"
-                            onClick={async () => {
-                                setSaving(true);
+                            onClick={() => {
                                 modalController.push({
                                     type: "delete_bot",
                                     target: bot._id,

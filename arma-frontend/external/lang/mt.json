@@ -14,7 +14,7 @@
     "login": {
         "title": "Idħol f'account",
         "welcome": "Merħba lura!",
-        "subtitle": "Idħol f'Revolt",
+        "subtitle": "Idħol f'Arma Battles",
         "welcome2": "Bongu!",
         "subtitle2": "Aghmel account",
         "register": "Aghmel account",
@@ -35,7 +35,7 @@
         "invite": "Stieden Kodiċi",
         "reset": "Irrisettja l-password",
         "remembered": "Mur lura għall-login",
-        "new": "Ġdid għar-Revolt?",
+        "new": "Ġdid għar-Arma Battles?",
         "existing": "Diġà għandek kont?",
         "create": "Oħloq kont ġdid",
         "missing_verification": "Ma rċevejtx email?",
@@ -83,11 +83,11 @@
             "goto-testers_desc": "Tista' tirrapporta kwistjonijiet u tiddiskuti titjib magħna direttament hawn.",
             "directs": "Messaġġi Diretti",
             "donate_desc": "Appoġġa l-proġett billi tagħti donazzjoni - grazzi!",
-            "feedback": "Agħti feedback dwar Revolt",
+            "feedback": "Agħti feedback dwar Arma Battles",
             "feedback_desc": "Għidilna kif nistgħu ntejbu l-app tagħna billi tagħtina feedback.",
             "settings": "Iftaħ is-settings",
-            "donate": "Agħti donazzjoni lil Revolt",
-            "discover": "Skopri Revolt"
+            "donate": "Agħti donazzjoni lil Arma Battles",
+            "discover": "Skopri Arma Battles"
         },
         "main": {
             "categories": {

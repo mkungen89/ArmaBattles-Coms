@@ -28,7 +28,7 @@
         "forgot": "Passwuer vergiess?",
         "reset": "Passwuert zerécksetzen",
         "remembered": "Zeréck zum Login",
-        "new": "Nei bäi Revolt?",
+        "new": "Nei bäi Arma Battles?",
         "existing": "Hues du schon e Kont?",
         "resend": "Bestätigung nachenkéier schecken",
         "cancel": "Ufro ofbriechen",
@@ -48,7 +48,7 @@
         "email_delay": "Et ka bis zu 10 Minuten daueren bis d‘E-Mail ukennt.",
         "successful_registration": "Erfollëgräich registréiert!",
         "welcome": "Wëllkomm zeréck!",
-        "subtitle": "Bäi Revolt umellen",
+        "subtitle": "Bäi Arma Battles umellen",
         "unofficial_instance": "Drëttubidder-Instanz.",
         "welcome2": "Hallo!",
         "subtitle2": "Ee Kont uleeën",
@@ -307,7 +307,7 @@
                     "bug": "Bug Tracker",
                     "bug_desc": "Show aktiv Bug Rapport hei.",
                     "issue": "Erstellt en neit Issue",
-                    "suggest_desc": "Proposéiert nei Revolt Features op Github discussions."
+                    "suggest_desc": "Proposéiert nei Arma Battles Features op Github discussions."
                 },
                 "account": {
                     "change_field": "Änneren",

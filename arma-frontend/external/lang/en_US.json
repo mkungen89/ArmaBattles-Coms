@@ -31,7 +31,7 @@
         "reset": "Reset password",
         "set_password": "Set new password",
         "remembered": "Go back to login",
-        "new": "New to Revolt?",
+        "new": "New to Arma Battles?",
         "existing": "Already have an account?",
         "create": "Create a new account",
         "missing_verification": "Didn't receive an email?",
@@ -52,7 +52,7 @@
         "welcome2": "Hello!",
         "subtitle2": "Create an account",
         "welcome": "Welcome!",
-        "subtitle": "Sign into Revolt",
+        "subtitle": "Sign into Arma Battles",
         "unofficial_instance": "Third-party instance.",
         "totp": "Authenticator App",
         "recovery": "Recovery Code",
@@ -177,7 +177,7 @@
                 "user_timed_out": "User is timed out for {{time}}.",
                 "bridged": "Message was sent on another platform",
                 "team": "Official Communication",
-                "new_to_revolt": "New to Revolt",
+                "new_to_revolt": "New to Arma Battles",
                 "new_to_server": "New to this server",
                 "reactions": {
                     "others_reacted": "{{userlist}} and {{count}} others reacted",
@@ -267,7 +267,7 @@
                     "title": "Voice Settings",
                     "input_device": "Microphone",
                     "output_device": "Speaker / Headphones",
-                    "tip_retry": "You didn't give Revolt permission to access your microphone. Please {{retryBtn}}.",
+                    "tip_retry": "You didn't give Arma Battles permission to access your microphone. Please {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "Retry",
                     "tip_grant_permission": "You need to grant permission to access audio settings.",
@@ -397,7 +397,7 @@
                 "feedback": {
                     "title": "Feedback",
                     "suggest": "Submit feature suggestion",
-                    "suggest_desc": "Suggest new Revolt features on GitHub discussions.",
+                    "suggest_desc": "Suggest new Arma Battles features on GitHub discussions.",
                     "issue": "Create a new issue",
                     "issue_desc": "To help us more easily find and assess issues, you can create an issue on GitHub.",
                     "bug": "Bug Tracker",
@@ -624,7 +624,7 @@
                     "title": "Are you sure you want to clear your sessions?"
                 },
                 "changelogs": {
-                    "description": "Read about updates of Revolt.",
+                    "description": "Read about updates of Arma Battles.",
                     "older": "View older updates",
                     "title": "Changelogs"
                 },
@@ -666,7 +666,7 @@
                         "Underage": "This user is not old enough to have an account"
                     },
                     "reported": "Reported",
-                    "thank_you": "Thank you for helping to keep Revolt safe. We will review your report as soon as possible.",
+                    "thank_you": "Thank you for helping to keep Arma Battles safe. We will review your report as soon as possible.",
                     "block_user": "Would you like to block this user?"
                 }
             },
@@ -710,7 +710,7 @@
             "requires_online": "You need to be online to view this.",
             "invite": {
                 "invited_by": "Invited by {{user}}",
-                "login": "Login to Revolt",
+                "login": "Login to Arma Battles",
                 "accept": "Accept Invite",
                 "user_count": "{{member_count}} users",
                 "invalid": "Invalid invite!",
@@ -784,8 +784,8 @@
         "home": {
             "join-testers": "Join the testers server",
             "goto-testers": "Go to the testers server",
-            "donate": "Donate to Revolt",
-            "feedback": "Give feedback on Revolt",
+            "donate": "Donate to Arma Battles",
+            "feedback": "Give feedback on Arma Battles",
             "settings": "Open settings",
             "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
             "social": "Find servers & bots",
@@ -794,7 +794,7 @@
             "goto-testers_desc": "You can report issues and discuss improvements with us directly here.",
             "donate_desc": "Support the project by donating - thank you!",
             "feedback_desc": "Let us know how we can improve our app by giving us feedback.",
-            "discover": "Discover Revolt",
+            "discover": "Discover Arma Battles",
             "discover_desc": "Find a community based on your hobbies or interests.",
             "group": "Create a group",
             "group_desc": "Invite all of your friends, some cool bots, and throw a big party."
