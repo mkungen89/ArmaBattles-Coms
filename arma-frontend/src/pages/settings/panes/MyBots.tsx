@@ -512,6 +512,18 @@ function BotCard({ bot, onDelete, onUpdate }: Props) {
                             }>
                                 <Text id="app.settings.pages.bots.reset_token" />
                         </Button>
+                        <Button
+                            palette="error"
+                            onClick={() => {
+                                modalController.push({
+                                    type: "delete_bot",
+                                    target: bot._id,
+                                    name: user.username,
+                                    cb: onDelete,
+                                });
+                            }}>
+                            <Text id="app.special.modals.actions.delete" />
+                        </Button>
                     </>
                 )}
             </div>
