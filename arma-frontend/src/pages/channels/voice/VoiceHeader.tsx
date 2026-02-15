@@ -5,12 +5,14 @@ import {
     PhoneOff,
     VolumeFull,
     VolumeMute,
+    ChevronDown,
+    ChevronUp,
 } from "@styled-icons/boxicons-solid";
 import { observer } from "mobx-react-lite";
 import styled from "styled-components/macro";
 
 import { Text } from "preact-i18n";
-import { useMemo } from "preact/hooks";
+import { useMemo, useState } from "preact/hooks";
 
 import { Button } from "@revoltchat/ui";
 
@@ -25,16 +27,14 @@ interface Props {
     id: string;
 }
 
-const VoiceBase = styled.div`
-    margin-top: 48px;
-    padding: 20px;
+const VoiceBase = styled.div<{ minimized: boolean }>`
+    padding: ${(props) => (props.minimized ? "10px 20px" : "20px")};
     background: var(--secondary-background);
-    flex-grow: 1;
+    flex-shrink: 0;
+    border-bottom: 2px solid var(--background);
 
     .status {
-        flex: 1 0;
         display: flex;
-        position: absolute;
         align-items: center;
 
         padding: 10px;
@@ -52,14 +52,32 @@ const VoiceBase = styled.div`
         }
     }
 
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: ${(props) => (props.minimized ? "0" : "10px")};
+
+        .toggle {
+            cursor: pointer;
+            padding: 4px;
+            border-radius: var(--border-radius);
+            transition: background 0.1s ease-in-out;
+
+            &:hover {
+                background: var(--hover);
+            }
+        }
+    }
+
     display: flex;
     flex-direction: column;
 
     .participants {
-        margin: 40px 20px;
+        margin: ${(props) => (props.minimized ? "0" : "20px 20px 10px 20px")};
         justify-content: center;
         user-select: none;
-        display: flex;
+        display: ${(props) => (props.minimized ? "none" : "flex")};
         flex-flow: row wrap;
         gap: 16px;
 
@@ -82,6 +100,7 @@ const VoiceBase = styled.div`
 export default observer(({ id }: Props) => {
     if (voiceState.roomId !== id) return null;
 
+    const [minimized, setMinimized] = useState(false);
     const client = useClient();
     const self = client.users.get(client.user!._id);
 
@@ -92,7 +111,28 @@ export default observer(({ id }: Props) => {
     }, [keys]);
 
     return (
-        <VoiceBase>
+        <VoiceBase minimized={minimized}>
+            <div className="header">
+                <div className="status">
+                    <BarChartAlt2 size={16} />
+                    {voiceState.status === VoiceStatus.CONNECTED && (
+                        <Text id="app.main.channel.voice.connected" />
+                    )}
+                </div>
+                <Tooltip
+                    content={minimized ? "Expand call" : "Minimize call"}
+                    placement={"left"}>
+                    <div
+                        className="toggle"
+                        onClick={() => setMinimized(!minimized)}>
+                        {minimized ? (
+                            <ChevronDown size={20} />
+                        ) : (
+                            <ChevronUp size={20} />
+                        )}
+                    </div>
+                </Tooltip>
+            </div>
             <div className="participants">
                 {users && users.length !== 0
                     ? users.map((user, index) => {
@@ -132,12 +172,6 @@ export default observer(({ id }: Props) => {
                               />
                           </div>
                       )}
-            </div>
-            <div className="status">
-                <BarChartAlt2 size={16} />
-                {voiceState.status === VoiceStatus.CONNECTED && (
-                    <Text id="app.main.channel.voice.connected" />
-                )}
             </div>
             <div className="actions">
                 <Tooltip content={"Leave call"} placement={"top"}>
