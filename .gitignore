@@ -15,6 +15,7 @@
 
 # IDE
 .vscode/
+!desktop-app/.vscode/
 .idea/
 *.swp
 *.swo
